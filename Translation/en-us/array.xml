@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="pref_app_language_entries">
+        <item>Default</item>
+        <item>English</item>
+        <item>简体中文</item>
+        <item>繁體中文</item>
+    </string-array>
+
+    <string-array name="pref_app_dark_mode_option_entries">
+        <item>Follow System</item>
+        <item>Yes</item>
+        <item>No</item>
+    </string-array>
+
+    <string-array name="pref_app_tap_webview_dark_mode_types">
+        <item>System Color Scheme</item>
+        <item>Color Filter</item>
+    </string-array>
+
+    <string-array name="zoomArray">
+        <item>50</item>
+        <item>60</item>
+        <item>70</item>
+        <item>80</item>
+        <item>90</item>
+        <item>100</item>
+        <item>110</item>
+        <item>120</item>
+        <item>130</item>
+        <item>140</item>
+        <item>150</item>
+        <item>160</item>
+        <item>170</item>
+        <item>180</item>
+        <item>190</item>
+        <item>200</item>
+    </string-array>
+
+    <string-array name="pref_dict_tap_translate_mode_entries">
+        <item>Disable Tap-Translate</item>
+        <item>Single Tap</item>
+        <item>Double Tap</item>
+    </string-array>
+
+    <string-array name="pref_main_query_win_dict_content_present_modes">
+        <item>List View</item>
+        <item>Sliding View</item>
+    </string-array>
+
+    <string-array name="pref_dict_image_viewer_entries">
+        <item>In App</item>
+        <item>System</item>
+    </string-array>
+
+    <string-array name="pref_dict_tap_translate_scope_entries">
+        <item>All dictionaries</item>
+        <item>Current dictionary</item>
+    </string-array>
+
+    <string-array name="pref_dict_page_flipping_touch_area_entries">
+        <item>Left And Right</item>
+        <item>Top-Left And Top-Right</item>
+        <item>Bottom-Left And Bottom-Right</item>
+    </string-array>
+
+    <string-array name="pref_app_device_nav_bar_entries">
+        <item>Auto detect</item>
+        <item>Has navigation bar</item>
+        <item>No navigation bar</item>
+    </string-array>
+
+    <string-array name="pref_tts_supported_language_entries">
+        <item>Default</item>
+        <item>English (GB)</item>
+        <item>English (US)</item>
+        <item>Chinese</item>
+        <item>Cantonese</item>
+        <item>French</item>
+        <item>German</item>
+        <item>Italian</item>
+        <item>Spanish</item>
+        <item>Japanese</item>
+
+    </string-array>
+
+    <string-array name="pref_app_landscape_mode_entries">
+        <item>Auto Detect</item>
+        <item>Yes</item>
+        <item>No</item>
+    </string-array>
+
+    <string-array name="display_font_apply_to_entries">
+        <item>Dictionary Content</item>
+        <item>UI Fallback</item>
+        <item>All</item>
+    </string-array>
+
+</resources>
