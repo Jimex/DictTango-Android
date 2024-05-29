@@ -69,7 +69,7 @@
   <string name="add_word_book_success">Add to word book successfully</string>
   <string name="added_dictionary">%1$d dictionaries have been added</string>
   <string name="added_dictionary_file">Added dictionary from \"file %1$s\" successfully </string>
-  <string name="added_dictionary_with_error">%1$d dictionaries have been added, %2$d files were failed to process</string>
+  <string name="added_dictionary_with_error">%1$d dictionaries have been added, %2$d files were failed to process, please check the App log for the detail.</string>
   <string name="ai_api_url_hint">Leave blank to use the default URL</string>
   <string name="ai_is_current_service">Is Current Service</string>
   <string name="ai_model">Model</string>
@@ -555,6 +555,7 @@ Do you want to grant DictTango additional file system management permissions to 
   <string name="pref_title_app_auto_backup_data">Auto Backup
     </string>
   <string name="pref_title_app_device_nav_bar">Device navigation bar</string>
+  <string name="pref_title_app_keep_screen_on">Keep screen on</string>
   <string name="pref_title_app_landscape_mode">Landscape mode</string>
   <string name="pref_title_app_language">App Language</string>
   <string name="pref_title_app_maximum_db_size_in_gb">Max Database Size</string>
@@ -609,6 +610,7 @@ Do you want to grant DictTango additional file system management permissions to 
   <string name="pref_title_text_sel_menu_enable_tts_menu">Display TTS menu</string>
   <string name="pref_title_tts_locale">TTS language</string>
   <string name="pref_title_webview_background_color">Background Color</string>
+  <string name="pref_title_webview_display_scene">Display Scene</string>
   <string name="preview">Preview</string>
   <string name="quit_prompt">" Press back key once more to quit"</string>
   <string name="reached_first_dictionary">First Dictionary Reached</string>

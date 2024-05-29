@@ -18,6 +18,11 @@
         <item>Color Filter</item>
     </string-array>
 
+    <string-array name="pref_webview_display_scenes">
+        <item>Regular</item>
+        <item>Ink Screen</item>
+    </string-array>
+
     <string-array name="zoomArray">
         <item>50</item>
         <item>60</item>
