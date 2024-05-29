@@ -1,6 +1,8 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
 <resources>
-  <string name="about_app">О ДиктТанго</string>
+  <!-- Permission -->
+  <!-- UI -->
+  <string name="about_app">О DictTango</string>
   <string name="action_add_dictionary_group">Добавить группу словарей</string>
   <string name="action_add_external_font">Добавить внешний шрифт</string>
   <string name="action_add_sys_font">Добавить системный шрифт</string>
@@ -66,8 +68,8 @@
   <string name="add_word_book">Добавить в словарь</string>
   <string name="add_word_book_success">Добавление в словарь успешно</string>
   <string name="added_dictionary">Добавлено %1$d словарей</string>
-  <string name="added_dictionary_file">Словарь из \"файла %1$s\" успешно добавлен</string>
-  <string name="added_dictionary_with_error">Добавлено %1$d словарей, %2$d файлов не удалось обработать.</string>
+  <string name="added_dictionary_file">Словарь из \"файла %1$s\" успешно добавлен </string>
+  <string name="added_dictionary_with_error">Добавлено %1$d словарей, %2$d файлов не удалось обработать</string>
   <string name="ai_api_url_hint">Оставьте поле пустым, чтобы использовать URL-адрес по умолчанию</string>
   <string name="ai_is_current_service">Текущее обслуживание</string>
   <string name="ai_model">Модель</string>
@@ -91,7 +93,8 @@
   <string name="ai_prompt_test_input">Тестовый ввод</string>
   <string name="ai_prompt_test_output">Тестовый вывод</string>
   <string name="ai_prompt_text">Текст подсказки</string>
-  <string name="ai_prompt_text_hint">например. Перевести на китайский язык: {INPUT_CONTENT}. {INPUT_CONTENT} - выражение, переснятое исходным текстом.</string>
+  <string name="ai_prompt_text_hint">наприм.Перевести на китайский: {INPUT_CONTENT}.
+{INPUT_CONTENT} - это выражение, представляющее исходный текст ввода. от английского до русского.</string>
   <string name="ai_prompt_text_hint_tango_assistant">Вам не нужно включать текст подсказки для Tango Assistant; вместо этого выберите выбор сообщения системной роли.</string>
   <string name="ai_service">ИИ-сервис</string>
   <string name="ai_service_provider_baidu_yi_yan">Байду Инь Ян</string>
@@ -178,7 +181,10 @@
   <string name="dark_mode_settings">Настройки темного режима</string>
   <string name="data_exported_to">Данные экспортированы в %1$s</string>
   <string name="data_imported_success">Данные успешно импортированы</string>
-  <string name="data_imported_summary">Сводка импорта данных Итого: %1$d Импортировано: %2$d Пропущено: %3$d</string>
+  <string name="data_imported_summary">Сводка импорта данных
+Всего: %1$d
+Импортировано: %2$d
+Пропущено: %3$d</string>
   <string name="db_size_summary">Максимальный размер базы данных: %1$s, текущий размер базы данных %2$s</string>
   <string name="dedicated_display_font">Отображаемый шрифт</string>
   <string name="dedicated_linked_resources">Отображение связанных ресурсов</string>
@@ -222,7 +228,7 @@
   <string name="dicttango_viewer">DictTango Viewer</string>
   <string name="dictview_color_scheme">Цветовая схема представления словаря</string>
   <string name="dictview_header">Заголовок представления словаря</string>
-  <string name="dir_tool_tip">Имя: %1$s\nПоследнее изменение: %2$s</string>
+  <string name="dir_tool_tip">Имя: %1$s\n\nПоследнее изменение: %2$s</string>
   <string name="disable_collapse">Отключить свернуть</string>
   <string name="disable_image_auto_adjustment">Отключить автозменение размера изображения</string>
   <string name="disable_image_invert_in_dark_mode">Отключить инвертирование изображения в темном режиме</string>
@@ -262,7 +268,7 @@
   <string name="file_explorder_delete">Удалить</string>
   <string name="file_explorder_move">Двигаться</string>
   <string name="file_name">Имя файла</string>
-  <string name="file_tool_tip">Имя: %1$s\nРазмер: %2$s\nПоследнее изменение: %3$s</string>
+  <string name="file_tool_tip">Имя: %1$s\n\nРазмер: %2$s\n\nПоследнее изменение: %3$s</string>
   <string name="filter_characters">Фильтровать персонажей</string>
   <string name="filter_characters_match_mode">Режим сопоставления фильтров</string>
   <string name="filter_match_mode_contain">Содержать</string>
@@ -299,7 +305,7 @@
   <string name="global_display_font">Глобальный отображаемый шрифт</string>
   <string name="global_linked_resources">Глобальные связанные ресурсы</string>
   <string name="hangman_game">Игра Палач</string>
-  <string name="hello_blank_fragment" />
+  <string name="hello_blank_fragment">Привет, пустой фрагмент</string>
   <string name="hide_floating_button">Скрыть плавающую кнопку</string>
   <string name="hint_new_alias">Новый псевдоним</string>
   <string name="home_page">Домашняя страница</string>
@@ -387,7 +393,7 @@
   <string name="msg_confirm_remove_all_words">Вы уверены, что удалите все слова с экрана?</string>
   <string name="msg_confirm_remove_audio_resource_desc">Если список аудиоресурсов пуст, приложение автоматически переключится на произношение TTS (текст в речь)</string>
   <string name="msg_confirm_remove_dict_group">Вы уверены, что удалили группу словарей \"%s\"?</string>
-  <string name="msg_confirm_remove_dictionary_desc">\"Эта операция удаляет словарь из приложения, но не удаляет сами файлы словарей\"</string>
+  <string name="msg_confirm_remove_dictionary_desc">\"Эта операция удаляет словарь из приложения, но не удаляет сами файлы словарей\".</string>
   <string name="msg_confirm_remove_dictionary_group_desc">Если удаленная группа была текущей группой поиска, группа по умолчанию станет новой текущей группой.</string>
   <string name="msg_confirm_remove_dictref">Удалить \"%s\"?</string>
   <string name="msg_confirm_remove_search_history">Удалить историю поиска \"%s\"?</string>
@@ -400,14 +406,20 @@
   <string name="msg_confirm_remove_selected_records">Удалить выбранные записи?</string>
   <string name="msg_confirm_remove_word">Вы уверены, что удалили слово \"%s\"?</string>
   <string name="msg_confirm_restart_app_to_apply_change">Вам нужно перезапустить это приложение, чтобы применить изменения. Хотите закрыть приложение сейчас?</string>
-  <string name="msg_confirm_sdcard_permission_android_11">\"Начиная с Android 11, все приложения требуют дополнительных разрешений на управление файловой системой для доступа ко всем файлам во внешнем хранилище.\n\n Вы можете загрузить файлы словаря в DictTango следующими способами:\n\n 1) Используйте предоставленную функцию словаря для доступа к определенным папкам. Пожалуйста, обратите внимание, что использование предоставленного словаря может привести к некоторым проблемам с производительностью из-за ограничений в самой системе Android, которые невозможно устранить.\n\n 2) Используйте другое приложение для управления файлами, чтобы скопировать файлы словаря во внутреннюю папку приложения DictTango.\n\n 3) Включите консоль ПК и загрузите словари в DictTango со своего компьютера.\n\n \n\n Хотите ли вы предоставить DictTango дополнительные разрешения на управление файловой системой для доступа ко всем файлам во внешнем хранилище?\n\n\"</string>
+  <string name="msg_confirm_sdcard_permission_android_11">Начиная с Android 11, все приложения требуют дополнительных разрешений на управление файловой системой для доступа ко всем файлам во внешнем хранилище.\n
+Вы можете загрузить файлы словаря в DictTango следующими способами:\n
+1) Используйте функцию "Предоставленный словарь" для доступа к определенным папкам. Пожалуйста, обратите внимание, что использование "Предоставленного словаря" может привести к некоторым проблемам с производительностью из-за ограничений в самой системе Android, которые невозможно устранить.\n
+2) Используйте другое приложение для управления файлами, чтобы скопировать файлы словаря во внутреннюю папку приложения DictTango.\n
+3) Включите "PC Console" и загрузите словари в DictTango со своего компьютера.\n
+\n
+Хотите ли вы предоставить DictTango дополнительные разрешения на управление файловой системой для доступа ко всем файлам во внешнем хранилище?\n</string>
   <string name="msg_confirm_to_delete_object">Вы уверены, что удалите этот %1$s?</string>
   <string name="msg_confirm_to_delete_object_value">Вы уверены, что удалили %1$s %2$s?</string>
   <string name="msg_content_copied">Содержимое скопировано</string>
   <string name="msg_copying_file">Копирование файла</string>
   <string name="msg_copying_file_from_sd_card">Копирование файла с SD-карты</string>
   <string name="msg_current_group_has_no_dictionary">В текущей группе нет словаря</string>
-  <string name="msg_default_value_is">По умолчанию — %1$s</string>
+  <string name="msg_default_value_is">По умолчанию&#160;— %1$s</string>
   <string name="msg_destination_entry_not_found">Запись назначения \"%s\" не найдена</string>
   <string name="msg_dict_maximum_word_lookup_results_o">Максимальное количество слов, возвращаемых по словарю: %1$s</string>
   <string name="msg_dictionaries_added_to_group">%1$d словарей добавлено в группу %2$s.</string>
@@ -453,7 +465,7 @@
   <string name="msg_subsetting_font">Подмножество %1$s</string>
   <string name="msg_text_copied">Текст скопирован</string>
   <string name="msg_title_need_to_restart">Требуется перезагрузка</string>
-  <string name="msg_warn_support_dict_entries_too_large_for_indexing">Количество записей превышает %1$s, приложение может аварийно завершить работу, и для индексации потребуется много места на SD-карте. Вы уверены, что продолжите?</string>
+  <string name="msg_warn_support_dict_entries_too_large_for_indexing">Количество записей превышает %1$s, приложение может аварийно завершить работу, и для индексации потребуется много места на SD-карте. Вы уверены, что продолжите? </string>
   <string name="msg_word_not_found_in_dictionary">Слово %1$s не найдено в словаре %2$s</string>
   <string name="msg_zoom_in_mode">Активирован режим увеличения, коснитесь содержимого и проведите пальцем для просмотра</string>
   <string name="new_dictionary">Новый словарь</string>
@@ -488,15 +500,15 @@
   <string name="overwrite_existing_file">Перезаписать существующий файл</string>
   <string name="parent_folder">Родительская папка</string>
   <string name="pc_console">ПК-консоль</string>
-  <string name="pc_console_introduction">\"Открывая консоль ПК из браузера вашего компьютера, вы можете управлять своими файлами и словарями, а также искать слова. Вы по-прежнему можете получить доступ к консоли ПК после выхода из приложения, когда оно запускается как служба\"</string>
+  <string name="pc_console_introduction">"Открывая консоль ПК из браузера вашего компьютера, вы можете управлять своими файлами и словарями, а также искать слова. Вы по-прежнему можете получить доступ к консоли ПК после выхода из приложения, когда оно запускается как служба"</string>
   <string name="pc_console_run_as_service">Запуск как служба</string>
-  <string name="pc_console_run_as_service_desc" />
-  <string name="pc_console_status" />
-  <string name="pc_console_status_started" />
-  <string name="pc_console_status_stopped" />
+  <string name="pc_console_run_as_service_desc">Вы по-прежнему можете получить доступ к консоли ПК после выхода из приложения, когда оно работает как служба.</string>
+  <string name="pc_console_status">Статус консоли</string>
+  <string name="pc_console_status_started">Начал</string>
+  <string name="pc_console_status_stopped">Остановлено</string>
   <string name="permission_camera_rationale">Для обнаружения необходим доступ к камере</string>
-  <string name="permission_dialog_message">\"Приложению требуется разрешение на доступ к SDCard для сканирования словаря, загрузки словаря и настроек экспорта. \n\nНажмите \"Разрешить\" в появившемся окне разрешения\"</string>
-  <string name="permission_dialog_message_for_overlay">\"Для отображения плавающей кнопки на экране DictTango требуется разрешение на рисование поверх других приложений. \n\nНажмите \"Предоставить разрешение\" и убедитесь, что для приложения DictTango включена опция \"Разрешить рисование поверх других приложений\"</string>
+  <string name="permission_dialog_message">"Приложению требуется разрешение на доступ к SDCard для сканирования словаря, загрузки словаря и настроек экспорта. \n\nНажмите "Разрешить" в появившемся окне разрешения\".</string>
+  <string name="permission_dialog_message_for_overlay">\"Для отображения плавающей кнопки на экране DictTango требуется разрешение на рисование поверх других приложений. \n\nНажмите "Предоставить разрешение\" и убедитесь, что для приложения DictTango включена опция "Разрешить рисование поверх других приложений".</string>
   <string name="permission_dialog_title">Требуется разрешение</string>
   <string name="permissions_available">Разрешения были предоставлены</string>
   <string name="permissions_not_granted">Разрешения НЕ были предоставлены.</string>
@@ -518,7 +530,7 @@
   <string name="pref_summary_dict_collapse_dictionary_content_with_gesture">Проведите двумя пальцами вверх, чтобы свернуть содержимое словаря</string>
   <string name="pref_summary_dict_combine_chinese_transform_entries">Объедините упрощенные и традиционные записи на китайском языке для поиска китайских слов</string>
   <string name="pref_summary_dict_display_online_dict_only_when_word_not_found">Отображать онлайн-словарь только в том случае, если слово не найдено</string>
-  <string name="pref_summary_dict_enable_dictionary_cache">Кэшируйте файл ресурсов словаря, такой как javascript, css, изображение и т. д.</string>
+  <string name="pref_summary_dict_enable_dictionary_cache">Кэшируйте файл ресурсов словаря, такой как javascript, css, изображение и т.&#160;д.</string>
   <string name="pref_summary_dict_enable_page_flipping">Разрешить нажатие на край, чтобы перевернуть страницу. Доступно только в режиме чтения и скользящем просмотре</string>
   <string name="pref_summary_dict_exact_matching_during_word_lookup">При поиске слов точное совпадение помогает повысить скорость поиска слов</string>
   <string name="pref_summary_dict_exclude_space_from_mdict_strip_key">Если это исключить, «видимо» и «понимание» считаются разными словами; в противном случае они считаются одним и тем же словом.</string>
@@ -540,9 +552,10 @@
   <string name="pref_summary_text_sel_menu_enable_tts_menu">Отображать пункт меню TTS в контекстном меню выделения текста</string>
   <string name="pref_summary_ui_fallback_font_file">Настройте резервный шрифт пользовательского интерфейса с помощью определенного файла шрифта</string>
   <string name="pref_summary_webview_background_color">Отображать цвет фона в нетемном режиме</string>
-  <string name="pref_title_app_auto_backup_data">Автобэкап</string>
+  <string name="pref_title_app_auto_backup_data">Автобэкап
+    </string>
   <string name="pref_title_app_device_nav_bar">Панель навигации устройства</string>
-  <string name="pref_title_app_keep_screen_on" />
+    <string name="pref_title_app_keep_screen_on">Не выключать экран</string>
   <string name="pref_title_app_landscape_mode">Ландшафтный режим</string>
   <string name="pref_title_app_language">Язык приложения</string>
   <string name="pref_title_app_maximum_db_size_in_gb">Максимальный размер базы данных</string>
@@ -568,7 +581,7 @@
   <string name="pref_title_dict_html_line_height">Высота линии</string>
   <string name="pref_title_dict_image_auto_resize">Автоизменение размера изображения</string>
   <string name="pref_title_dict_image_viewer">Просмотр изображений</string>
-  <string name="pref_title_dict_image_viewer_max_scale">Максимальный масштаб средства просмотра</string>
+  <string name="pref_title_dict_image_viewer_max_scale">Максимальный масштаб средства просмотра </string>
   <string name="pref_title_dict_include_chinese_from_unicode_ext">Включить расширенный китайский</string>
   <string name="pref_title_dict_keep_navigation_history_in_floating_mode">Сохранять отслеживание в плавающем окне</string>
   <string name="pref_title_dict_maximum_word_lookup_results">Максимальное количество результатов поиска слов</string>
@@ -597,16 +610,16 @@
   <string name="pref_title_text_sel_menu_enable_tts_menu">Отображение меню TTS</string>
   <string name="pref_title_tts_locale">TTS language</string>
   <string name="pref_title_webview_background_color">Фоновый цвет</string>
-  <string name="pref_title_webview_display_scene">Отображение сцены</string>
+    <string name="pref_title_webview_display_scene">Отображение Сцены</string>
   <string name="preview">Превью</string>
-  <string name="quit_prompt">\"Нажмите кнопку \"Назад\" еще раз, чтобы выйти\"</string>
+  <string name="quit_prompt">" Нажать клавишу Назад еще раз, чтобы выйти"</string>
   <string name="reached_first_dictionary">Достигнут первый словарь</string>
   <string name="reached_first_entry">Достигнута первая запись</string>
   <string name="reached_last_dictionary">Последний словарь</string>
   <string name="reached_last_entry">Последняя запись</string>
   <string name="read_folder_failed">Не удалось прочитать папку</string>
   <string name="read_word_repeat_time">Время повтора</string>
-  <string name="read_word_spelling">Написание</string>
+  <string name="read_word_spelling">Правописание</string>
   <string name="read_words">Читать слова</string>
   <string name="reading_interval">Интервал</string>
   <string name="reading_interval_long">Длинный</string>
@@ -739,7 +752,7 @@
   <string name="tango_assistant_role_message_js_sandbox">Запуск сценариев JavaScript в песочнице</string>
   <string name="tango_assistant_role_message_tw_chs">Конвертировать тайваньский традиционный китайский в упрощенный китайский</string>
   <string name="tango_dict_entry_editor">Редактор записей</string>
-  <string name="tap_translate">Нажмите \"Перевести\"</string>
+  <string name="tap_translate">Нажмите "Перевести"</string>
   <string name="terms_of_use">Условия эксплуатации</string>
   <string name="text_processor">Текстовый процессор</string>
   <string name="text_processor_text_extraction">Извлечение текста</string>
@@ -762,7 +775,7 @@
   <string name="transform_expression">Преобразовать выражение</string>
   <string name="translation">Перевод</string>
   <string name="tts">TTS</string>
-  <string name="tts_init_failed">\"Не удалось инициализировать TTS. Проверьте настройки TTS вашего телефона\"</string>
+  <string name="tts_init_failed">"Не удалось инициализировать TTS. Проверьте настройки TTS вашего телефона".</string>
   <string name="tts_locale_auto">Авто</string>
   <string name="turbo_mode">Турбо-режим</string>
   <string name="undo">Отменить</string>
@@ -777,7 +790,7 @@
   <string name="view_content">Посмотреть контент</string>
   <string name="view_image_in_new_window">Посмотреть изображение в новом окне</string>
   <string name="view_normal_mode">Посмотреть обычный режим</string>
-  <string name="visit_console_by_url">\"Посетите %1$s из браузера вашего компьютера. Обратите внимание, что консоль ПК работает только при подключенном Wi-Fi\"</string>
+  <string name="visit_console_by_url">"Посетите %1$s из браузера вашего компьютера. Обратите внимание, что консоль ПК работает только при подключенном Wi-Fi"</string>
   <string name="volumn_internal_storage">Внутреннее хранилище</string>
   <string name="wallpaper">Обои</string>
   <string name="webconsole_unknow_content_type">Неизвестный тип контента, загрузите файл.</string>
