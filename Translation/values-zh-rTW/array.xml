@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="pref_app_language_entries">
+        <item>系統默認</item>
+        <item>English</item>
+        <item>简体中文</item>
+        <item>繁體中文</item>
+        <item>Русский</item><!-- Russian -->
+        <item>български</item><!-- Bulgarian -->
+    </string-array>
+
+    <string-array name="pref_app_dark_mode_option_entries">
+        <item>跟隨系統</item>
+        <item>是</item>
+        <item>否</item>
+    </string-array>
+    <string-array name="pref_app_tap_webview_dark_mode_types">
+        <item>繫統配色方案</item>
+        <item>顏色濾鏡</item>
+    </string-array>
+    <string-array name="pref_webview_display_scenes">
+        <item>常規</item>
+        <item>墨水屏</item>
+    </string-array>
+    <string-array name="pref_dict_tap_translate_mode_entries">
+        <item>禁止點譯模式</item>
+        <item>單擊點譯</item>
+        <item>雙擊點譯</item>
+    </string-array>
+
+    <string-array name="pref_main_query_win_dict_content_present_modes">
+        <item>瀑布流</item>
+        <item>滑動視圖</item>
+    </string-array>
+
+    <string-array name="pref_dict_image_viewer_entries">
+        <item>應用內查看器</item>
+        <item>系統自帶查看器</item>
+    </string-array>
+    <string-array name="pref_dict_tap_translate_scope_entries">
+        <item>全部詞典</item>
+        <item>當前詞典</item>
+    </string-array>
+    <string-array name="pref_dict_page_flipping_touch_area_entries">
+        <item>左右邊緣</item>
+        <item>左上角和右上角</item>
+        <item>左下角和右下角</item>
+    </string-array>
+    <string-array name="pref_app_device_nav_bar_entries">
+        <item>自動檢測</item>
+        <item>有導航欄</item>
+        <item>無導航欄</item>
+    </string-array>
+
+    <string-array name="pref_tts_supported_language_entries">
+        <item>默認</item>
+        <item>英式英語</item>
+        <item>美式英語</item>
+        <item>中文</item>
+        <item>中文(粵語)</item>
+        <item>法語</item>
+        <item>德語</item>
+        <item>意大利語</item>
+        <item>西班牙語</item>
+        <item>日語</item>
+    </string-array>
+
+    <string-array name="pref_app_landscape_mode_entries">
+        <item>自動檢測</item>
+        <item>是</item>
+        <item>否</item>
+    </string-array>
+
+    <string-array name="display_font_apply_to_entries">
+        <item>詞典內容</item>
+        <item>用戶界面備選</item>
+        <item>不限</item>
+    </string-array>
+</resources>
