@@ -8,7 +8,7 @@ values-ru-rRU: Russian
 
 **Contribution:**
 
-Jekov (Russian & Bulgarian)
+Jekovcar (Russian & Bulgarian)
 
 
 
