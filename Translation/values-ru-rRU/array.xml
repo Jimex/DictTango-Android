@@ -1,73 +1,89 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string-array name="display_font_apply_to_entries">
-        <item>Содержание словаря</item>
-        <item>UI Fallback</item>
-        <item>Все</item>
+    <string-array name="pref_app_language_entries">
+        <item>По умолчанию</item>
+        <item>Английский</item>
+        <item>简体中文</item>
+        <item>繁體中文</item>
+        <item>Русский</item><!-- Russian -->
+        <item>Български</item><!-- Bulgarian -->
     </string-array>
+
     <string-array name="pref_app_dark_mode_option_entries">
         <item>Следовать за системой</item>
         <item>Да</item>
         <item>Нет</item>
     </string-array>
-    <string-array name="pref_app_device_nav_bar_entries">
-        <item>Автоматически определять</item>
-        <item>Имеет панель навигации</item>
-        <item>Нет панели навигации</item>
-    </string-array>
-    <string-array name="pref_app_landscape_mode_entries">
-        <item>Автоматически определять</item>
-        <item>Да</item>
-        <item>Нет</item>
-    </string-array>
-    <string-array name="pref_app_language_entries">
-        <item>По умолчанию</item>
-        <item>English</item>
-        <item>简体中文</item>
-        <item>繁體中文</item>
-        <item>Русский</item><!-- Russian -->
-        <item>български</item><!-- Bulgarian -->
-    </string-array>
+
     <string-array name="pref_app_tap_webview_dark_mode_types">
         <item>Цветовая схема системы</item>
         <item>Цветовой фильтр</item>
     </string-array>
-    <string-array name="pref_dict_image_viewer_entries">
-        <item>В приложении</item>
-        <item>Система</item>
+
+    <string-array name="pref_webview_display_scenes">
+        <item>Обычный</item>
+        <item>Чернильный экран</item>
     </string-array>
-    <string-array name="pref_dict_page_flipping_touch_area_entries">
-        <item>Лево и право</item>
-        <item>Верхний левый и верхний правый</item>
-        <item>Внизу слева и внизу справа</item>
-    </string-array>
+
+
+
     <string-array name="pref_dict_tap_translate_mode_entries">
         <item>Отключить Tap-Translate</item>
         <item>Одно касание</item>
         <item>Двойное нажатие</item>
     </string-array>
-    <string-array name="pref_dict_tap_translate_scope_entries">
-        <item>Все словари</item>
-        <item>Текущий словарь</item>
-    </string-array>
+
     <string-array name="pref_main_query_win_dict_content_present_modes">
         <item>Посмотреть список</item>
         <item>Раздвижной вид</item>
     </string-array>
+
+    <string-array name="pref_dict_image_viewer_entries">
+        <item>В приложении</item>
+        <item>Система</item>
+    </string-array>
+
+    <string-array name="pref_dict_tap_translate_scope_entries">
+        <item>Все словари</item>
+        <item>Текущий словарь</item>
+    </string-array>
+
+    <string-array name="pref_dict_page_flipping_touch_area_entries">
+        <item>Лево и право</item>
+        <item>Верхний левый и верхний правый</item>
+        <item>Внизу слева и внизу справа</item>
+    </string-array>
+
+    <string-array name="pref_app_device_nav_bar_entries">
+        <item>Автоматическое обнаружение</item>
+        <item>Имеет панель навигации</item>
+        <item>Нет панели навигации</item>
+    </string-array>
+
     <string-array name="pref_tts_supported_language_entries">
         <item>По умолчанию</item>
-        <item>English (GB)</item>
-        <item>English (US)</item>
+        <item>английский (Великобритания)</item>
+        <item>Английский</item>
         <item>Китайский</item>
-        <item>Cantonese</item>
-        <item>French</item>
+        <item>Кантонский диалект</item>
+        <item>Французский</item>
         <item>Немецкий</item>
-        <item>Italian</item>
-        <item>Spanish</item>
+        <item>Итальянский</item>
+        <item>Испанский</item>
         <item>Японский</item>
+
     </string-array>
-    <string-array name="pref_webview_display_scenes">
-        <item>Обычный</item>
-        <item>Чернильный экран</item>
+
+    <string-array name="pref_app_landscape_mode_entries">
+        <item>Автоматически определять</item>
+        <item>Да</item>
+        <item>Нет</item>
     </string-array>
+
+    <string-array name="display_font_apply_to_entries">
+        <item>Содержание словаря</item>
+        <item>Резервный пользовательский интерфейс</item>
+        <item>Все</item>
+    </string-array>
+
 </resources>
