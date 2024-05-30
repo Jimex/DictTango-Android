@@ -6,6 +6,10 @@ values-bg-rBG: Bulgarian
 
 values-ru-rRU: Russian
 
+values-zh-rCN: Simplified Chinese
+
+values-zh-rTW: Traditional Chinese
+
 **Contribution:**
 
 Jekovcar (Russian & Bulgarian)
