@@ -1,59 +1,65 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string-array name="display_font_apply_to_entries">
-        <item>Съдържание на речника</item>
-        <item>Резервен потреб. интерфейс</item>
-        <item>Всички</item>
+    <string-array name="pref_app_language_entries">
+        <item>По подразбиране</item>
+        <item>Английски</item>
+        <item>简体中文</item>
+        <item>繁體中文</item>
+        <item>Русский</item><!-- Russian -->
+        <item>Български</item><!-- Bulgarian -->
     </string-array>
+
     <string-array name="pref_app_dark_mode_option_entries">
         <item>Следвай системна</item>
         <item>Да</item>
         <item>Не</item>
     </string-array>
-    <string-array name="pref_app_device_nav_bar_entries">
-        <item>Авто откриване</item>
-        <item>Има лента за навигация</item>
-        <item>Няма лента за навигация</item>
-    </string-array>
-    <string-array name="pref_app_landscape_mode_entries">
-        <item>Авто откриване</item>
-        <item>Да</item>
-        <item>Не</item>
-    </string-array>
-    <string-array name="pref_app_language_entries">
-        <item>По подразбиране</item>
-        <item>English</item>
-        <item>简体中文</item>
-        <item>繁體中文</item>
-        <item>Русский</item><!-- Russian -->
-        <item>български</item><!-- Bulgarian -->
-    </string-array>
+
     <string-array name="pref_app_tap_webview_dark_mode_types">
         <item>Системна цветова схема</item>
         <item>Цветен филтър</item>
     </string-array>
-    <string-array name="pref_dict_image_viewer_entries">
-        <item>In App</item>
-        <item>Система</item>
+
+    <string-array name="pref_webview_display_scenes">
+        <item>Обикновен</item>
+        <item>Мастилен Екран</item>
     </string-array>
-    <string-array name="pref_dict_page_flipping_touch_area_entries">
-        <item>Ляво и дясно</item>
-        <item>Горе-ляво и горе-дясно</item>
-        <item>Долу вляво и долу вдясно</item>
-    </string-array>
+
+
+
     <string-array name="pref_dict_tap_translate_mode_entries">
         <item>Деактивирай Tap-Translate</item>
         <item>Едно докосване</item>
         <item>Двоен Тап</item>
     </string-array>
-    <string-array name="pref_dict_tap_translate_scope_entries">
-        <item>Всички речници</item>
-        <item>Текущ речник</item>
-    </string-array>
+
     <string-array name="pref_main_query_win_dict_content_present_modes">
         <item>Списъчен изглед</item>
         <item>Плъзгащ изглед</item>
     </string-array>
+
+    <string-array name="pref_dict_image_viewer_entries">
+        <item>В Приложението</item>
+        <item>Система</item>
+    </string-array>
+
+    <string-array name="pref_dict_tap_translate_scope_entries">
+        <item>Всички речници</item>
+        <item>Текущ речник</item>
+    </string-array>
+
+    <string-array name="pref_dict_page_flipping_touch_area_entries">
+        <item>Ляво и дясно</item>
+        <item>Горе-ляво и горе-дясно</item>
+        <item>Долу вляво и долу вдясно</item>
+    </string-array>
+
+    <string-array name="pref_app_device_nav_bar_entries">
+        <item>Авто откриване</item>
+        <item>Има лента за навигация</item>
+        <item>Няма лента за навигация</item>
+    </string-array>
+
     <string-array name="pref_tts_supported_language_entries">
         <item>По подразбиране</item>
         <item>Английски (GB)</item>
@@ -65,13 +71,19 @@
         <item>Италиански</item>
         <item>Испански</item>
         <item>Японски</item>
+
     </string-array>
-    <string-array name="pref_webview_display_scene_values">
-        <item>Редовен</item>
-        <item>InkScreen</item>
+
+    <string-array name="pref_app_landscape_mode_entries">
+        <item>Авто откриване</item>
+        <item>Да</item>
+        <item>Не</item>
     </string-array>
-    <string-array name="pref_webview_display_scenes">
-        <item>Редовен</item>
-        <item>Екран с мастило</item>
+
+    <string-array name="display_font_apply_to_entries">
+        <item>Съдържание на речник</item>
+        <item>Резервен потреб. интерфейс</item>
+        <item>Всички</item>
     </string-array>
+
 </resources>
