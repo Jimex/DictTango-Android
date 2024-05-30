@@ -1,5 +1,7 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
 <resources>
+  <!-- Permission -->
+  <!-- UI -->
   <string name="about_app">За DictTango</string>
   <string name="action_add_dictionary_group">Добави Група Речници</string>
   <string name="action_add_external_font">Добави външен шрифт</string>
@@ -66,8 +68,8 @@
   <string name="add_word_book">Добави в Word Book</string>
   <string name="add_word_book_success">Добави се в книгата с думи успешно</string>
   <string name="added_dictionary">%1$d речници са добавени</string>
-  <string name="added_dictionary_file">Успешно добавен речник от „файл %1$s“</string>
-  <string name="added_dictionary_with_error">%1$d речници са добавени, %2$d файла не бяха обработени.</string>
+  <string name="added_dictionary_file">Успешно добавен речник от „файл %1$s“ </string>
+  <string name="added_dictionary_with_error">%1$d речници са добавени, %2$d файла не бяха обработени</string>
   <string name="ai_api_url_hint">Оставете празно, за да използвате URL адреса по подразбиране</string>
   <string name="ai_is_current_service">Е текуща услуга</string>
   <string name="ai_model">Модел</string>
@@ -91,7 +93,8 @@
   <string name="ai_prompt_test_input">Тестово въвеждане</string>
   <string name="ai_prompt_test_output">Тестова продукция</string>
   <string name="ai_prompt_text">Подканващ текст</string>
-  <string name="ai_prompt_text_hint">напр. Превод на китайски: {INPUT_CONTENT}. {INPUT_CONTENT} е изразът, който повторно извежда входния текст.</string>
+  <string name="ai_prompt_text_hint">напр. Превод на китайски: {INPUT_CONTENT}. 
+{INPUT_CONTENT} е изразът, който повторно извежда входния изходен текст.</string>
   <string name="ai_prompt_text_hint_tango_assistant">Не е необходимо да включвате подканващия текст за Tango Assistant; вместо това изберете да изберете съобщението за системна роля.</string>
   <string name="ai_service">AI услуга</string>
   <string name="ai_service_provider_baidu_yi_yan">Байду Ин Ян</string>
@@ -178,7 +181,10 @@
   <string name="dark_mode_settings">Настройки на тъмен режим</string>
   <string name="data_exported_to">Данните са експортирани в %1$s</string>
   <string name="data_imported_success">Данните са импортирани успешно</string>
-  <string name="data_imported_summary">Обобщена информация за импортиране на данни: %1$d Импортирани: %2$d Пропуснати: %3$d</string>
+  <string name="data_imported_summary">Резюме импортирани данни
+Общо: %1$d
+Импортирани: %2$d
+Пропуснати: %3$d</string>
   <string name="db_size_summary">Максимален размер на база данни: %1$s, текущ размер на база данни %2$s</string>
   <string name="dedicated_display_font">Покажи шрифт</string>
   <string name="dedicated_linked_resources">Показване на свързани ресурси</string>
@@ -299,7 +305,7 @@
   <string name="global_display_font">Глобален шрифт</string>
   <string name="global_linked_resources">Глобални свързани ресурси</string>
   <string name="hangman_game">Бесеница</string>
-  <string name="hello_blank_fragment" />
+  <string name="hello_blank_fragment">Здравей празен фрагмент</string>
   <string name="hide_floating_button">Скривай плаващ бутон</string>
   <string name="hint_new_alias">Нов псевдоним</string>
   <string name="home_page">Начална страница</string>
@@ -387,7 +393,7 @@
   <string name="msg_confirm_remove_all_words">Сигурни ли сте, да изчисти всички думи на екрана?</string>
   <string name="msg_confirm_remove_audio_resource_desc">Ако списъкът с аудио ресурси е празен, приложението автоматично ще превключи на произношение на TTS (текст към говор)</string>
   <string name="msg_confirm_remove_dict_group">Сигурни ли сте, да премахне речникова група \"%s\"?</string>
-  <string name="msg_confirm_remove_dictionary_desc">Тази операция премахва речника от приложението, но не изтрива действителните файлове речник</string>
+  <string name="msg_confirm_remove_dictionary_desc">Тази операция премахва речника от приложението, но не изтрива действителните файлове речник.</string>
   <string name="msg_confirm_remove_dictionary_group_desc">Ако изтритата група е била текущата група за търсене, групата по подразбиране ще стане новата текуща група.</string>
   <string name="msg_confirm_remove_dictref">Премахни \"%s\"?</string>
   <string name="msg_confirm_remove_search_history">Премахни  \"%s\" история на търсене?</string>
@@ -400,7 +406,13 @@
   <string name="msg_confirm_remove_selected_records">Изтриване на избраните записи?</string>
   <string name="msg_confirm_remove_word">Искате ли да премахне думата \"%s\"?</string>
   <string name="msg_confirm_restart_app_to_apply_change">Трябва да рестартирате това приложение, за да приложи промяната, ще затворите приложението сега?</string>
-  <string name="msg_confirm_sdcard_permission_android_11">\"Започвайки от \" андроид 11\", Всички приложения изискват допълнителни разрешения за управление на файловата система за достъп до всички файлове във външното хранилище.\n\n Можете да зареждате речникови файлове в Дикттанго, като използвате следните методи:\n\n 1) Използвайте предоставената функция речник за достъп до конкретни папки. Моля, имайте предвид, че използването на предоставен речник може да доведе до някои проблеми с производителността поради ограничения в рамките на самата система Андроид, които не могат да бъдат решени.\n\n 2) Използвайте друго приложение за управление на файлове, за да копирате речниковите файлове във вътрешната папка на приложението на Дикттанго.\n\n 3) Активиране на компютърна конзола и качване на речници за Диктатанго от Вашия компютър.\n\n \n\n Искате ли да предоставите допълнителни разрешения за управление на файловата система за достъп до всички файлове във Външно хранилище?\n\n\"</string>
+  <string name="msg_confirm_sdcard_permission_android_11">Започвайки от Android 11, всички приложения изискват допълнителни разрешения за управление на файловата система за достъп до всички файлове във външно хранилище.
+Може заредите речникови файлове в DictTango, като използвате следните методи:\n
+1) Използвайте функцията „Разрешен речник“ за достъп до определени папки. Моля, имайте предвид, че използването на „Granted Dictionary“ може да доведе до някои проблеми с производителността поради ограничения в самата система Android, които не могат да бъдат разрешени.\n
+2) Използвайте друго приложение за управление на файлове, за да копирате речниковите файлове във вътрешната папка на приложението на DictTango.\n
+3) Активирайте "PC Console" и качете речници в DictTango от вашия компютър.\n
+\n
+Искате ли да предоставите на DictTango допълнителни разрешения за управление на файловата система за достъп до всички файлове във външно хранилище?\n</string>
   <string name="msg_confirm_to_delete_object">Сигурни ли сте, че ще изтриете този %1$s?</string>
   <string name="msg_confirm_to_delete_object_value">Сигурни ли сте да изтриете %1$s %2$s?</string>
   <string name="msg_content_copied">Съдържанието е копирано</string>
@@ -453,7 +465,7 @@
   <string name="msg_subsetting_font">Поднастройка %1$s</string>
   <string name="msg_text_copied">Копиран текст</string>
   <string name="msg_title_need_to_restart">Нужен е рестарт</string>
-  <string name="msg_warn_support_dict_entries_too_large_for_indexing">Броят на записите е по -голям от %1$s, приложението може да се срине и изисква много памет на SD карта за индексиране, сигурни ли сте?</string>
+  <string name="msg_warn_support_dict_entries_too_large_for_indexing">Броят на записите е по -голям от %1$s, приложението може да се срине и изисква много памет на SD карта за индексиране, сигурни ли сте? </string>
   <string name="msg_word_not_found_in_dictionary">Думата %1$s липсва в речник %2$s</string>
   <string name="msg_zoom_in_mode">Увеличаването е Активирано, докоснете съдържанието и преместете пръста си, за да видите</string>
   <string name="new_dictionary">Нов речник</string>
@@ -490,13 +502,13 @@
   <string name="pc_console">PC конзола</string>
   <string name="pc_console_introduction">Чрез достъп до PC конзола от браузъра на вашия компютър може да управлявате вашите файлове и речници и да търсите думи. Все още може да получите достъп до PC конзола, след изход от приложението, но се изпълнява като услуга</string>
   <string name="pc_console_run_as_service">Работи като услуга</string>
-  <string name="pc_console_run_as_service_desc" />
-  <string name="pc_console_status" />
-  <string name="pc_console_status_started" />
-  <string name="pc_console_status_stopped" />
+  <string name="pc_console_run_as_service_desc">Все още можете да получите достъп до PC конзола, след изход от приложението, но се изпълнява като услуга.</string>
+  <string name="pc_console_status">Състояние на конзолата</string>
+  <string name="pc_console_status_started">Започна</string>
+  <string name="pc_console_status_stopped">Спряна</string>
   <string name="permission_camera_rationale">Достъпът до камерата е необходим за откриване</string>
-  <string name="permission_dialog_message">\"Приложението изисква разрешение за достъп до SDCard, за да сканира речник, да изтегли речник и настройка за експорт.\n\nМоля, натиснете \"Разреши\" в появилия се прозорец за разрешение.\"</string>
-  <string name="permission_dialog_message_for_overlay">\"DictTango изисква разрешение за рисуване в други приложения, преди да покаже плаващ бутон на екрана. \n\nМоля, натиснете \"Предостави\" и се уверете, че \"Разреши рисуване върху други приложения\" е активирано за DictTango.\"</string>
+  <string name="permission_dialog_message">\"Приложението изисква разрешение за достъп до SDCard, за да сканира речник, да изтегли речник и настройка за експорт.\n\nМоля, натиснете \"Разреши\" в появилия се прозорец за разрешение.\".</string>
+  <string name="permission_dialog_message_for_overlay">\"DictTango изисква разрешение за рисуване в други приложения, преди да покаже плаващ бутон на екрана. \n\nМоля, натиснете \"Предостави\" и се уверете, че \"Разреши рисуване върху други приложения\" е активирано за DictTango.\".</string>
   <string name="permission_dialog_title">Трябва разрешение</string>
   <string name="permissions_available">Разрешенията са дадени</string>
   <string name="permissions_not_granted">Не са дадени разрешения.</string>
@@ -540,9 +552,10 @@
   <string name="pref_summary_text_sel_menu_enable_tts_menu">Показвай елемент от менюто TTS в контекстното меню за избор на текст</string>
   <string name="pref_summary_ui_fallback_font_file">Персонален резервен шрифт на потребителския интерфейс от конкретен файл с шрифтове</string>
   <string name="pref_summary_webview_background_color">Показване на цвета на фона в нетъмен режим</string>
-  <string name="pref_title_app_auto_backup_data">Авто бекъп</string>
+  <string name="pref_title_app_auto_backup_data">Авто бекъп
+    </string>
   <string name="pref_title_app_device_nav_bar">Лента за навигация на устройството</string>
-  <string name="pref_title_app_keep_screen_on" />
+  <string name="pref_title_app_keep_screen_on">Дръж екрана включен</string>
   <string name="pref_title_app_landscape_mode">Пейзажен режим</string>
   <string name="pref_title_app_language">Език на приложението</string>
   <string name="pref_title_app_maximum_db_size_in_gb">Макс.размер на база данни</string>
@@ -568,7 +581,7 @@
   <string name="pref_title_dict_html_line_height">Височина на реда</string>
   <string name="pref_title_dict_image_auto_resize">АвтоРазмер на Изображение</string>
   <string name="pref_title_dict_image_viewer">Визуализатор изображения</string>
-  <string name="pref_title_dict_image_viewer_max_scale">Максимален мащаб визуализация</string>
+  <string name="pref_title_dict_image_viewer_max_scale">Максимален мащаб визуализация </string>
   <string name="pref_title_dict_include_chinese_from_unicode_ext">Включи разширен китайски</string>
   <string name="pref_title_dict_keep_navigation_history_in_floating_mode">Запазване на проследяването в плаващ прозорец</string>
   <string name="pref_title_dict_maximum_word_lookup_results">Максимални резултати при търсене на думи</string>
@@ -597,9 +610,9 @@
   <string name="pref_title_text_sel_menu_enable_tts_menu">Показвай меню TTS</string>
   <string name="pref_title_tts_locale">TTS език</string>
   <string name="pref_title_webview_background_color">Цвят на фона</string>
-  <string name="pref_title_webview_display_scene">Показване на сцена</string>
+    <string name="pref_title_webview_display_scene">Сцена Дисплей</string>
   <string name="preview">Преглед</string>
-  <string name="quit_prompt">\" Натиснете назад още веднъж, да излезе\"</string>
+  <string name="quit_prompt">" Натиснете назад още веднъж, да излезе"</string>
   <string name="reached_first_dictionary">Достигна първият речник</string>
   <string name="reached_first_entry">Достигна първият запис</string>
   <string name="reached_last_dictionary">Последен речник</string>
@@ -756,13 +769,13 @@
   <string name="title_select_picture">Изберете снимка</string>
   <string name="title_text_recognition_lang">Език за разпознаване на текст</string>
   <string name="toggle_word_wrap">Превключване на Word Wrap</string>
-  <string name="toolbox">Инструменти</string>
+  <string name="toolbox">Кутия за инструменти</string>
   <string name="touch_control">Тап управление</string>
   <string name="touch_controls_and_gestures">Контроли докосване и жестове</string>
   <string name="transform_expression">Трансформация на изразяване</string>
   <string name="translation">Превод</string>
   <string name="tts">TTS</string>
-  <string name="tts_init_failed">Неуспешно инициализиране на TTS, моля, проверете настройките на вашия телефон TTS</string>
+  <string name="tts_init_failed">Неуспешно инициализиране на TTS, моля, проверете настройките на вашия телефон TTS.</string>
   <string name="tts_locale_auto">Авто</string>
   <string name="turbo_mode">Турбо режим</string>
   <string name="undo">Отмяна</string>
