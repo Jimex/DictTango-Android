@@ -1,0 +1,32 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="css/keyboard.css" rel="stylesheet" />
+</head>
+
+<body>
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/script.js"></script>
+    <script src="js/keyboard.js"></script>
+    <script type="text/javascript">
+         $(this).accentKeyboard({
+            layout: 'accent',
+            active_shift: false,
+            active_caps: false,
+            is_hidden: false,
+            open_speed: 300,
+            close_speed: 100,
+            show_on_focus: true,
+            hide_on_blur: true,
+            trigger: undefined,
+            enabled: true
+        });
+        setTitle("Accent");
+        //keyboard.init();
+    </script>
+</body>
+
+</html>

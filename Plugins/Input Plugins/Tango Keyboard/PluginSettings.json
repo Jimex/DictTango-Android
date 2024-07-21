@@ -1,0 +1,8 @@
+{
+    "PluginCode":"TANGO-KEYBOARD",
+	"PluginName":"TANGO Keyboard",
+	"Version":"1.0",
+	"WindowWidthPercentage": 90,
+	"WindowHeightPercentage": 35,
+    "HomePage":"index.html"
+}

@@ -1,0 +1,131 @@
+.keyboard {
+    --key_size: calc(100vw / 25)
+        /* 60px; */
+    ;
+    --keyboard_clr_background: rgb(201, 201, 201);
+    --keyboard_clr_shadow: rgb(201, 195, 195);
+    --key_clr_background: rgb(243, 243, 243);
+    --key_clr_shadow: rgb(80, 80, 80);
+    --key_clr_text: rgb(0, 0, 0);
+    --key_font: 'Roboto', Tahoma, Arial, sans-serif;
+    --key_clr_border: rgb(0, 0, 0);
+    --key_clr_border_hover: rgb(200, 35, 35);
+    --key_clr_border_active: rgb(20, 100, 20);
+}
+body{
+    margin: 0;
+    padding: 0px;
+}
+div#accent-keyboard {
+    font-family: 'Roboto', Tahoma, Arial, sans-serif;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    bottom: 0;
+}
+
+div#accent-keyboard ul,
+div#accent-keyboard li {
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box
+}
+
+div#accent-keyboard ul {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    padding: 0px;
+    border-radius: 0px 0px 0 0;
+    background: #eee;
+    list-style: none;
+    font-size: 1.2em;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+
+}
+
+
+div#accent-keyboard ul li {
+    font-size: 1.2em;
+    /*width: 40px;*/
+    width:9%;
+    height: 20%;
+    line-height: 40px;
+    margin: 2px;
+    float: left;
+    margin: 0 0 0.5% 0.5%;
+    text-align: center;
+    vertical-align: middle;
+    background: #fff;
+    border: 1px solid #f9f9f9;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-color: #e5e5e5;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+div#accent-keyboard ul li.active {
+    background-color: #E6FFD8;
+    border-color: #6FDA54
+}
+
+
+
+div#accent-keyboard ul #accent-keyboard-tab {
+    width: 7%
+}
+
+
+div#accent-keyboard ul #accent-keyboard-tab {
+    width: 65px
+}
+
+
+/*
+div#accent-keyboard ul #accent-keyboard-return {
+    width: 8%
+}
+*/
+
+div#accent-keyboard ul #accent-keyboard-left-shift {
+    width: 14%
+}
+
+
+div#accent-keyboard ul #accent-keyboard-right-shift {
+    width: 12%
+}
+
+div#accent-keyboard ul #accent-keyboard-space {
+    width: 98%
+}
+
+
+
+div#accent-keyboard ul.accent-keyboard-modifications {
+    position: absolute;
+    background: rgba(133, 133, 133, 0.6);
+    border-radius: 5px;
+    display: none;
+    padding: 8px;
+    height: 22%;
+}
+
+
+.new-line-before
+{
+    clear: left
+}
+
+.pressed {
+    background-color: #FFD488 !important;
+    border-color: #FFAE6E !important
+}
+.enter-key{
+    width: 18% !important;
+}
