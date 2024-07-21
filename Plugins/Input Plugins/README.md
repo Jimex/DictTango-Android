@@ -7,4 +7,4 @@ This is the Input Plugin page for DictTango
 
 
 *** Current Plugins ***
-1) Tango Keyboard: A keyboard plugin that allows input of accented characters. European keyboard layouts (Russian, French, Spanish, etc.) will be added later.
+1) Tango Keyboard: A keyboard plugin that allows input of accented characters. European keyboard layouts (Russian, French, Spanish, etc.) will be added later. 
