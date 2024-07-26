@@ -1,32 +1,36 @@
-<!doctype html>
-<html>
-
+<!DOCTYPE html>
+<html lang="en" >
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="css/keyboard.css" rel="stylesheet" />
+  <meta charset="UTF-8">
+  <title>Tango Keyboard</title>
+  <link rel="stylesheet" href="./css/keyboard.css">
+
 </head>
-
 <body>
-    <script src="js/jquery-3.2.1.min.js"></script>
-    <script src="js/script.js"></script>
-    <script src="js/keyboard.js"></script>
-    <script type="text/javascript">
-         $(this).accentKeyboard({
-            layout: 'accent',
-            active_shift: false,
-            active_caps: false,
-            is_hidden: false,
-            open_speed: 300,
-            close_speed: 100,
-            show_on_focus: true,
-            hide_on_blur: true,
-            trigger: undefined,
-            enabled: true
-        });
-        setTitle("Accent");
-        //keyboard.init();
-    </script>
 </body>
-
+<script src="js/jquery-3.2.1.min.js"></script>
+<script src="js/script.js"></script>
+<script src="js/keyboard.js"></script>
+<!--Keyboard layouts-->
+<script src="js/keyboard_layout.accent.js"></script>
+<script src="js/keyboard_layout.english.js"></script>
+<script src="js/keyboard_layout.french.js"></script>
+<script src="js/keyboard_layout.russion.js"></script>
+<script src="js/keyboard_layout.spanish.js"></script>
+<script type="text/javascript">
+     $(this).accentKeyboard({
+        layout: getCurrentKeyboardLayoutByIndex(),
+        active_shift: false,
+        active_caps: false,
+        is_hidden: false,
+        open_speed: 300,
+        close_speed: 100,
+        show_on_focus: true,
+        hide_on_blur: true,
+        trigger: undefined,
+        enabled: true
+    });
+    //setTitle("Accent");
+    //keyboard.init();
+</script>
 </html>
