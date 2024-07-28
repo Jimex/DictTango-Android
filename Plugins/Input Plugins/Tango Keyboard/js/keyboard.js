@@ -541,7 +541,7 @@
 })(jQuery);
 
 
-var keyboardLayouts = ["Accent", "English", "French", "Spanish", "Russian"];
+var keyboardLayouts = ["Accent", "English", "French", "Spanish", "Russian","Greek"];
 var currentKeyboardLayoutIndex = 0;//loadConfigItem("TangoKeyboard_KeyboardLayoutIndex", 0);
 
 function getKeyboardLayoutByIndex(index) {
