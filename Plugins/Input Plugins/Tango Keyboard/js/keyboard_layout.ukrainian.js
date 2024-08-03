@@ -54,7 +54,8 @@ accentKeyboard.layouts['ukrainian'] = [
   { d: 'ґ', u: 'Ґ' },
   { d: '?', u: '!' },
   {keyType:"ENTER", css:'key-span-2 font-double'},
+  {keyType:"SETTINGS"},
   {keyType:"CLEAR_TEXT"},
-  {keyType:"SPACE", css:'space gray-key'},
-  {keyType:"SWITCH_LANG"} 
+  {keyType:"SPACE", css:'key-span-6 gray-key'},  // Space //38
+  {keyType:"SWITCH_LANG", css:'key-span-2'} 
 ];

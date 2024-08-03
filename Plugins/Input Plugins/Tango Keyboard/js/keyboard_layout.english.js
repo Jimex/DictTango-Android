@@ -38,7 +38,8 @@ accentKeyboard.layouts['english'] = [
   { d: 'n', u: 'N' },
   { d: 'm', u: 'M' },
   {keyType:"ENTER", css:'key-span-2 font-double'},
+  {keyType:"SETTINGS"},
   {keyType:"CLEAR_TEXT"},
-  {keyType:"SPACE", css:'space gray-key'},
-  {keyType:"SWITCH_LANG"} 
+  {keyType:"SPACE", css:'key-span-6 gray-key'},
+  {keyType:"SWITCH_LANG", css:'key-span-2'} 
 ];

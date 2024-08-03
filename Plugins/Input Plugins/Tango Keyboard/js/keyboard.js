@@ -113,6 +113,8 @@
   Key.prototype.isActive = function () {
     return false;
   };
+
+  //#region Delete key
   function KeyDelete() {
     Key.call(this, arguments);
 
@@ -126,6 +128,9 @@
   KeyDelete.prototype.defaultClickAction = function () {
     this.keyboard.deleteChar();
   };
+  //#endregion
+
+  //#region Tab key
   function KeyTab() {
     Key.call(this, arguments);
 
@@ -140,7 +145,28 @@
     this.keyboard.hideKeyboard();
     $(":input").eq($(":input").index(this.keyboard.$current_input) + 1).focus();
   };
+  //#endregion
 
+  //#region Settings key
+  function KeySettings() {
+    Key.call(this, arguments);
+    this.id = "accent-keyboard-settings";
+    this.default_value = '⚙';
+  }
+
+  KeySettings.prototype = new Key();
+  KeySettings.prototype.constructor = KeySettings;
+
+  KeySettings.prototype.defaultClickAction = function () {
+    console.log("Settings key pressed");
+    this.keyboard.hideKeyboard();
+    //$settingsContainer.slideDown(0);
+    $("#settingsContainer").slideDown();
+    //document.getElementById('settingsContainer').style.display = "";
+  };
+  //#endregion
+
+  //#region Caps key
   function KeyCapsLock() {
     Key.call(this, arguments);
 
@@ -158,6 +184,9 @@
   KeyCapsLock.prototype.defaultClickAction = function () {
     this.keyboard.toggleCaps();
   };
+  //#endregion
+
+  //#region Retrun key
   function KeyReturn() {
     Key.call(this, arguments);
 
@@ -171,6 +200,8 @@
   KeyReturn.prototype.defaultClickAction = function () {
     sendWord('\n');
   };
+  //#endregion
+
   function KeyShift() {
     Key.call(this, arguments);
 
@@ -191,7 +222,7 @@
   function KeySpace() {
     Key.call(this, arguments);
     this.id = "accent-keyboard-space";
-    this.default_value = keyboardLayouts[currentKeyboardLayoutIndex];
+    this.default_value = currentKeyboardLayoutName.substring(0,1).toUpperCase() +  currentKeyboardLayoutName.substring(1);
   }
 
   KeySpace.prototype = new Key();
@@ -273,8 +304,8 @@
     }
     this.$keyboard.append(this.renderKeys());
     this.$keyboard.append(this.$modifications_holder);
-    document.body.innerHTML = '';
-    $("body").append(this.$keyboard);
+    document.getElementById('keyboardContainer').innerHTML = '';
+    $("#keyboardContainer").append(this.$keyboard);
 
     if (this.options.is_hidden) this.$keyboard.hide();
 
@@ -282,7 +313,7 @@
   };
 
   Keyboard.prototype.switchToNextLayout = function () {
-    this.switchLayout(getNextKeyboardLayoutByIndex());
+    this.switchLayout(getNextKeyboardLayout());
   };
 
   Keyboard.prototype.switchLayout = function (newLayout) {
@@ -342,6 +373,9 @@
           case 'CLEAR_TEXT':
             key = new KeyClearText(this);
             break;
+          case 'SETTINGS':
+            key = new KeySettings(this);
+            break;
           /*
           case 41:
             key = new KeyShift(this, "left");
@@ -374,6 +408,7 @@
     return $keys_holder;
   };
 
+  /*
   Keyboard.prototype.setUpFor = function ($input) {
     var _this = this;
 
@@ -410,19 +445,19 @@
       });
     }
   };
-
+  */
   Keyboard.prototype.showKeyboard = function ($input) {
-    if (this.options.is_hidden) {
+    //if (this.options.is_hidden) {
       this.isVisible = true;
       this.$keyboard.slideDown(this.options.openSpeed);
-    }
+    //}
   };
 
   Keyboard.prototype.hideKeyboard = function () {
-    if (this.options.is_hidden) {
+    //if (this.options.is_hidden) {
       this.isVisible = false;
       this.$keyboard.slideUp(this.options.closeSpeed);
-    }
+    //}
   };
 
   Keyboard.prototype.inputLocalOptions = function () {
@@ -539,31 +574,7 @@
   };
 
 })(jQuery);
-
-
-var keyboardLayouts = ["Accent", "English", "French", "Spanish", "Russian","Greek"];
-var currentKeyboardLayoutIndex = 0;//loadConfigItem("TangoKeyboard_KeyboardLayoutIndex", 0);
-
-function getKeyboardLayoutByIndex(index) {
-  return keyboardLayouts[index].toLowerCase();
-}
-
-function getCurrentKeyboardLayoutByIndex(index) {
-  return getKeyboardLayoutByIndex(currentKeyboardLayoutIndex);
-}
-function getNextKeyboardLayoutByIndex(index) {
-  if (currentKeyboardLayoutIndex < keyboardLayouts.length - 1)
-    currentKeyboardLayoutIndex++;
-  else
-    currentKeyboardLayoutIndex = 0;
-    
-  console.log("Current index" + currentKeyboardLayoutIndex);
-  saveKeyboardInex(currentKeyboardLayoutIndex);
-  return getKeyboardLayoutByIndex(currentKeyboardLayoutIndex);
-}
-
-function saveKeyboardInex(index) {
-  setConfigItem("TangoKeyboard_KeyboardLayoutIndex", index)
-}
 var accentKeyboard = accentKeyboard || { layouts: {} };
+
+
 

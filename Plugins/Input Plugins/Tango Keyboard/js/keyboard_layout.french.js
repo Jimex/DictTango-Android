@@ -123,9 +123,10 @@ accentKeyboard.layouts['french'] = [
   { d: 'm', u: 'M' },
   //Row 5
   {keyType:"ENTER", css:'key-span-2 font-double'},
+  {keyType:"SETTINGS"},
   {keyType:"CLEAR_TEXT"},
   { d: 'ñ', u: 'Ñ' },
-  {keyType:"SPACE", css:'key-span-6 gray-key'},
+  {keyType:"SPACE", css:'key-span-4 gray-key'},
   { d: 'ç', u: 'Ç' },
-  {keyType:"SWITCH_LANG"} 
+  {keyType:"SWITCH_LANG", css:'key-span-2'} 
 ];
