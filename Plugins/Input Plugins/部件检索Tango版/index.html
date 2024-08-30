@@ -100,7 +100,7 @@
         <div id="function_button_section" class="bottom-section forth-row">
             <div class="key" id="accent-keyboard-clear-text" onclick="onClearText()"><i class="fa-solid fa-xmark"></i></div>
             <div class="key" onclick="onSettings()">⚙</div>
-            <div class="key key-span-6 gray-key" id="accent-keyboard-space">部件檢索</div>
+            <div class="key key-span-6 gray-key" id="accent-keyboard-space" style="font-size: 1.5em; overflow: hidden;">部件檢索(改编自WFG)</div>
             <div class="key" onclick="onBackspace()">⌫</div>
             <div class="key" onclick="sendWord('\n');"><i class="fa-solid fa-magnifying-glass"></i></div>
         </div>
@@ -144,12 +144,10 @@
                         </span>
                         <span class="item-text">無理拆分</span>
                     </li>
-                    <li class="item" id="button-reset-data" onclick="prepareData(true)">
-                        <span class="item-text">重新生成數據</span>
-                    </li>
                 </ul>
             </div>
-            <button id="ctlSaveButton" type="button" class="button-finish" onclick="exitSettings()">完成</button>
+            <button id="ctlSaveButton" type="button" class="button success" onclick="exitSettings()">完成</button>
+            <button id="ctlSaveButton" type="button" class="button danger" onclick="prepareData()">重新生成數據</button>
         </div>
     </div>
     <div id="loading-mask" class="ring" style="display:none;">

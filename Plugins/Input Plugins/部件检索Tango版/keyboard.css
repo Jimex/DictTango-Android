@@ -7,7 +7,7 @@ body {
     --key_clr_background:  #ffffff;
     --key_clr_shadow: rgb(80, 80, 80);
     --key_clr_text: rgb(0,0,0);
-    --key_font:FSung-2-Part1,FSung-2-Part2,FSung-M-Part1,FSung-M-Part2,FSung-3,FSung-F-Part1,FSung-F-Part2,FSung-X-Part1,FSung-X-Part2,FSung-1,MingLiU,MingLiU-ExtB;
+    --key_font:FSung-P-Part1,FSung-P-Part2,FSung-2-Part1,FSung-2-Part2,FSung-3,FSung-F-Part1,FSung-F-Part2,FSung-X-Part1,FSung-X-Part2,MingLiU,MingLiU-ExtB,serif;
     --key_clr_border: #e5e5e5;
     --key_clr_border_hover: rgb(200, 35, 35);
     --key_clr_border_active: #f58383;
@@ -51,6 +51,7 @@ body{
     border-radius: calc(var(--key_size) / 10);
     height: var(--key_size);
     grid-column: span 2;
+    font-family: var(--key_font);
     font-size: calc(var(--key_size) / 1.5);
     text-align: center;
     display: flex;

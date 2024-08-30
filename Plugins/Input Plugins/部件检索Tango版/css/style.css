@@ -1,8 +1,9 @@
+/*
 @font-face {
   font-family: 'FSung-1';
   src: url('FSung-1.ttf') format('truetype');
-  /*font-display: fallback;*/
 }
+*/
 @font-face {
    font-family: 'FSung-2-Part1';
    src: url('FSung-2.part1.ttf') format('truetype');
@@ -32,14 +33,14 @@
 }
 
 @font-face {
-  font-family: 'FSung-M-Part1';
-  src: url('FSung-m.part1.ttf') format('truetype');
+  font-family: 'FSung-P-Part1';
+  src: url('FSung-p.part1.ttf') format('truetype');
   /*font-display: fallback;*/
 }
 
 @font-face {
-  font-family: 'FSung-M-Part2';
-  src: url('FSung-m.part2.ttf') format('truetype');
+  font-family: 'FSung-P-Part2';
+  src: url('FSung-p.part2.ttf') format('truetype');
   /*font-display: fallback;*/
 }
 
@@ -287,8 +288,8 @@ input:-webkit-autofill:active  {
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 16px;
-  width: 16px;
+  height: 30px;
+  width: 30px;
   border-radius: 4px;
   margin-right: 12px;
   border: 1.5px solid #c0c0c0;
@@ -308,9 +309,8 @@ input:-webkit-autofill:active  {
   transform: scale(1);
 }
 
-.button-finish{
+.button{
   margin-top: 20px;
-  background-color: #04AA6D; /* Green */
   border: none;
   color: white;
   padding: 5px 10px;
@@ -318,4 +318,12 @@ input:-webkit-autofill:active  {
   text-decoration: none;
   display: inline-block;
   font-size: 1.2em;
+}
+
+.success{
+  background-color: #04AA6D; /* Green */
+}
+
+.danger{
+  background-color: #cf5a5a; /* Green */
 }
