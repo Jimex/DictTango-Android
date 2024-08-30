@@ -1,0 +1,203 @@
+/* keyboard settings */
+body { 
+    --key_size: calc(100vw / 12) /* 60px; */;
+    --candidate_key_size: calc(100vw / 16) /* 60px; */;
+    --keyboard_clr_background: rgb(243, 243, 243);
+    --keyboard_clr_shadow: rgba(0, 0, 0, 1);
+    --key_clr_background:  #ffffff;
+    --key_clr_shadow: rgb(80, 80, 80);
+    --key_clr_text: rgb(0,0,0);
+    --key_font:FSung-2-Part1,FSung-2-Part2,FSung-M-Part1,FSung-M-Part2,FSung-3,FSung-F-Part1,FSung-F-Part2,FSung-X-Part1,FSung-X-Part2,FSung-1,MingLiU,MingLiU-ExtB;
+    --key_clr_border: #e5e5e5;
+    --key_clr_border_hover: rgb(200, 35, 35);
+    --key_clr_border_active: #f58383;
+    --key_clr_background_active: #f58383;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    background-color: var(--keyboard_clr_background);
+    font-family: var(--key_font);
+    height: 98vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.keyboard{
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    background-color: var(--keyboard_clr_background);
+    width: 100vw;
+    height: 98vh;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 0;
+    user-select: none;
+    font-family: var(--key_font);
+}
+
+
+.key {   
+    background-color: var(--key_clr_background);
+    border: calc(var(--key_size) / 50) solid var(--key_clr_border);
+    border-radius: calc(var(--key_size) / 10);
+    height: var(--key_size);
+    grid-column: span 2;
+    font-size: calc(var(--key_size) / 1.5);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    cursor: pointer;
+    color:black;
+    /*box-shadow: calc(var(--key_size) / 25) calc(var(--key_size) / 25) calc(var(--key_size) / 25) var(--key_clr_shadow);*/
+}
+.key i {
+    font-weight: 600;
+
+}
+.key-span-2{
+    grid-column: span 4;
+}
+.key-span-3{
+    grid-column: span 6;
+}
+.key-span-4{
+    grid-column: span 8;
+}
+.key-span-5{
+    grid-column: span 10;
+}
+.key-span-6{
+    grid-column: span 12;
+}
+.key-span-7{
+    grid-column: span 14;
+}
+.key-span-8{
+    grid-column: span 16;
+}
+.key-span-9{
+    grid-column: span 18;
+}
+.key-span-10{
+    grid-column: span 20;
+}
+.emptykey{
+    grid-column: span 2;
+}
+.key span{
+    /* font-size: .95em; */
+}
+.key .category-key
+{
+    font-size: calc(var(--key_size) / 3.5);
+}
+.radical-block
+{
+    background-color: bisque;
+}
+.backspace  {grid-column: span  4;}
+.tab        {grid-column: span  3;}
+.backslash  {grid-column: span  3;}
+.capslock   {grid-column: span  4;}
+.enter      {grid-column: span  4;}
+.leftshift  {grid-column: span  5;}
+.rightshift {grid-column: span  5;}
+.leftctrl   {grid-column: span  3;}
+.rightctrl  {grid-column: span  3;}
+.space      {
+    grid-column: span 12;
+    
+}
+
+.gray-key{
+    color:#bbbbbb
+}
+.accent-keyboard-modifications {
+    position: absolute;
+    background: rgba(133, 133, 133, 0.6);
+    border-radius: 5px;
+    display: none;
+    padding: 8px;
+    height: calc(100vh/5) + 150;
+}
+
+.accent-keyboard-modifications .key {
+    display: inline-flex !important;
+    margin-left: calc(var(--key_size) / 10)!important;
+    align-items: center !important;
+    justify-content: center !important;
+    /*
+    width: 1000px !important;
+    height: calc(var(--key_size)-10) !important;
+    */
+}
+/*
+.active {
+    background-color: var(--key_clr_background_active);
+    border-color: var(--key_clr_border_active)
+}
+
+.pressed {
+    background-color: var(--key_clr_background_active);
+    border-color: var(--key_clr_border_active)
+}
+*/
+.font-double{
+    
+}
+.functon-row{
+    font-size: calc(var(--key_size) / 4);
+}
+.top-row{
+    padding: 5px;
+    background-color: var(--keyboard_clr_background);
+    grid-column: span 2;
+    grid-row-start: 1;
+}
+.second-row{
+    padding: 5px;
+    grid-column: span 2;
+    grid-row-start: 2;
+}
+.third-row{
+    padding: 5px;
+    grid-column: span 2;
+    grid-row-start: 3;
+}
+.forth-row{
+    padding: 5px;
+    grid-column: span 2;
+    grid-row-start: 4;
+}
+.main-section{
+    width: 100vw;
+    display: grid;
+    grid-template-columns: repeat(20, calc(var(--key_size) / 2));
+    grid-template-rows: repeat(4, calc(70vh/5-(var(--key_size) / 10)));
+    grid-gap: calc(var(--key_size) / 10);
+}
+
+.radical-section{
+    width: 100vw;
+    display: grid;
+    grid-template-columns: repeat(22, calc(var(--key_size) / 2.25));
+    grid-template-rows: repeat(2, calc(70vh/5-(var(--key_size) / 10)));
+    grid-gap: calc(var(--key_size) / 10);
+}
+.bottom-section{
+    width: 100vw;
+    display: grid;
+    grid-template-columns: repeat(20, calc(var(--key_size) / 2));
+    grid-gap: calc(var(--key_size) / 10);
+}

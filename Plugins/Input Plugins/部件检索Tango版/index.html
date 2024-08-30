@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>部件檢索</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="menu.css">
+    <link rel="stylesheet" href="./keyboard.css">
+    <link rel="stylesheet" href="css/font-awesome-all.min.css">
+    <style>
+        /*
+        .BMP {
+            background-color: #E0E0E0;
+        }
+
+        .ExA {
+            background: #C0E8FF;
+        }
+
+        .ExB {
+            background: #FFF8D0;
+        }
+
+        .ExC {
+            background: #D1BADA;
+        }
+
+        .ExD {
+            background: #80FFB0;
+        }
+
+        .ExE {
+            background: #FFC0D0;
+        }
+
+        .ExF {
+            background: #90E0D0;
+        }
+
+        .ExG {
+            background: #CBD0FF;
+        }
+
+        .ExH {
+            background: #FEE0FD;
+        }
+
+        .CMP {
+            background: #FFFFFF;
+        }
+
+        .SUP {
+            background: #FCC800;
+        }
+
+        .OTH {
+            background: #808080;
+        }
+
+        .Decmp {
+            color: #0045FF !important;
+        }
+
+        .Fuzzy {
+            color: #404040 !important;
+        }
+
+        .Exact {
+            color: #FF4500 !important;
+        }
+        */
+       
+    </style>
+</head>
+
+<body>
+    <!----------------------------------------------------------------------------->
+    <!-- 客製化修改區起始 -->
+    <!----------------------------------------------------------------------------->
+
+    <!-- UI 畫面區 -->
+    <div id="keyboard" class="keyboard">
+        <div class="functon-row top-row">
+            <div style="display: inline-block;"> <span class="radical-input-box" id="radiclaInputBox"></span>&nbsp;<span id="counter"></span></div>
+            <div class="word-output-container">
+                <div id="button-show-all" class="button-show-all" title="顯示全部" style="display: none;">
+                    <span class="arrow-dwn">
+                        <i class="fa-solid fa-angle-down"></i>
+                    </span>
+                </div>
+                <div class="word-output" id="output">&nbsp;</div>
+            </div>
+        </div>
+        <div id="radical_keyboard_section" class="radical-section second-row">
+        </div>
+        <div id="main_keyboard_section" class="main-section thrid-row">
+        </div>
+        <div id="function_button_section" class="bottom-section forth-row">
+            <div class="key" id="accent-keyboard-clear-text" onclick="onClearText()"><i class="fa-solid fa-xmark"></i></div>
+            <div class="key" onclick="onSettings()">⚙</div>
+            <div class="key key-span-6 gray-key" id="accent-keyboard-space">部件檢索</div>
+            <div class="key" onclick="onBackspace()">⌫</div>
+            <div class="key" onclick="sendWord('\n');"><i class="fa-solid fa-magnifying-glass"></i></div>
+        </div>
+
+    </div>
+    <div id="settingsContainer" class="settings-container" style="display: none;">
+        <div class="top-nav sticky-top ">
+            <span class="navbar-brand" href="#" style="font-size: 2em; font-weight: bold;">設置</span>
+        </div>
+        <div style="padding:5px;display:block;">
+            <div class="settings-card">
+                <div  style="font-size: 1.3em">過濾</div>
+                <ul class="settings-card-items" >
+                    <li class="item  BMP" id="li-search-block-BMP" onclick="toggleSearchBlock('BMP')"><span class="checkbox"><i class="fa-solid fa-check check-icon"></i></span><span class="item-text">基本</li>
+                    <li class="item  ExA" id="li-search-block-ExA" onclick="toggleSearchBlock('ExA')"><span class="checkbox"><i class="fa-solid fa-check check-icon"></i></span><span class="item-text">A區</li>
+                    <li class="item  ExB" id="li-search-block-ExB" onclick="toggleSearchBlock('ExB')"><span class="checkbox"><i class="fa-solid fa-check check-icon"></i></span><span class="item-text">B區</li>
+                    <li class="item  ExC" id="li-search-block-ExC" onclick="toggleSearchBlock('ExC')"><span class="checkbox"><i class="fa-solid fa-check check-icon"></i></span><span class="item-text">C區</li>
+                    <li class="item  ExD" id="li-search-block-ExD" onclick="toggleSearchBlock('ExD')"><span class="checkbox"><i class="fa-solid fa-check check-icon"></i></span><span class="item-text">D區</li>
+                    <li class="item  ExE" id="li-search-block-ExE" onclick="toggleSearchBlock('ExE')"><span class="checkbox"><i class="fa-solid fa-check check-icon"></i></span><span class="item-text">E區</li>
+                    <li class="item  ExF" id="li-search-block-ExF" onclick="toggleSearchBlock('ExF')"><span class="checkbox"><i class="fa-solid fa-check check-icon"></i></span><span class="item-text">F區</li>
+                    <li class="item  ExG" id="li-search-block-ExG" onclick="toggleSearchBlock('ExG')"><span class="checkbox"><i class="fa-solid fa-check check-icon"></i></span><span class="item-text">G區</li>
+                    <li class="item  ExH" id="li-search-block-ExH" onclick="toggleSearchBlock('ExH')"><span class="checkbox"><i class="fa-solid fa-check check-icon"></i></span><span class="item-text">H區</li>
+                    <li class="item  CMP" id="li-search-block-CMP" onclick="toggleSearchBlock('CMP')"><span class="checkbox"><i class="fa-solid fa-check check-icon"></i></span><span class="item-text">相容</li>
+                    <li class="item  SUP" id="li-search-block-SUP" onclick="toggleSearchBlock('SUP')"><span class="checkbox"><i class="fa-solid fa-check check-icon"></i></span><span class="item-text">補充</li>
+                    <li class="item  OTH" id="li-search-block-OTH" onclick="toggleSearchBlock('OTH')"><span class="checkbox"><i class="fa-solid fa-check check-icon"></i></span><span class="item-text">其他</li>
+                </ul>
+            </div>
+            <div class="settings-card">
+                <div style="font-size: 1.3em">選項</div>
+
+                <ul class="settings-card-items">
+                    <li class="item" id="variant" onclick="OnVar()">
+                        <span class="checkbox">
+                            <i class="fa-solid fa-check check-icon"></i>
+                        </span>
+                        <span class="item-text">包容異體</span>
+                    </li>
+                    <li class="item" id="subdivide" onclick="OnSdv()">
+                        <span class="checkbox">
+                            <i class="fa-solid fa-check check-icon"></i>
+                        </span>
+                        <span class="item-text">無理拆分</span>
+                    </li>
+                    <li class="item" id="button-reset-data" onclick="prepareData(true)">
+                        <span class="item-text">重新生成數據</span>
+                    </li>
+                </ul>
+            </div>
+            <button id="ctlSaveButton" type="button" class="button-finish" onclick="exitSettings()">完成</button>
+        </div>
+    </div>
+    <div id="loading-mask" class="ring" style="display:none;">
+        <span id="loading-mask-text"></span>
+    </div>
+    <!-- UI 程式區 -->
+    <script type="text/javascript">
+        var serverUrl = "http://tangoapi.localhost:16332/";//"<TANGO_API_URL>";
+        var radiclaInputBox = document.getElementById("radiclaInputBox");
+    </script>
+    <script type="text/javascript" src="http://tangoapi.localhost:16332/TangoAPI.js"></script>
+    <script type="text/javascript" src="jquery.js"></script>
+    <script type="text/javascript" src="ui.js"></script>
+    <script type="text/javascript" src="menu.js"></script>
+    <!----------------------------------------------------------------------------->
+    <!-- 核心程式區 -->
+    <script type="text/javascript" src="data.js"></script>
+    <script type="text/javascript" src="core.js"></script>
+    <script type="text/javascript" src="core_tango.js"></script>
+
+    <!----------------------------------------------------------------------------->
+</body>
+
+</html>

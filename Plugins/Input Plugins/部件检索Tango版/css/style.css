@@ -1,0 +1,321 @@
+@font-face {
+  font-family: 'FSung-1';
+  src: url('FSung-1.ttf') format('truetype');
+  /*font-display: fallback;*/
+}
+@font-face {
+   font-family: 'FSung-2-Part1';
+   src: url('FSung-2.part1.ttf') format('truetype');
+   /*font-display: fallback;*/
+}
+
+@font-face {
+   font-family: 'FSung-2-Part2';
+   src: url('FSung-2.part2.ttf') format('truetype');
+   /*font-display: fallback;*/
+}
+@font-face {
+  font-family: 'FSung-3';
+  src: url('FSung-3.ttf') format('truetype');
+  /*font-display: fallback;*/
+}
+@font-face {
+  font-family: 'FSung-F-Part1';
+  src: url('FSung-F.part1.ttf') format('truetype');
+  /*font-display: fallback;*/
+}
+
+@font-face {
+  font-family: 'FSung-F-Part2';
+  src: url('FSung-F.part2.ttf') format('truetype');
+  /*font-display: fallback;*/
+}
+
+@font-face {
+  font-family: 'FSung-M-Part1';
+  src: url('FSung-m.part1.ttf') format('truetype');
+  /*font-display: fallback;*/
+}
+
+@font-face {
+  font-family: 'FSung-M-Part2';
+  src: url('FSung-m.part2.ttf') format('truetype');
+  /*font-display: fallback;*/
+}
+
+@font-face {
+  font-family: 'FSung-X-Part1';
+  src: url('FSung-X.part1.ttf') format('truetype');
+  /*font-display: fallback;*/
+}
+
+@font-face {
+  font-family: 'FSung-X-Part2';
+  src: url('FSung-X.part2.ttf') format('truetype');
+  /*font-display: fallback;*/
+}
+.ring
+{
+  position:absolute;
+  top:50%;
+  left:50%;
+  transform:translate(-50%,-50%);
+  width:350px;
+  height:350px;
+  background:transparent;
+  border:3px solid #3c3c3c;
+  border-radius:50%;
+  text-align:center;
+  line-height:350px;
+  font-family:sans-serif;
+  font-size:48px;
+  color:#53129e;
+  letter-spacing:4px;
+  text-transform:uppercase;
+  text-shadow:0 0 10px #53129e;
+  box-shadow:0 0 20px rgba(0,0,0,.5);
+}
+.ring:before
+{
+  content:'';
+  position:absolute;
+  top:-8px;
+  left:-8px;
+  width:100%;
+  height:100%;
+  border:8px solid transparent;
+  border-top:8px solid #53129e;
+  border-right:8px solid #53129e;
+  border-radius:50%;
+  animation:animateC 2s linear infinite;
+}
+.ring span
+{
+  display:block;
+  position:absolute;
+  top:calc(50% - 2px);
+  left:50%;
+  width:50%;
+  height:4px;
+  background:transparent;
+  transform-origin:left;
+  animation:animate 2s linear infinite;
+}
+.ring span:before
+{
+  content:'';
+  position:absolute;
+  width:16px;
+  height:16px;
+  border-radius:50%;
+  background:#53129e;
+  top:-6px;
+  right:-8px;
+  box-shadow:0 0 20px #53129e;
+}
+@keyframes animateC
+{
+  0%
+  {
+    transform:rotate(0deg);
+  }
+  100%
+  {
+    transform:rotate(360deg);
+  }
+}
+@keyframes animate
+{
+  0%
+  {
+    transform:rotate(45deg);
+  }
+  100%
+  {
+    transform:rotate(405deg);
+  }
+}
+input:-webkit-autofill,
+input:-webkit-autofill:hover, 
+input:-webkit-autofill:focus, 
+input:-webkit-autofill:active  {
+    -webkit-box-shadow: 0 0 0 30px var(--keyboard_clr_background) inset !important;
+}
+.radical-input-box{
+  font-size: 1.3em;
+  font-family: var(--key_font);
+  border: none;
+  padding: 8px;
+  color:#0988ff;  
+  cursor: pointer;
+}
+
+
+
+.word-input-box-container {
+  display: inline-block;
+  border-color: #dad5d5;
+  border-width: 0;
+  height: 50px;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  background-color: #fff;
+  box-sizing: content-box;
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
+}
+
+.word-input-box-container input {
+  height: 50px;
+  border: none !important;
+  border-color: transparent !important;
+  outline: none;
+}
+
+.word-input-box-container button {
+  height: 30px;
+  width: 30px;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.word-output-container {
+  width: 95vw;
+  height: var(--candidate_key_size);
+  overflow: hidden;
+  border-width: 0;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 3px;
+  box-sizing: content-box;
+}
+
+.word-output-container.open {
+  height: auto;
+  overflow: hidden;
+  position: relative;
+}
+
+.word-output {
+  margin-right: 30px;
+  pointer-events:none;
+}
+.out-char-block {
+  display: inline-flex;
+  width: var(--candidate_key_size);
+  height: var(--candidate_key_size);
+  font-size: 1.8em;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  padding: 0px 1px 2px 1px;
+  pointer-events:all;
+  cursor: pointer;
+}
+.button-show-all {
+  float: right;
+  margin-right: 15px;
+  margin-top: 5px;
+  z-index: 2;
+  display: flex;
+  height: 23px;
+  width: 23px;
+  color: #000;
+  font-size: 48px;
+  border-radius: 50%;
+  align-items: center;
+  justify-content: center;
+  transition: 0.3s;
+}
+
+.button-show-all.open .arrow-dwn {
+  transform: rotate(-180deg);
+}
+
+.settings-container {
+  display: block;
+  padding: 20px;
+  font-size: 1.3em;
+  text-align: left;
+  width: 100%;
+  height: 100%;
+}
+
+.settings-card{
+  display:block;
+  padding:10px;
+  background-color: #fff;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+.settings-card-items{
+  display: flex;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  flex-wrap: wrap;
+  width: 100%;
+  margin-bottom: 10px;
+  overflow:hidden;
+  font-size: 1.5em;
+  margin-top: 15px;
+  border-radius: 8px;
+  padding: 16px;
+}
+
+.settings-card-items .item{
+  display: flex;
+  align-items: center;
+  list-style: none;
+  height: 50px;
+  cursor: pointer;
+  transition: 0.3s;
+  padding: 0 15px;
+  border-radius: 8px;
+  margin-bottom: 3px;
+}
+.settings-card-items .item:hover{
+  background-color: #e7edfe;
+}
+.item-text{
+  font-size: 1.2em;
+  color: #333;
+}
+.item .checkbox{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 16px;
+  width: 16px;
+  border-radius: 4px;
+  margin-right: 12px;
+  border: 1.5px solid #c0c0c0;
+  transition: all 0.3s ease-in-out;
+}
+.item.checked .checkbox{
+  background-color: #4070f4;
+  border-color: #4070f4;
+}
+.checkbox .check-icon{
+  color: #fff;
+  font-size: 11px;
+  transform: scale(0);
+  transition: all 0.2s ease-in-out;
+}
+.item.checked .check-icon{
+  transform: scale(1);
+}
+
+.button-finish{
+  margin-top: 20px;
+  background-color: #04AA6D; /* Green */
+  border: none;
+  color: white;
+  padding: 5px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1.2em;
+}
