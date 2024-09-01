@@ -134,7 +134,7 @@ function saveConfig() {
     createKeyboard();
 }
 
-var allKeyboardLayouts = ["Accent", "English", "French", "Greek", "Polish", "Russian", "Spanish", "Turkish", "Ukrainian"];
+var allKeyboardLayouts = ["Accent", "Arabic", "English", "French", "Greek", "Polish", "Russian", "Spanish", "Turkish", "Ukrainian"];
 function getKeyboardLayoutByIndex(index) {
     return tangoKeyboardConfig.selectedKeyboardLyaouts[index].toLowerCase();
 }
