@@ -1,8 +1,8 @@
 {
     "PluginCode":"bjjs-tango-android",
 	"PluginName":"部件检索(Tango安卓版)",
-	"Version":"1.0.1",
+	"Version":"1.0.2",
 	"WindowWidthPercentage": 90,
-	"WindowHeightPercentage": 42,
+	"WindowHeightPercentage": 43,
     "HomePage":"index.html"
 }

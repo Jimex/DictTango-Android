@@ -207,11 +207,11 @@ input:-webkit-autofill:active  {
   display: inline-flex;
   width: var(--candidate_key_size);
   height: var(--candidate_key_size);
-  font-size: 1.8em;
+  font-size: calc(var(--candidate_key_size) / 1.5);
   text-align: center;
   align-items: center;
   justify-content: center;
-  padding: 0px 1px 2px 1px;
+  padding: 5px;
   pointer-events:all;
   cursor: pointer;
 }
@@ -311,13 +311,17 @@ input:-webkit-autofill:active  {
 
 .button{
   margin-top: 20px;
+  margin-right: 20px;
   border: none;
   color: white;
-  padding: 5px 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 1.2em;
+  font-size: 1.5em;
 }
 
 .success{
