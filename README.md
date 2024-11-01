@@ -1,3 +1,5 @@
+# DictTango Android
+
 ## Introduction
 
 DictTango is an offline tool to display the dictionary of MDict format
@@ -25,7 +27,6 @@ Starting from Android 11, all Android apps are no longer allowed to access files
 Please note, however, not to upgrade this version to the one from the Google Play Store, as this will cause the loss of global file management permissions, preventing access to dictionary files on the SD Card.
 
 ## DictTango Windows Version
-
 https://github.com/Jimex/DictTango-Windows
 
 
