@@ -1,9 +1,26 @@
+# 2.3.0.6
+日期: 11月07日 - v2.3.0.6
+- AI会话中支持和ChatGPT API的流式会话
+- 可以在AI会话中切换AI服务
+- 本地AI会话可以选择聊天模式或者问答模式
 
+Date: November 7 - v2.3.0.6
+- Streamed conversations with ChatGPT API are now supported in AI Chat.
+- AI services can be switched within an AI Chat.
+- AI Chat now allow selection between Chat Mode and Q&A Mode.
+
+# 2.3.0.0 - 2.3.0.3
 日期: 11月03日 - v2.3.0.0
 - AI服务添加了调用本地大语言模型文件的功能，可以实现AI Prompt的本地化
 - 添加了AI会话的功能，可以直接跟本地本地大语言模型对话
 - 用户界面设置中加入"极简模式”选项，可以隐藏主页一切非词典的功能
 - 用户界面设置中加入"直接查词”选项，可以在主页初始化后直接打开查词界面
+
+Date: November 3 - v2.3.0.0
+- Added a "Minimalist Mode" option in the user interface settings, allowing all non-dictionary features on the home page to be hidden.
+- Added a "Direct Search" option in the user interface settings, enabling the dictionary search interface to open immediately after the home page is initialized.
+- The AI service now supports calling local large language model files, allowing AI prompts to be processed locally.
+- Added an AI conversation feature, enabling direct interaction with the local large language model.
 
 ## 大语言模型下载方法
 1. 可以直接使用Ollma中的模型 https://ollama.com/library
@@ -11,7 +28,7 @@
 3. Phi-2 7B (Q4_0, 1.6 GiB):https://huggingface.co/ggml-org/models/resolve/main/phi-2/ggml-model-q4_0.gguf?download=true
 4. Phi 2 DPO (Q3_K_M, 1.48 GiB):https://huggingface.co/TheBloke/phi-2-dpo-GGUF/resolve/main/phi-2-dpo.Q3_K_M.gguf?download=true
 
-## 调用本地大语言模型文件
+## 调用本地大语言模型文件步骤
 1) 下载本地大语言模型文件并保存到手机
 2) 在DictTango中添加AI服务器，服务提供者选"本地大模型"
 3) 添加AI Prompt或者直接在首页点击"AI会话" 
