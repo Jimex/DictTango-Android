@@ -1,4 +1,4 @@
-# 2.3.0.6
+# 2.3.0.7
 日期: 11月09日 - v2.3.0.7
 - 解决了升级当安卓系统中的Android System Webview到1.3.0后，导致"entry://"无法正确跳转的问题 (https://github.com/Jimex/DictTango-Android/issues/52)
 - 解决了控制台中无法查询AI词典的问题
