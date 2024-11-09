@@ -1,4 +1,15 @@
 # 2.3.0.6
+日期: 11月09日 - v2.3.0.7
+- 解决了升级当安卓系统中的Android System Webview到1.3.0后，导致"entry://"无法正确跳转的问题 (https://github.com/Jimex/DictTango-Android/issues/52)
+- 解决了控制台中无法查询AI词典的问题
+
+
+Date: November9 - v2.3.0.7
+- Fixed the issue where upgrading Android System WebView to 1.3.0 in the Android system caused "entry://" links to fail to redirect correctly (https://github.com/Jimex/DictTango-Android/issues/52).
+- Fixed the issue where the AI dictionary could not be work in the PC Console.
+
+
+# 2.3.0.6
 日期: 11月07日 - v2.3.0.6
 - AI会话中支持和ChatGPT API的流式会话
 - 可以在AI会话中切换AI服务
