@@ -1,5 +1,5 @@
-# 2.3.0.8
-日期: 11月09日
+# 2.3.0.8 (To be released)
+日期: 11月10日
 - 解决了Edge TTS的连接问题
 
 Date: November 10
