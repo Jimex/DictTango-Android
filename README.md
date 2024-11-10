@@ -31,6 +31,9 @@ https://github.com/Jimex/DictTango-Windows
 
 
 
+
+# DictTango Android版
+
 ## 中文介绍
 DictTango是一款基于Mdict格式进行查词的App
 
