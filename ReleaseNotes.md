@@ -1,9 +1,14 @@
 # 2.3.0.8 (To be released)
 日期: 11月10日
 - 解决了Edge TTS的连接问题
+- 使用分段生成TTS，提升速度
+- 解决了词典描述中entry://的跳转问题
+
 
 Date: November 10
-- Resolved the connection issue with Edge TTS.
+- Resolved the connection issue with Edge TTS
+- Used segmented TTS generation to improve speed
+- Fixed the `entry://` link issue in dictionary descriptions
 
 # 2.3.0.7
 日期: 11月09日 - v2.3.0.7

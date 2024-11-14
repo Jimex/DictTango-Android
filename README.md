@@ -20,7 +20,7 @@ DictTango is an offline tool to display the dictionary of MDict format
 - -Comes with a built-in in-app file explorer that can view and highlight CSS and JS files.
 - -Includes an MDD file explorer that allows direct viewing of directories and files within MDD files.
 - -Supports AI integration and custom AI prompts, currently compatible with ChatGPT, Google AI, Wenxin Yiyan, and the built-in Tango Assistant (capable of converting between simplified and traditional Chinese, OCR, and running standalone JS scripts). AI prompts can be added as online dictionaries.
-- - Support local LLAMA, the AI chat feature enabling direct interaction with the local large language model
+- -Support local LLAMA, the AI chat feature enabling direct interaction with the local large language model
 ## Difference between the version here and the Google Play Store version
 Starting from Android 11, all Android apps are no longer allowed to access files outside their designated app folders on the SD Card (located under the /Android/data directory). Although adding global file management permissions can resolve this issue, the Google Play Store does not allow regular apps to have this permission. However, this version includes the additional permission, so after user authorization, it can access all files on the SD Card.
 
