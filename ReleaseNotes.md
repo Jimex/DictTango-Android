@@ -1,14 +1,16 @@
-# 2.3.0.8 (To be released)
-日期: 11月10日
+# 2.3.0.9
+日期: 11月16日
+- 本地大模型添加了repeat_penalty, frequency_penalty, presence_penalty的调整
 - 解决了Edge TTS的连接问题
 - 使用分段生成TTS，提升速度
 - 解决了词典描述中entry://的跳转问题
 
+Date: November 16
+- Added adjustments for `repeat_penalty`, `frequency_penalty`, and `presence_penalty` to the local large model.
+- Resolved the connection issue with TTS.
+- Used segmented generation for TTS to improve speed.
+- Fixed the redirection issue with `entry://` in the dictionary description
 
-Date: November 10
-- Resolved the connection issue with Edge TTS
-- Used segmented TTS generation to improve speed
-- Fixed the `entry://` link issue in dictionary descriptions
 
 # 2.3.0.7
 日期: 11月09日 - v2.3.0.7
