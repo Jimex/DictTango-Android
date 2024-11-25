@@ -1,15 +1,14 @@
-# 2.3.0.9
-日期: 11月16日
-- 本地大模型添加了repeat_penalty, frequency_penalty, presence_penalty的调整
-- 解决了Edge TTS的连接问题
-- 使用分段生成TTS，提升速度
-- 解决了词典描述中entry://的跳转问题
+# 2.3.1.3
+日期: 11月25日
+- 解决了一些spx格式不能播放的问题
+- 优化了本地AI会话的界面，可以实现代码高亮
+- AI Prompt改为直接与指定AI服务关联
 
-Date: November 16
-- Added adjustments for `repeat_penalty`, `frequency_penalty`, and `presence_penalty` to the local large model.
-- Resolved the connection issue with TTS.
-- Used segmented generation for TTS to improve speed.
-- Fixed the redirection issue with `entry://` in the dictionary description
+Date: November 25
+- Resolved issues where some SPX format files could not be played.
+- Optimized the interface for local AI chat, enabling code highlighting.
+- AI Prompt is now directly associated with a specified AI service.
+
 
 
 # 2.3.0.7
