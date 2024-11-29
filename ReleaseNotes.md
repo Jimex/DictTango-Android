@@ -1,10 +1,12 @@
 # 2.3.1.6
 - 词典管理中添加了"健康检查"功能，可以检查一些由于编码导致的问题(例如单词含有有不可见字符，或者UTF BOM格式）
 - 解决了些音频播放问题
-  
-![d7a651ae852676a77464ff03d6deb3ca](https://github.com/user-attachments/assets/82edc737-11b4-4069-b48f-428ea46606bf)
 
-![a86fa1fd49d77c36fe3ed64b20015c19](https://github.com/user-attachments/assets/a8580023-7a70-4ede-ad40-7429590a0527)
+<img src="https://github.com/user-attachments/assets/15ebbdd9-c790-4aa2-91cb-e215b53edd22" width="200">
+
+<img src="https://github.com/user-attachments/assets/8a62d857-6340-4b0a-927e-126ef84bcb57" width="200">
+
+
 
 
 **English:**
