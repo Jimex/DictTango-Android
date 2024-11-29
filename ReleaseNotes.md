@@ -1,3 +1,16 @@
+# 2.3.1.6
+- 词典管理中添加了"健康检查"功能，可以检查一些由于编码导致的问题(例如单词含有有不可见字符，或者UTF BOM格式）
+- 解决了些音频播放问题
+  
+![d7a651ae852676a77464ff03d6deb3ca](https://github.com/user-attachments/assets/82edc737-11b4-4069-b48f-428ea46606bf)
+
+![a86fa1fd49d77c36fe3ed64b20015c19](https://github.com/user-attachments/assets/a8580023-7a70-4ede-ad40-7429590a0527)
+
+
+**English:**
+- The "Health CheckUp" feature has been added to the dictionary management, which can check for issues caused by encoding (e.g., words containing invisible characters or UTF BOM pattern).
+- Some audio playback issues have been resolved.
+
 # 2.3.1.3
 日期: 11月25日
 - 解决了一些spx格式不能播放的问题
