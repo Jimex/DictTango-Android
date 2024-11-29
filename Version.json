@@ -1,8 +1,8 @@
 {
-    "versionCode": 2300,
-    "versionName": "2.3.0.0",
+    "versionCode": 2318,
+    "versionName": "2.3.1.8",
     "url": "https://github.com/Jimex/DictTango-Android",
-    "enDesc": "- AI prompts can now be used in the dictionary's find and replace feature.\n- Fixed an issue where zooming was not effective in full-text search.\n- Fixed the issue where dictionary name searches in reading mode did not support cross-language (simplified-traditional) search.\n- Attempted to resolve search issues with certain accented characters (this feature is experimental and may be rolled back if it causes crashes).",
-    "zhcnDesc": "- 可以将在词典的的查找与替换功能中使用AI Prompt\n- 修正了全文检索中缩放不生效的问题\n- 修正了阅读模式下词典名称搜索不支持简繁通查的问题\n- 尝试解决某些重音字符的搜索（此功能是实验性能，如果因此导致闪退，可能会撤回）",
-    "zhtwDesc": "- 可以在詞典的查找與替換功能中使用 AI Prompt\n- 修正了全文檢索中縮放不生效的問題\n- 修正了閱讀模式下詞典名稱搜索不支持簡繁通查的問題\n- 嘗試解決某些重音字符的搜索問題（此功能為實驗性，若因此導致閃退，可能會撤回）"
-  }
+    "enDesc": "Test",
+    "zhcnDesc": "test",
+    "zhtwDesc": "test"
+ }
