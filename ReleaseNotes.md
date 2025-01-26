@@ -1,3 +1,26 @@
+# 2.3.2.0
+日期: 01月26日
+- 本地大模型会话添加了对Deepseek-R1的支持
+- 解决了控制台查词的跳转问题
+- 解决了AI Prompt的弹出窗口不能手动选择文字复制的问题
+- 升级llama.cpp组件库
+- 解决了llama.android中的闪退问题
+- 解决了一些查词问题
+- 
+Date: 26 Jan
+- AI services and local AI chat now support Deepseek-R1.
+- Resolved the issue with the dictionary navigation in the PC console.
+- Fixed the problem where text could not be manually selected and copied in the AI Prompt pop-up window.
+- Upgraded the llama.cpp component library.
+- Fixed the crash issue in llama.android.
+
+- AI服務及本地大模型會話新增對Deepseek-R1的支持。
+- 解決了控制台查詞跳轉的問題。
+- 解決了AI Prompt彈出窗口無法手動選取並複製文字的問題。
+- 升級了llama.cpp組件庫。
+- 修復了llama.android中的閃退問題。
+
+
 # 2.3.1.6
 日期: 11月29日
 - 词典管理中添加了"健康检查"功能，可以检查一些由于编码导致的问题(例如单词含有有不可见字符，或者UTF BOM格式）
