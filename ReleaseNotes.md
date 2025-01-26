@@ -1,12 +1,12 @@
 # 2.3.2.0
 日期: 01月26日
-- 本地大模型会话添加了对Deepseek-R1的支持
+- 本地大模型会话添加了对Deepseek-R1的支持 (https://huggingface.co/bartowski/DeepSeek-R1-Distill-Qwen-1.5B-GGUF)
 - 解决了控制台查词的跳转问题
 - 解决了AI Prompt的弹出窗口不能手动选择文字复制的问题
 - 升级llama.cpp组件库
 - 解决了llama.android中的闪退问题
 - 解决了一些查词问题
-- 
+  
 Date: 26 Jan
 - AI services and local AI chat now support Deepseek-R1.
 - Resolved the issue with the dictionary navigation in the PC console.
