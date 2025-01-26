@@ -1,8 +1,8 @@
 {
-  "versionCode": 2316,
-  "versionName": "2.3.1.6",
+  "versionCode": 2320,
+  "versionName": "2.3.2.0",
   "url": "https://github.com/Jimex/DictTango-Android",
-  "enDesc": "- The \"Health CheckUp\" feature has been added to the dictionary management, which can check for issues caused by encoding (e.g., words containing invisible characters or UTF BOM pattern).\n- Some audio playback issues have been resolved.",
-  "zhcnDesc": "- 词典管理中添加了\"健康检查\"功能，可以检查一些由于编码导致的问题(例如单词含有有不可见字符，或者UTF BOM格式）\n- 解决了些音频播放问题",
-  "zhtwDesc": "- 於詞典管理中新增了「健康檢查」功能，可檢查由編碼導致的一些問題（例如單詞包含不可見字符或UTF BOM格式）。\n- 解決了一些音頻播放問題。"
+  "enDesc": "- AI services and local AI chat now support Deepseek-R1.\n- Resolved the issue with the dictionary navigation in the PC console.\n- Fixed the problem where text could not be manually selected and copied in the AI Prompt pop-up window.\n- Upgraded the llama.cpp component library.\n- Fixed the crash issue in llama.android.",
+  "zhcnDesc": "- 本地大模型会话添加了对Deepseek-R1的支持\n- 解决了控制台查词的跳转问题\n- 解决了AI Prompt的弹出窗口不能手动选择文字复制的问题\n- 升级llama.cpp组件库\n- 解决了llama.android中的闪退问题\n- 解决了一些查词问题",
+  "zhtwDesc": "- AI服務及本地大模型會話新增對Deepseek-R1的支持。\n- 解決了控制台查詞跳轉的問題。\n- 解決了AI Prompt彈出窗口無法手動選取並複製文字的問題。\n- 升級了llama.cpp組件庫。\n- 修復了llama.android中的閃退問題。"
 }
