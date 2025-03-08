@@ -1,8 +1,8 @@
 {
-  "versionCode": 2320,
-  "versionName": "2.3.2.0",
+  "versionCode": 2323,
+  "versionName": "2.3.2.3",
   "url": "https://github.com/Jimex/DictTango-Android",
-  "enDesc": "- AI services and local AI chat now support Deepseek-R1.\n- Resolved the issue with the dictionary navigation in the PC console.\n- Fixed the problem where text could not be manually selected and copied in the AI Prompt pop-up window.\n- Upgraded the llama.cpp component library.\n- Fixed the crash issue in llama.android.",
-  "zhcnDesc": "- 本地大模型会话添加了对Deepseek-R1的支持\n- 解决了控制台查词的跳转问题\n- 解决了AI Prompt的弹出窗口不能手动选择文字复制的问题\n- 升级llama.cpp组件库\n- 解决了llama.android中的闪退问题\n- 解决了一些查词问题",
-  "zhtwDesc": "- AI服務及本地大模型會話新增對Deepseek-R1的支持。\n- 解決了控制台查詞跳轉的問題。\n- 解決了AI Prompt彈出窗口無法手動選取並複製文字的問題。\n- 升級了llama.cpp組件庫。\n- 修復了llama.android中的閃退問題。"
+  "enDesc": "- [Local LLM]Added support for DeepScaleR.\n- [Local LLM]Optimized the system role of DeepseekR1, forcing it to reason step by step.\n- [Local LLM]Added a sampler setting option, defaulting to \"greedy\"; setting it to \"dist\" can reduce repetitive output.\n- [Ask AI Online]Aded support for DeepSeek's official website.\n- Fixed some minor issues.",
+  "zhcnDesc": "- [本地LLM]添加了对DeepScaleR的支持\n- [本地LLM]优化了DeepseekR1的系统角色，强制它逐步推理\n- [本地LLM]添加了sampler的设置选项，默认为greedy,设置成dist可以减少重复输出\n- [在线问AI]添加了DeepSeek的官方网站支持0\n- 解决了一些小问题",
+  "zhtwDesc": "- [本地 LLM] 優化了對 DeepScaleR 的支援。\n- [本地 LLM] 優化了 DeepseekR1 的系統角色，強制其逐步推理。\n- [本地 LLM] 添加了 sampler 的設定選項，預設為 \"greedy\"，設定為 \"dist\" 可減少重複輸出。\n- [在線問 AI] 添加了對 DeepSeek 官方網站的支援。\n- 修復了一些小問題。"
 }
