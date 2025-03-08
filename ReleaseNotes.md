@@ -1,3 +1,27 @@
+# 2.3.2.3
+**日期: 03月08日**
+- [本地LLM]添加了对DeepScaleR的支持
+- [本地LLM]优化了DeepseekR1的系统角色，强制它逐步推理
+- [本地LLM]添加了sampler的设置选项，默认为greedy,设置成dist可以减少重复输出
+- [在线问AI]添加了DeepSeek的官方网站支持0
+- 解决了一些小问题
+
+**English:**
+**Date: March 8**
+- [Local LLM]Added support for DeepScaleR.
+- [Local LLM]Optimized the system role of DeepseekR1, forcing it to reason step by step.
+- [Local LLM]Added a sampler setting option, defaulting to "greedy"; setting it to "dist" can reduce repetitive output.
+- [Ask AI Online]Aded support for DeepSeek's official website.
+- Fixed some minor issues.
+
+**Traditional Chinese:**
+**日期: 03月08日**
+- [本地 LLM] 優化了對 DeepScaleR 的支援。
+- [本地 LLM] 優化了 DeepseekR1 的系統角色，強制其逐步推理。
+- [本地 LLM] 添加了 sampler 的設定選項，預設為 "greedy"，設定為 "dist" 可減少重複輸出。
+- [在線問 AI] 添加了對 DeepSeek 官方網站的支援。
+- 修復了一些小問題。
+
 # 2.3.2.0
 日期: 01月26日
 - 本地大模型会话添加了对Deepseek-R1的支持 (https://huggingface.co/bartowski/DeepSeek-R1-Distill-Qwen-1.5B-GGUF)
