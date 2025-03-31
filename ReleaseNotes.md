@@ -1,3 +1,21 @@
+# 2.3.2.7
+**日期: 03月31日**
+- [查词]添加了"AI查词"功能, 支持进行上下文查词, 详情可参考Github Wiki
+- [本地LLM]添加了对Gemma 3的支持
+- 解决了一些小问题
+
+**English:**
+**Date: March 31**
+- [Word Lookup] Added "AI Word Lookup" feature, supporting contextual word search. See GitHub Wiki for details.
+- [Local LLM] Added support for Gemma 3.
+- Fixed some minor issues.
+
+**Traditional Chinese:**
+**日期: 03月31日**
+- [查詞] 新增「AI 查詞」功能，支援上下文查詞，詳情可參考 GitHub Wiki。
+- [本地 LLM] 新增對 Gemma 3 的支援。
+- 修復了一些小問題。
+
 # 2.3.2.3
 **日期: 03月08日**
 - [本地LLM]添加了对DeepScaleR的支持
