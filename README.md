@@ -60,10 +60,11 @@ DictTango是一款基于Mdict格式进行查词的App
 ## 这里的版本与Google Play Store版本的区别
 从安卓11开始，所有Android应用将不再支持访问SD Card上非应用文件夹（位于/Andoid/data目录下）以外的文件，虽然添加全局文件管理权限可以解决这个问题，但Google Play Store不允许一般应用有这个权限。而这里的版本额外添加了这个权限，所以从这里下载的版本通过用户授权后是可以访问SD Card上所有的文件的。
 
+但要切记不要从这里版本升级到谷歌市场的版本，否则会失去全局文件管理的权限而导致不能访问SD Card上的词典文件。
+
 ## 为什么 Google Play 版本消失了？  
 这并不是因为我不喜欢 Google 对 SD 卡访问的限制, 相反我很拥护这个限制，因为它对用户手机起到了保护作用，所以即使在全功能的版本中，访问SD 卡中任意文件的功能只是一个选项，而且默认是没有启用的。至于Google Play版本下架的原因，可以参考：https://github.com/Jimex/DictTango-Android/issues/73
 
-但要切记不要从这里版本升级到谷歌市场的版本，否则会失去全局文件管理的权限而导致不能访问SD Card上的词典文件。
 
 ## DictTango Windows版
 
