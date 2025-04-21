@@ -1,3 +1,18 @@
+# 2.3.2.8
+日期: 04月21日 - v2.3.2.8
+- [查词]重新布局"AI上下文查词", 实现更方便的和AI进行沟通
+- [本地LLM]升级llama.ccp内核到最新版本
+
+Date: April 21 - v2.3.2.8
+- [Word Lookup] Redesigned layout for "AI Contextual Word Lookup" to enable easier communication with AI
+- [Local LLM] Upgraded llama.cpp core to the latest version
+
+
+日期： 4月21日 - v2.3.2.8
+- 【查詞】 重新設計「AI 上下文查詞」的版面配置，讓與 AI 的溝通更便利
+- 【本地 LLM】 將 llama.cpp 核心升級至最新版本
+
+
 # 2.3.2.7
 **日期: 03月31日**
 - [查词]添加了"AI查词"功能, 支持进行上下文查词, 详情可参考Github Wiki
