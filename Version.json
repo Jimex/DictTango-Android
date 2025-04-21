@@ -1,8 +1,8 @@
 {
-  "versionCode": 2327,
-  "versionName": "2.3.2.7",
+  "versionCode": 2328,
+  "versionName": "2.3.2.8",
   "url": "https://github.com/Jimex/DictTango-Android",
-  "enDesc": "- [Word Lookup] Added \"AI Word Lookup\" feature, supporting contextual word search. See GitHub Wiki for details.\n- [Local LLM] Added support for Gemma 3.\n- Fixed some minor issues.",
-  "zhcnDesc": "- [查词]添加了\"AI查词\"功能, 支持进行上下文查词, 详情可参考Github Wiki\n- [本地LLM]添加了对Gemma 3的支持\n- 解决了一些小问题",
-  "zhtwDesc": "- [查詞] 新增「AI 查詞」功能，支援上下文查詞，詳情可參考 GitHub Wiki。\n- [本地 LLM] 新增對 Gemma 3 的支援。\n- 修復了一些小問題。"
+  "enDesc": "- [Word Lookup] Redesigned layout for \"AI Contextual Word Lookup\" to enable easier communication with AI\n- [Local LLM] Upgraded llama.cpp core to the latest version",
+  "zhcnDesc": "- [查词]重新布局\"AI上下文查词\", 实现更方便的和AI进行沟通\n- [本地LLM]升级llama.ccp内核到最新版本",
+  "zhtwDesc": "- 【查詞】 重新設計「AI 上下文查詞」的版面配置，讓與 AI 的溝通更便利\n- 【本地 LLM】 將 llama.cpp 核心升級至最新版本"
 }
