@@ -1,3 +1,25 @@
+# 2.3.2.9
+日期: 05月03日 - v2.3.2.9
+- [查词] AI 上下文查词支持流式输出，提升使用流畅度
+- [查词] 增加查词历史管理功能（支持搜索、删除、导出 JSON），并移除设置中的“清除查词历史”选项
+- [备份与恢复] 自动备份机制调整为每日生成新文件，并以每周为周期进行循环备份
+- [本地 LLM] 新增对 Qwen3 模型的支持
+
+
+
+Date: 3rd May  - v2.3.2.9
+- [Word Lookup] AI context-based word lookup now supports streaming output for smoother interaction
+- [Word Lookup] Added history management features (search, delete, export to JSON), and removed the "Clear Lookup History" option from Settings
+- [Backup & Restore] Auto-backup now generates a new file daily, with a weekly rotation strategy
+- [Local LLM] Added support for the Qwen3 model
+
+
+日期： 5月03日 - v2.3.2.9
+- [查詞] AI 上下文查詞支援串流輸出，提升使用流暢度
+- [查詞] 新增查詞歷史管理功能（支援搜尋、刪除、匯出 JSON），並移除設定中的「清除查詞歷史」選項
+- [備份與還原] 自動備份機制調整為每日產生新檔案，並以每週為循環進行備份
+- [本地 LLM] 新增支援 Qwen3 模型
+  
 # 2.3.2.8
 日期: 04月21日 - v2.3.2.8
 - [查词]重新布局"AI上下文查词", 实现更方便的和AI进行沟通
