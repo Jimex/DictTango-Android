@@ -1,8 +1,8 @@
 {
-  "versionCode": 2328,
-  "versionName": "2.3.2.8",
+  "versionCode": 2329,
+  "versionName": "2.3.2.9",
   "url": "https://github.com/Jimex/DictTango-Android",
-  "enDesc": "- [Word Lookup] Redesigned layout for \"AI Contextual Word Lookup\" to enable easier communication with AI\n- [Local LLM] Upgraded llama.cpp core to the latest version",
-  "zhcnDesc": "- [查词]重新布局\"AI上下文查词\", 实现更方便的和AI进行沟通\n- [本地LLM]升级llama.ccp内核到最新版本",
-  "zhtwDesc": "- 【查詞】 重新設計「AI 上下文查詞」的版面配置，讓與 AI 的溝通更便利\n- 【本地 LLM】 將 llama.cpp 核心升級至最新版本"
+  "enDesc": "- [Word Lookup] AI context-based word lookup now supports streaming output for smoother interaction\n- [Word Lookup] Added history management features (search, delete, export to JSON), and removed the \"Clear Lookup History\" option from Settings\n- [Backup & Restore] Auto-backup now generates a new file daily, with a weekly rotation strategy\n- [Local LLM] Added support for the Qwen3 model",
+  "zhcnDesc": "- [查词] AI 上下文查词支持流式输出，提升使用流畅度\n- [查词] 增加查词历史管理功能（支持搜索、删除、导出 JSON），并移除设置中的“清除查词历史”选项\n- [备份与恢复] 自动备份机制调整为每日生成新文件，并以每周为周期进行循环备份\n- [本地 LLM] 新增对 Qwen3 模型的支持",
+  "zhtwDesc": "- [查詞] AI 上下文查詞支援串流輸出，提升使用流暢度\n- [查詞] 新增查詞歷史管理功能（支援搜尋、刪除、匯出 JSON），並移除設定中的「清除查詞歷史」選項\n- [備份與還原] 自動備份機制調整為每日產生新檔案，並以每週為循環進行備份\n- [本地 LLM] 新增支援 Qwen3 模型"
 }
