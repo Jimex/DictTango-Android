@@ -1,3 +1,25 @@
+# 2.3.3.0
+日期: 06月29日 - v2.3.3.0
+- [LLM] 添加Gemma 3n支持并优化输出速度
+- [查词] 查词历史添加排序功能
+- [查词] 优化查词输入框动画
+
+Gemma 3n模型下载: https://huggingface.co/collections/ggml-org/gemma-3n-685d6fc0843071be9e77b6f7,
+如果本地模型文件名没有包含"gemma"和"3n", 可以在模型参数中设置Override Tensors为per_layer_token_embd.weight=CPU启用输出优化
+
+
+English:
+Date: June 29th - v2.3.3.0
+[LLM] Added support for Gemma 3n and optimized output speed
+[Dictionary] Added sorting function to lookup history
+[Dictionary] Optimized input box animation for word lookup
+
+Traditional Chinese:
+日期： 6月29日 - v2.3.3.0
+【LLM】新增對 Gemma 3n 的支援，並優化輸出速度
+【查詞】查詞歷史新增排序功能
+【查詞】優化查詞輸入框動畫
+
 # 2.3.2.9
 日期: 05月03日 - v2.3.2.9
 - [查词] AI 上下文查词支持流式输出，提升使用流畅度
