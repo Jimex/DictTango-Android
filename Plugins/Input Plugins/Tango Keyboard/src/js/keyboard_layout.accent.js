@@ -21,7 +21,10 @@ accentKeyboard.layouts['accent'] = [
       ]
     },
     { d: 'r', u: 'R' },
-    { d: 't', u: 'T' },
+    { d: 't', u: 'T', m:[
+        {d:'ṭ',u:'Ṭ'},     
+      ]
+    },
     {
       d: 'y', u: 'Y', m: [
         { d: 'ý', u: 'Ý' }, // Acute 
@@ -64,13 +67,19 @@ accentKeyboard.layouts['accent'] = [
       ]
     },
     { d: 's', u: 'S' },
-    { d: 'd', u: 'D' },
+    { d: 'd', u: 'D' , m:[
+        {d:'ḍ',u:'Ḍ'}     
+      ]
+    },
     { d: 'f', u: 'F' },
     { d: 'g', u: 'G' },
     { d: 'h', u: 'H' },
     { d: 'j', u: 'J' },
     { d: 'k', u: 'K' },
-    { d: 'l', u: 'L'},
+    { d: 'l', u: 'L', m:[
+        {d:'ḷ',u:'Ḷ'}    
+      ]
+    },
     {keyType:"DELETE"},
     {keyType:"CAPS", css:'font-double'}, // Caps lock //20
     { d: 'z', u: 'Z'},
@@ -80,10 +89,16 @@ accentKeyboard.layouts['accent'] = [
     { d: 'b', u: 'B' },
     {
       d: 'n', u: 'N', m: [
-        { d: 'ñ', u: 'Ñ' } // Tilde 
+        { d: 'ñ', u: 'Ñ' }, // Tilde 
+        {d:'ṅ',u:'Ṅ'},
+        {d:'ñ',u:'Ñ'},
+        {d:'ṇ',u:'Ṇ'}
       ]
     },
-    { d: 'm', u: 'M'},
+    { d: 'm', u: 'M', m:[
+        {d:'ṃ',u:'Ṃ'}   
+      ]
+    },
     {keyType:"ENTER", css:'key-span-2 font-double'},
     {keyType:"SETTINGS"},
     {keyType:"CLEAR_TEXT"},
