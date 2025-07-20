@@ -1,8 +1,8 @@
 {
-  "versionCode": 2330,
-  "versionName": "2.3.3.0",
+  "versionCode": 2331,
+  "versionName": "2.3.3.1",
   "url": "https://github.com/Jimex/DictTango-Android",
-  "enDesc": "[LLM] Added support for Gemma 3n and optimized output speed\n[Dictionary] Added sorting function to lookup history\n[Dictionary] Optimized input box animation for word lookup",
-  "zhcnDesc": "- [LLM] 添加Gemma 3n支持并优化输出速度\n- [查词] 查词历史添加排序功能\n- [查词] 优化查词输入框动画",
-  "zhtwDesc": "【LLM】新增對 Gemma 3n 的支援，並優化輸出速度\n【查詞】查詞歷史新增排序功能\n【查詞】優化查詞輸入框動畫"
+  "enDesc": "- [Reading Mode] Optimized fullscreen display\n- [Mdx] Improved reading and writing of .mdx files, enhancing full-text search and word lookup performance",
+  "zhcnDesc": "- [阅读模式] 优化了全屏模式的显示\n- [Mdx] 优化mdx文件的读写，提升全文检索和查词性能",
+  "zhtwDesc": "-[閱讀模式] 優化了全螢幕模式的顯示\n-[Mdx] 優化了 .mdx 檔案的讀寫，提升全文搜尋與查詞效能"
 }
