@@ -1,3 +1,16 @@
+# 2.3.3.1
+日期: 07月20日 - v2.3.3.1
+- [阅读模式] 优化了全屏模式的显示
+- [Mdx] 优化mdx文件的读写，提升全文检索和查词性能
+
+Date: July 20 – v2.3.3.1
+- [Reading Mode] Optimized fullscreen display
+- [Mdx] Improved reading and writing of .mdx files, enhancing full-text search and word lookup performance
+
+日期：7月20日 – v2.3.3.1
+-[閱讀模式] 優化了全螢幕模式的顯示
+-[Mdx] 優化了 .mdx 檔案的讀寫，提升全文搜尋與查詞效能
+
 # 2.3.3.0
 日期: 06月29日 - v2.3.3.0
 - [LLM] 添加Gemma 3n支持并优化输出速度
