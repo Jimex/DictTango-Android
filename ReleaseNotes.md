@@ -1,3 +1,29 @@
+# 2.3.3.3
+日期: 07月22日 - v2.3.3.3
+1) [AI] 修正了调用OPEN AI API时的Content Type问题
+2) [Tap Anywhere]添加了 "Tap Anywhere"功能
+- 启用后在大多数应用中只要选择了单词, 就可以直接在底部弹出的Tap Anywhere面板显示词典的简要解释(需要设置词典分组的概述分组)
+- 点击Tap Anywhere弹出面板上的简要解释可以打开浮动窗口并显示详细内容
+- 点击Tap Anywhere弹出面板上左边的应用图标可以打开主查询窗口并显示详细内容
+- 点击Tap Anywhere弹出面板上右边的查词图标, 可以根据选中的单词以及单词所在段落进行AI情景查词
+
+
+
+1) [AI] Fixed the Content-Type issue when calling the OpenAI API.
+2) [Tap Anywhere] Added the "Tap Anywhere" feature:
+- Once enabled, selecting a word in most apps will directly display a brief dictionary explanation in the Tap Anywhere pop-up panel at the bottom (requires configuring the brief dictionary for dictionary group of floating window).
+- Tapping the brief explanation in the Tap Anywhere pop-up panel opens a floating window with detailed content.
+- Tapping the app icon on the left side of the Tap Anywhere panel opens the main lookup window with detailed content.
+- Tapping the word lookup icon on the right side of the Tap Anywhere panel initiates an AI contextual word lookup based on the selected word and the paragraph it appears in.
+
+
+1) [AI] 修正了調用 OpenAI API 時的 Content-Type 問題
+2) [Tap Anywhere] 新增了 "Tap Anywhere" 功能：
+- 啟用後，在大多數應用中只要選取了單詞，就可以直接在底部彈出的 Tap Anywhere 面板中顯示詞典的簡要解釋（需要設定詞典分組的概覽分組）
+- 點擊 Tap Anywhere 彈出面板上的簡要解釋可以開啟浮動視窗並顯示詳細內容
+- 點擊 Tap Anywhere 彈出面板左側的應用圖示可以開啟主查詢視窗並顯示詳細內容
+- 點擊 Tap Anywhere 彈出面板右側的查詞圖示，可以根據選中的單詞以及其所在段落進行 AI 情境查詞
+
 # 2.3.3.1
 日期: 07月20日 - v2.3.3.1
 - [阅读模式] 优化了全屏模式的显示
