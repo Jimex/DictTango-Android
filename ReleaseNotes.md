@@ -1,3 +1,22 @@
+# 2.3.3.4
+
+日期: 07月26日 - v2.3.3.4
+- [查词] 修正了直接查词时在结果页滑动会自动返回到搜索界面的问题
+- [Tap Anywhere] 优化了Tap Anywhere面板的显示, 添加了文字检测长度和显示超时的设置项
+- [界面] 修正横屏模式时设置按钮的颜色问题
+
+**English:**
+- [Word Lookup] Fixed an issue where scrolling on the result page during word lookup would automatically return to the search page.
+- [Tap Anywhere] Optimized the display of the Tap Anywhere panel; added settings for text detection length cap and display timeout.
+- [Interface] Fixed the color issue of the settings button in landscape mode.
+
+---
+
+**Traditional Chinese:**
+- 【查詞】修正了直接查詞時，在結果頁滑動會自動返回搜尋介面的問題。
+- 【Tap Anywhere】優化了 Tap Anywhere 面板的顯示，新增了文字偵測長度與顯示逾時的設定項目。
+- 【介面】修正在橫屏模式下設定按鈕顏色的問題。
+  
 # 2.3.3.3
 日期: 07月22日 - v2.3.3.3
 1) [AI] 修正了调用OPEN AI API时的Content Type问题
