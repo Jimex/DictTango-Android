@@ -1,8 +1,8 @@
 {
-  "versionCode": 2333,
-  "versionName": "2.3.3.3",
+  "versionCode": 2334,
+  "versionName": "2.3.3.4",
   "url": "https://github.com/Jimex/DictTango-Android",
-  "enDesc": "-[AI] Fixed the Content-Type issue when calling the OpenAI API.\n-[Tap Anywhere] Added the \"Tap Anywhere\" feature:\n-- Once enabled, selecting a word in most apps will directly display a brief dictionary explanation in the Tap Anywhere pop-up panel at the bottom (requires configuring the brief dictionary for dictionary group of floating window).\n-- Tapping the brief explanation in the Tap Anywhere pop-up panel opens a floating window with detailed content.\n-- Tapping the app icon on the left side of the Tap Anywhere panel opens the main lookup window with detailed content.\n-- Tapping the word lookup icon on the right side of the Tap Anywhere panel initiates an AI contextual word lookup based on the selected word and the paragraph it appears in.",
-  "zhcnDesc": "- [AI] 修正了调用OPEN AI API时的Content Type问题\n- [Tap Anywhere]添加了 \"Tap Anywhere\"功能，\n--启用后在大多数应用中只要选择了单词, 就可以直接在底部弹出的Tap Anywhere面板显示词典的简要解释(需要设置词典分组的概述分组)\n--点击Tap Anywhere弹出面板上的简要解释可以打开浮动窗口并显示详细内容\n--点击Tap Anywhere弹出面板上左边的应用图标可以打开主查询窗口并显示详细内容\n--点击Tap Anywhere弹出面板上右边的查词图标, 可以根据选中的单词以及单词所在段落进行AI情景查词",
-  "zhtwDesc": "[AI] 修正了調用 OpenAI API 時的 Content-Type 問題\n[Tap Anywhere] 新增了 \"Tap Anywhere\" 功能：\n-- 啟用後，在大多數應用中只要選取了單詞，就可以直接在底部彈出的 Tap Anywhere 面板中顯示詞典的簡要解釋（需要設定詞典分組的概覽分組）\n-- 點擊 Tap Anywhere 彈出面板上的簡要解釋可以開啟浮動視窗並顯示詳細內容\n-- 點擊 Tap Anywhere 彈出面板左側的應用圖示可以開啟主查詢視窗並顯示詳細內容\n-- 點擊 Tap Anywhere 彈出面板右側的查詞圖示，可以根據選中的單詞以及其所在段落進行 AI 情境查詞"
+  "enDesc": "- [Word Lookup] Fixed an issue where scrolling on the result page during word lookup would automatically return to the search page.\n- [Tap Anywhere] Optimized the display of the Tap Anywhere panel; added settings for text detection length cap and display timeout.\n- [Interface] Fixed the color issue of the settings button in landscape mode.",
+  "zhcnDesc": "- [查词] 修正了直接查词时在结果页滑动会自动返回到搜索界面的问题\n- [Tap Anywhere] 优化了Tap Anywhere面板的显示, 添加了文字检测长度和显示超时的设置项\n- [界面] 修正横屏模式时设置按钮的颜色问题",
+  "zhtwDesc": "- 【查詞】修正了直接查詞時，在結果頁滑動會自動返回搜尋介面的問題。\n- 【Tap Anywhere】優化了 Tap Anywhere 面板的顯示，新增了文字偵測長度與顯示逾時的設定項目。\n- 【介面】修正在橫屏模式下設定按鈕顏色的問題。"
 }
