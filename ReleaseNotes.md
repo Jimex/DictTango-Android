@@ -1,3 +1,53 @@
+# v2.3.3.5 (2025-08-16)
+
+## English
+
+* Added support for x86 CPU devices
+* **\[Tap Anywhere]** Moved the Tap Anywhere settings out of *Dictionary Settings* into a standalone settings page
+* **\[Tap Anywhere]** Disabled in-app detection for DictTango by default (since in-app already has Tap-to-Translate functionality)
+* **\[Tap Anywhere]** Disabled text input box detection by default
+* **\[Dictionary Display]** Added option to set the number of WebView caches in waterfall mode. Higher values make scrolling smoother but increase performance cost
+* Added global CSS file support
+
+  * File name should be `global.css` or `global_<theme>.css`, placed under `SD Card\DictTango\UserAssets`
+  * Theme-specific CSS loads first; if not found, fallback to `global.css`.
+    Example: in dark mode, the app will look for `global_dark.css`; if not found, it loads `global.css`.
+* Fixed minor issues and improved stability
+
+---
+
+## 简体中文
+
+* 添加 x86 CPU 设备支持
+* **\[Tap Anywhere]** 将 Tap Anywhere 的设置项移出「词典设置」，做成独立的设置页面
+* **\[Tap Anywhere]** 默认禁止 DictTango 应用内检测（因为应用内已经有点译功能）
+* **\[Tap Anywhere]** 默认禁止检测文本输入框
+* **\[词典显示]** 可设置瀑布流模式下的 WebView 缓存数量，数值越大，瀑布流滑动越流畅，但性能开销也会随之增加
+* 添加全局 CSS 文件功能
+
+  * 文件名为 `global.css` 或 `global_<theme>.css`，放在 `SD Card\DictTango\UserAssets` 下
+  * 主题相关的 CSS 会优先加载，如果没有，则加载 `global.css`。
+    例如当前主题为暗黑模式，会优先寻找 `global_dark.css`；如果找不到，则加载 `global.css`。
+* 修复了一些其他小问题，提高稳定性
+
+---
+
+## 繁體中文
+
+* 添加 x86 CPU 裝置支援
+* **\[Tap Anywhere]** 將 Tap Anywhere 的設定項移出「詞典設定」，做成獨立的設定頁面
+* **\[Tap Anywhere]** 預設禁止 DictTango 應用內檢測（因為應用內已經有點譯功能）
+* **\[Tap Anywhere]** 預設禁止檢測文字輸入框
+* **\[詞典顯示]** 可設定瀑布流模式下的 WebView 快取數量，數值越大，瀑布流滑動越流暢，但效能開銷也會隨之增加
+* 添加全域 CSS 檔案功能
+
+  * 檔名為 `global.css` 或 `global_<theme>.css`，放在 `SD Card\DictTango\UserAssets` 下
+  * 主題相關的 CSS 會優先載入，若找不到，則載入 `global.css`。
+    例如當前主題為暗黑模式，會優先尋找 `global_dark.css`；若找不到，則載入 `global.css`。
+* 修復了一些其他小問題，提升穩定性
+
+
+
 # 2.3.3.4
 
 日期: 07月26日 - v2.3.3.4
