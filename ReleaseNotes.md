@@ -1,3 +1,25 @@
+# v2.3.3.7 (2025-08-30)
+
+- Added spellcheck (Settings -> Spelling & Language -> Spellcheck), using SymSpell. Users can customize dictionaries. Dictionary file download: [https://github.com/wolfgarbe/SymSpell/tree/master/SymSpell.FrequencyDictionary](https://github.com/wolfgarbe/SymSpell/tree/master/SymSpell.FrequencyDictionary)
+- Added search text replacement feature (Settings -> Spelling & Language -> Search Text Replacement). Simple letters can replace characters that are hard to type (such as diacritics), e.g., use **aa*- to represent **ā**
+- Option to set whether to restore the base form of English words for searching if no match is found (Settings -> Spelling & Language -> Spellcheck)
+- Added simplified-traditional cross search with one-to-many phrase mapping, e.g., searching **艳丽*- can also find **豔麗*- and **艷麗*- (users need to create their own mapping file)
+- Added function to check for updates and download the app installation file (manual installation required after download)
+
+## **简体中文**
+- 添加了拼写检查(设置->拼写与语言->拼写检查),使用SymSpell, 用户可自定义词典, 词典文件下载地址： https://github.com/wolfgarbe/SymSpell/tree/master/SymSpell.FrequencyDictionary
+- 添加了查词输入文本替换功能(设置->拼写与语言->搜索文本替换)，可用简单字母代替难输入的字符（如重音符号），例如用 aa 表示 ā
+- 可以设置查不到词时，是否还原英语单词原型再查询(设置->拼写与语言->拼写检查)
+- 简繁通查功能添加词组一对多映射，例如：艳丽可以查“豔麗”和“艷麗” (用户需要自己自定义映射文件）
+- 添加了检查更新并下载应用安装文件的功能（下载完成需要手动点击安装）
+
+## 繁體中文
+- 添加了拼寫檢查（設定 -> 拼寫與語言 -> 拼寫檢查），使用 SymSpell，用戶可自定義詞典，詞典文件下載地址： [https://github.com/wolfgarbe/SymSpell/tree/master/SymSpell.FrequencyDictionary](https://github.com/wolfgarbe/SymSpell/tree/master/SymSpell.FrequencyDictionary)
+- 添加了查詞輸入文本替換功能（設定 -> 拼寫與語言 -> 搜索文本替換），可用簡單字母代替難輸入的字符（如重音符號），例如用 **aa*- 表示 **ā**
+- 可以設定在查不到詞時，是否還原英語單詞原型再查詢（設定 -> 拼寫與語言 -> 拼寫檢查）
+- 簡繁通查功能新增詞組一對多映射，例如：**豔麗**可以查「豔麗」和「艷麗」（用戶需要自行定義映射文件）
+- 添加了檢查更新並下載應用安裝文件的功能（下載完成後需要手動點擊安裝）
+- 
 # v2.3.3.5 (2025-08-16)
 
 ## English
