@@ -1,4 +1,4 @@
-# v2.3.3.7 (2025-08-30)
+# v2.3.3.8 (2025-08-31)
 
 - Added spellcheck (Settings -> Spelling & Language -> Spellcheck), using SymSpell. Users can customize dictionaries. Dictionary file download: [https://github.com/wolfgarbe/SymSpell/tree/master/SymSpell.FrequencyDictionary](https://github.com/wolfgarbe/SymSpell/tree/master/SymSpell.FrequencyDictionary)
 - Added search text replacement feature (Settings -> Spelling & Language -> Search Text Replacement). Simple letters can replace characters that are hard to type (such as diacritics), e.g., use **aa*- to represent **ā**
