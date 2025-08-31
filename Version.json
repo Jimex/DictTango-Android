@@ -1,8 +1,9 @@
 {
-  "versionCode": 2335,
-  "versionName": "2.3.3.5",
+  "versionCode": 2338,
+  "versionName": "2.3.3.8",
   "url": "https://github.com/Jimex/DictTango-Android",
-  "enDesc": "Please visit DictTango's GitHub homepage to view the release notes.",
-  "zhcnDesc": "请到 DictTango 的 GitHub 主页查看发布说明",
-  "zhtwDesc": "請到 DictTango 的 GitHub 主頁查看發佈說明"
+  "downloadUrl": "https://github.com/Jimex/DictTango-Android/releases/latest/download/DictTango.v2.3.3.8.apk",
+  "enDesc": "- Added spellcheck (Settings -> Spelling & Language -> Spellcheck), using SymSpell. Users can customize dictionaries\n- Added search text replacement feature (Settings -> Spelling & Language -> Search Text Replacement). Simple letters can replace characters that are hard to type (such as diacritics), e.g., use \"aa\" to represent \"ā\"\n- Option to set whether to restore the base form of English words for searching if no match is found (Settings -> Spelling & Language -> Spellcheck)\n- Added simplified-traditional cross search with one-to-many phrase mapping, e.g., searching \"艳丽\" can also find \"豔麗\" and \"艷麗\" (users need to create their own mapping file)\n- Added function to check for updates and download the app installation file (manual installation required after download)",
+  "zhcnDesc": "- 添加了拼写检查(设置->拼写与语言->拼写检查),使用SymSpell, 用户可自定义词典\n- 添加了查词输入文本替换功能(设置->拼写与语言->搜索文本替换)，可用简单字母代替难输入的字符（如重音符号），例如用 aa 表示 ā\n- 可以设置查不到词时，是否还原英语单词原型再查询(设置->拼写与语言->拼写检查)\n- 简繁通查功能添加词组一对多映射，例如：艳丽可以查“豔麗”和“艷麗” (用户需要自己自定义映射文件）\n- 添加了检查更新并下载应用安装文件的功能（下载完成需要手动点击安装）",
+  "zhtwDesc": "- 添加了拼寫檢查（設定 -> 拼寫與語言 -> 拼寫檢查），使用 SymSpell，用戶可自定義詞典\n- 添加了查詞輸入文本替換功能（設定 -> 拼寫與語言 -> 搜索文本替換），可用簡單字母代替難輸入的字符（如重音符號），例如用 \"aa\" 表示 \"ā\"\n- 可以設定在查不到詞時，是否還原英語單詞原型再查詢（設定 -> 拼寫與語言 -> 拼寫檢查）\n- 簡繁通查功能新增詞組一對多映射，例如：**豔麗**可以查「豔麗」和「艷麗」（用戶需要自行定義映射文件）\n- 添加了檢查更新並下載應用安裝文件的功能（下載完成後需要手動點擊安裝）"
 }
