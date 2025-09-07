@@ -1,7 +1,7 @@
 {
     "PluginCode":"TANGO-KEYBOARD",
 	"PluginName":"Tango Keyboard (By Jimex Studio)",
-	"Version":"1.2.5",
+	"Version":"1.2.6",
 	"WindowWidthPercentage": 90,
 	"WindowHeightPercentage": 36,
     "HomePage":"index.html"

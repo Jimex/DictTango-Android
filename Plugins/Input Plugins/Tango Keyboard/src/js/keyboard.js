@@ -227,7 +227,9 @@
 
   KeySpace.prototype = new Key();
   KeySpace.prototype.constructor = KeySpace;
-
+  KeySpace.prototype.defaultClickAction = function () {
+    sendWord(' ');
+  };
 
   function KeySwitchLayout() {
     Key.call(this, arguments);
