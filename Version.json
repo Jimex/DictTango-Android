@@ -1,9 +1,9 @@
 {
-  "versionCode": 2338,
-  "versionName": "2.3.3.8",
+  "versionCode": 2340,
+  "versionName": "2.3.4.0",
   "url": "https://github.com/Jimex/DictTango-Android",
-  "downloadUrl": "https://github.com/Jimex/DictTango-Android/releases/latest/download/DictTango.v2.3.3.8.apk",
-  "enDesc": "- Added spellcheck (Settings -> Spelling & Language -> Spellcheck), using SymSpell. Users can customize dictionaries\n- Added search text replacement feature (Settings -> Spelling & Language -> Search Text Replacement). Simple letters can replace characters that are hard to type (such as diacritics), e.g., use \"aa\" to represent \"ā\"\n- Option to set whether to restore the base form of English words for searching if no match is found (Settings -> Spelling & Language -> Spellcheck)\n- Added simplified-traditional cross search with one-to-many phrase mapping, e.g., searching \"艳丽\" can also find \"豔麗\" and \"艷麗\" (users need to create their own mapping file)\n- Added function to check for updates and download the app installation file (manual installation required after download)",
-  "zhcnDesc": "- 添加了拼写检查(设置->拼写与语言->拼写检查),使用SymSpell, 用户可自定义词典\n- 添加了查词输入文本替换功能(设置->拼写与语言->搜索文本替换)，可用简单字母代替难输入的字符（如重音符号），例如用 aa 表示 ā\n- 可以设置查不到词时，是否还原英语单词原型再查询(设置->拼写与语言->拼写检查)\n- 简繁通查功能添加词组一对多映射，例如：艳丽可以查“豔麗”和“艷麗” (用户需要自己自定义映射文件）\n- 添加了检查更新并下载应用安装文件的功能（下载完成需要手动点击安装）",
-  "zhtwDesc": "- 添加了拼寫檢查（設定 -> 拼寫與語言 -> 拼寫檢查），使用 SymSpell，用戶可自定義詞典\n- 添加了查詞輸入文本替換功能（設定 -> 拼寫與語言 -> 搜索文本替換），可用簡單字母代替難輸入的字符（如重音符號），例如用 \"aa\" 表示 \"ā\"\n- 可以設定在查不到詞時，是否還原英語單詞原型再查詢（設定 -> 拼寫與語言 -> 拼寫檢查）\n- 簡繁通查功能新增詞組一對多映射，例如：**豔麗**可以查「豔麗」和「艷麗」（用戶需要自行定義映射文件）\n- 添加了檢查更新並下載應用安裝文件的功能（下載完成後需要手動點擊安裝）"
+  "downloadUrl": "https://github.com/Jimex/DictTango-Android/releases/latest/download/DictTango.v2.3.4.0.apk",
+  "enDesc": "- Improve overall app response speed\n- Improve reading mode indexing speed and shorten loading time\n- Upgrade interface to Material 3 Expressive\n- Add DictTango to the system text selection toolbar shortcuts for \"Translate\" and \"Define\"\n- Add direct access to the GitHub Wiki in Help\n- If a word is already added to the wordbook, the wordbook icon will look different\n- Optimize the loading of the spell-check dictionary",
+  "zhcnDesc": "- 提升应用的整体响应速度\n- 提升阅读模式的索引速度和缩短加载时间\n- 升级界面到Material 3 Expressive\n- 把DictTango加到系统的文字选择菜单工具条上的\"翻译“和”定义“的快捷方式中\n- 帮助中添加了直接访问Github Wiki的入口\n- 如果单词已经添加到单词本，添加单词本的图标会不一样\n- 优化拼写检查词典的加载",
+  "zhtwDesc": "\n- 提升應用的整體回應速度\n- 提升閱讀模式的索引速度並縮短載入時間\n- 將介面升級至 Material 3 Expressive\n- 將 DictTango 加入系統文字選取工具列上的「翻譯」和「定義」捷徑\n- 在說明中新增直接存取 GitHub Wiki 的入口\n- 如果單詞已經加入單詞本，單詞本圖示會有所不同\n- 優化拼字檢查字典的載入"
 }
