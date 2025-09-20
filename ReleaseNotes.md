@@ -1,3 +1,39 @@
+# v2.3.4.0 (2025-09-20)
+
+* Improve overall app response speed
+* Improve reading mode indexing speed and shorten loading time
+* Upgrade interface to Material 3 Expressive
+* Add DictTango to the system text selection toolbar shortcuts for "Translate" and "Define"
+* Add direct access to the GitHub Wiki in Help
+* If a word is already added to the wordbook, the wordbook icon will look different
+* Optimize the loading of the spell-check dictionary
+
+---
+## **简体中文**
+- 提升应用的整体响应速度
+- 提升阅读模式的索引速度和缩短加载时间
+- 升级界面到Material 3 Expressive
+- 把DictTango加到系统的文字选择菜单工具条上的"翻译“和”定义“的快捷方式中
+- 帮助中添加了直接访问Github Wiki的入口
+- 如果单词已经添加到单词本，添加单词本的图标会不一样
+- 优化拼写检查词典的加载
+  
+---
+## 繁體中文
+
+* 提升應用的整體回應速度
+* 提升閱讀模式的索引速度並縮短載入時間
+* 將介面升級至 Material 3 Expressive
+* 將 DictTango 加入系統文字選取工具列上的「翻譯」和「定義」捷徑
+* 在說明中新增直接存取 GitHub Wiki 的入口
+* 如果單詞已經加入單詞本，單詞本圖示會有所不同
+* 優化拼字檢查字典的載入
+
+---
+
+Would you like me to also make this into a **release note style list** (with numbering and concise phrasing), so it looks more like a professional update log?
+
+
 # v2.3.3.8 (2025-08-31)
 
 - Added spellcheck (Settings -> Spelling & Language -> Spellcheck), using SymSpell. Users can customize dictionaries. Dictionary file download: [https://github.com/wolfgarbe/SymSpell/tree/master/SymSpell.FrequencyDictionary](https://github.com/wolfgarbe/SymSpell/tree/master/SymSpell.FrequencyDictionary)
