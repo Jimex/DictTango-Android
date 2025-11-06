@@ -1,3 +1,64 @@
+# v2.3.4.3 (2025-11-06)
+
+### Update Notes
+
+* Improved dark mode display
+* Fixed an issue where a green background flickered when returning from the word lookup screen to the main screen
+* Replaced external bottom sheet component with a native one to reduce dependencies
+* Fixed an issue where the font *Family Name* was read incorrectly when adding external fonts
+* Resolved issues related to scroll views
+
+#### Word Lookup Screen Redesign
+
+1. Moved the search input box to just above the keyboard for a smoother typing experience
+2. Optimized layout to free up more space for displaying dictionary content
+3. Redesigned the bottom toolbar
+4. Added **Previous Dictionary / Next Dictionary** navigation:
+
+   * **Previous Dictionary**: Press and swipe up; a short swipe scrolls up one page, while a long swipe returns to the top of the current dictionary
+   * **Next Dictionary**: Press and swipe up; a short swipe scrolls down one page, while a long swipe jumps to the bottom of the current dictionary
+
+### 更新日志
+
+* 优化暗黑模式的显示效果
+* 修复从查词界面返回主界面时绿色背景闪烁的问题
+* 改用原生底部弹出菜单，减少外部组件依赖
+* 修复添加外部字体时无法正确读取字体 Family Name 的问题
+* 修正滑动视图相关问题
+
+#### 普通查词界面重构
+
+1. 查词输入框移至键盘上方，提升输入体验
+2. 优化布局，释放更多空间用于展示词典内容
+3. 重构底部操作栏
+4. 新增“上一词典 / 下一词典”操作：
+
+   * **上一词典**：按住按钮上滑后松手，短滑可上翻一页，长滑可返回当前词典顶部
+   * **下一词典**：按住按钮上滑后松手，短滑可下翻一页，长滑可跳至当前词典底部
+
+---
+
+## 繁體中文版本
+
+### 更新日誌
+
+* 優化暗黑模式的顯示效果
+* 修復從查詞介面返回主介面時綠色背景閃爍的問題
+* 改用原生底部彈出選單，減少外部元件依賴
+* 修復新增外部字體時無法正確讀取字體 Family Name 的問題
+* 修正滑動視圖相關問題
+
+#### 一般查詞介面重構
+
+1. 查詞輸入框移至鍵盤上方，提升輸入體驗
+2. 優化版面配置，釋放更多空間以顯示字典內容
+3. 重構底部操作欄
+4. 新增「上一字典／下一字典」操作：
+
+   * **上一字典**：長按按鈕並上滑後放開，短滑可上翻一頁，長滑可返回目前字典頂部
+   * **下一字典**：長按按鈕並上滑後放開，短滑可下翻一頁，長滑可跳至目前字典底部
+
+
 # v2.3.4.0 (2025-09-20)
 
 * Improve overall app response speed
