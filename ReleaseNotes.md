@@ -1,3 +1,33 @@
+# v2.3.4.6 (2025-11-06)
+
+### Update Log
+
+* You can move the normal search input bar to the top (Settings → User Interface Settings)
+* Added volume key page turning (Settings → Dictionary Settings)
+* You can hide the user annotation button (Settings → User Interface Settings)
+* Added support for Qwen3 VL
+* Improved floating window interface
+* Fixed some interface and other issues
+
+### 更新日志
+- 可以把普通查词输入栏移到顶部（设置->用户界面设置）
+- 添加音量键翻页（设置->词典设置）
+- 可以隐藏用户批注按钮（设置->用户界面设置）
+- 添加对Qwen3 VL支持
+- 改善浮动窗口界面
+- 修正了一些界面问题和其它问题
+
+
+### 更新日誌
+
+* 可以將普通查詞輸入欄移到頂部（設定→使用者介面設定）
+* 新增音量鍵翻頁功能（設定→詞典設定）
+* 可以隱藏使用者批註按鈕（設定→使用者介面設定）
+* 新增對 Qwen3 VL 的支援
+* 改善浮動視窗介面
+* 修正了一些介面問題及其他問題
+
+
 # v2.3.4.3 (2025-11-06)
 
 ### Update Notes
