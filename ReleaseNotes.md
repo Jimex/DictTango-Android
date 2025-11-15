@@ -1,3 +1,27 @@
+# v2.3.5.1 (2025-11-15)
+### Changelog
+
+* Improved performance of the floating window and the main window
+* Improved visual effects during dictionary loading
+* The floating window no longer collapses dictionary content by default (can be enabled in settings)
+* In waterfall mode, the current dictionary is now displayed at the top (can be disabled in settings)
+* Fixed some UI issues and other problems
+
+### 更新日志
+- 改善浮动窗口和主窗口的性能
+- 改善词典加载时的视觉效果
+- 浮动窗口默认不再折叠词典内容(可在设置中启用)
+- 瀑布流模式下，在顶部显示当前词典(可在设置中关闭）
+- 修正了一些界面问题和其它问题
+
+### 更新日誌
+
+* 改善浮動視窗和主視窗的效能
+* 改善載入詞典時的視覺效果
+* 浮動視窗預設不再折疊詞典內容（可在設定中啟用）
+* 瀑布流模式下會在頂部顯示當前詞典（可在設定中關閉）
+* 修正了一些介面問題及其他問題
+
 # v2.3.4.6 (2025-11-09)
 
 ### Update Log
