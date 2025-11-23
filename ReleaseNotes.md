@@ -1,3 +1,22 @@
+# v2.3.5.2 (2025-11-23)
+### Changelog
+* Added a selectable option for the official MDict sorting mode (experimental feature; accuracy may vary).
+* Added new tap actions for dictionary content in waterfall mode:
+  * **Two-finger tap**: Open the current dictionary content in a separate window
+  * **Three-finger tap**: Bring up the dictionary-related menu
+
+### 更新日志
+* 新增 MDict 官方排序模式可选项（实验性功能，准确度可能有所偏差）。
+* 在瀑布流模式下新增词典内容的点击操作：
+  * **双指点击**：在独立窗口中打开当前词典内容
+  * **三指点击**：唤出词典相关菜单
+
+### 更新日誌
+* 新增可選的 MDict 官方排序模式（實驗性功能，準確度可能會有偏差）。
+* 在瀑布流模式下新增詞典內容的點擊操作：
+  * **雙指點擊**：在獨立視窗中開啟當前詞典內容
+  * **三指點擊**：喚出詞典相關選單
+    
 # v2.3.5.1 (2025-11-15)
 ### Changelog
 
