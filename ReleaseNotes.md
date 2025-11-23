@@ -1,7 +1,7 @@
 # v2.3.5.2 (2025-11-23)
 ### Changelog
 * Added a selectable option for the official MDict sorting mode (experimental feature; accuracy may vary).
-* Added new tap actions for dictionary content in waterfall mode:
+* Added new tap actions for dictionary content in listview mode:
   * **Two-finger tap**: Open the current dictionary content in a separate window
   * **Three-finger tap**: Bring up the dictionary-related menu
 
