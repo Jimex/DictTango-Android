@@ -1,3 +1,107 @@
+## v2.3.5.3（2025-12-13）
+
+### Updates
+
+* **[New]** In Reading Mode, entries now support Simplified–Traditional Chinese cross-search
+  (currently only supports one-to-one Simplified–Traditional conversion)
+
+* **[New]** In Reading Mode, built-in dictionaries can now directly display their **“Table of Content Pages”**
+
+* **[New]** In the entry list of Reading Mode, **long-press an entry** to set it as the dictionary’s **“Table of Content Entry”**, or add it directly as a **“Table of Content Words”**
+
+* **[New]** When editing dictionary details, you can also manually specify a **“Table of Content Entry”** or **“Table of Content Words”**
+
+* **[Fix]** Fixed issues with phrase conversion during Simplified–Traditional cross-search
+
+---
+
+### Terminology
+
+* **Table of Content Entry**
+
+  This can be understood as the main entry point for all chapters in a dictionary.
+
+  Each dictionary can have **only one** Table of Content Entry.
+
+  Once set, the Table of Content Page can be displayed separately in Reading Mode.
+
+  When this entry point is tapped, the main dictionary content view will jump to the corresponding chapter, while the Table of Content Page will remain visible.
+
+* **Table of Content Words**
+
+  Entries that belong to chapter content, excluding the Table of Content Entry Word.
+
+  A dictionary can have **multiple** Chapter Entries.
+
+  When these entries are tapped within the separately displayed Chapter Page, navigation occurs only within the Chapter Page and does not affect the main dictionary content view.
+
+---
+
+
+### 更新内容
+
+* [新功能]阅读模式下的词条现在支持简繁通查(暂时只支持一对一简繁转换)
+* [新功能]阅读模式里可以直接显示内置词典的「章节页面」
+* [新功能]在阅读模式的词条列表里，**长按某个词条**，可以把它设为词典的「章节入口词条」，或者直接加入「章节词条」
+* [新功能]在编辑词典详情时，也可以手动指定「章节入口词条」或「章节词条」
+* [修复] 修正了简繁通查时的词组转换问题
+
+### 名词说明
+
+* **章节入口词条**
+  可以理解为词典里“章节的总入口”。
+  每本词典只能有 **一个** 章节入口词条。
+  设置之后，阅读模式下就能单独显示章节页；
+  点击这个入口词条时，会在主词典内容窗口里跳转到对应章节，同时章节页也会一直保留显示。
+
+* **章节词条**
+  除了章节入口词条以外，其他属于章节内容的词条。
+  一本词典可以有 **多个** 章节词条。
+  在单独显示的章节页里点击这些词条时，只会在章节页内部跳转，不会影响主词典内容窗口。
+
+  ---
+  
+
+## **繁體中文翻譯**
+
+## v2.3.5.3（2025-12-13）
+
+### 更新內容
+
+* **[新功能]** 閱讀模式下的詞條現在支援簡繁通查
+  （暫時只支援一對一的簡繁轉換）
+
+* **[新功能]** 閱讀模式中可直接顯示內建詞典的「章節頁面」
+
+* **[新功能]** 在閱讀模式的詞條列表中，**長按某個詞條**，即可將其設為詞典的「章節入口詞條」，或直接加入為「章節詞條」
+
+* **[新功能]** 在編輯詞典詳情時，也可手動指定「章節入口詞條」或「章節詞條」
+
+* **[修復]** 修正了簡繁通查時詞組轉換的問題
+
+---
+
+### 名詞說明
+
+* **章節入口詞條**
+
+  可理解為詞典中「章節的總入口」。
+
+  每本詞典只能有 **一個** 章節入口詞條。
+
+  設定後，閱讀模式下即可單獨顯示章節頁；
+
+  點擊此入口詞條時，主詞典內容視窗會跳轉至對應章節，同時章節頁將持續顯示。
+
+* **章節詞條**
+
+  除章節入口詞條以外，其他屬於章節內容的詞條。
+
+  一本詞典可包含 **多個** 章節詞條。
+
+  在單獨顯示的章節頁中點擊這些詞條時，只會在章節頁內部跳轉，不會影響主詞典內容視窗。
+
+
 # v2.3.5.2 (2025-11-23)
 ### Changelog
 * Added a selectable option for the official MDict sorting mode (experimental feature; accuracy may vary).
