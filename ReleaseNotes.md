@@ -2,13 +2,13 @@
 
 ### Update Log
 
-* You can adjust the top bar background mode in the normal word lookup window (transparent gradient, fully transparent, solid color).
+* You can now configure the top bar background mode in the normal word lookup window through the user interface settings (transparent gradient, fully transparent, solid color).
 * In the normal word lookup window, clicking the dictionary name button in the top bar will open the dictionary menu.
 * When adding dictionaries, they can be grouped according to the location of the folder they are in (current level, one level up, two levels up, three levels up).
 * **[Experimental Feature]** WebView preloading to improve performance.
 
 ### 更新日志
-* 可以普通查词窗口中的调整顶部栏背景模式(透明渐进，全透明，纯色)
+* 可以在用户界面配置中设置普通查词窗口中的调整顶部栏背景模式(透明渐进，全透明，纯色)
 * 普通查词窗口中点击顶部词典名称按钮可以弹出词典菜单
 * 添加词典时, 可以按照词典所在文件夹的位置进行分组(当前，上一级，上两级，上三级）
 * [实验性功能]WebView预加载以提高性能
@@ -16,12 +16,12 @@
 
 ### 更新日誌
 
-* 可以在普通查詞視窗中調整頂部欄背景模式（透明漸進、全透明、純色）。
+* 可以在用戶界面配置中設置普通查詞窗口中的調整頂部欄背景模式(透明漸進，全透明，純色)
 * 在普通查詞視窗中點擊頂部的詞典名稱按鈕，可彈出詞典選單。
 * 新增詞典時，可依照詞典所在資料夾的位置進行分組（目前、上一層、上兩層、上三層）。
 * **【實驗性功能】** WebView 預先載入以提升效能。
-* 
 
+  
 ## v2.3.5.3（2025-12-13）
 
 ### Updates
