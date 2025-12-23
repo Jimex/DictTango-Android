@@ -3,7 +3,7 @@
   "versionName": "2.3.5.6",
   "url": "https://github.com/Jimex/DictTango-Android",
   "downloadUrl": "https://github.com/Jimex/DictTango-Android/releases/latest/download/DictTango.v2.3.5.6.apk",
-  "enDesc": "Improve the user interface and fix crash issues",
-  "zhcnDesc": "改善用户界面与修正闪退问题",
-  "zhtwDesc": "改善使用者介面並修正閃退問題"
+  "enDesc": "Improved the user interface and fixed crash issues. This version is the last one to support systems below Android 10. The next version will require Android 10 or higher.",
+  "zhcnDesc": "改进用户界面并修复闪退问题。本版本为最后一个支持 Android 10 以下系统的版本，下一版本起最低系统要求为 Android 10。",
+  "zhtwDesc": "改善使用者介面並修正閃退問題。本版本為最後一個支援 Android 10 以下系統的版本，下一個版本的最低系統需求為 Android 10。"
 }
