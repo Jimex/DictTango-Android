@@ -1,3 +1,19 @@
+# v2.3.5.6 (2025-12-23)
+
+
+#### Update Log
+
+* Fixed crash issues
+* When installing and opening the app for the first time, a setup screen will appear to guide users to select basic parameters and complete initialization
+
+### 更新日志
+* 修复了闪退问题
+* 初次安装并首次打开应用时，会弹出界面引导用户选择基本参数完成初始化
+
+#### 更新日誌
+* 修復了閃退問題
+* 初次安裝並首次開啟應用程式時，將會彈出引導介面，指引使用者選擇基本參數以完成初始化
+  
 # v2.3.5.5 (2025-12-20)
 
 ### Update Log
