@@ -1,9 +1,9 @@
 {
-  "versionCode": 2355,
-  "versionName": "2.3.5.5",
+  "versionCode": 2356,
+  "versionName": "2.3.5.6",
   "url": "https://github.com/Jimex/DictTango-Android",
-  "downloadUrl": "https://github.com/Jimex/DictTango-Android/releases/latest/download/DictTango.v2.3.5.5.apk",
-  "enDesc": "Improve performance and user interface",
-  "zhcnDesc": "改善性能与用户界面",
-  "zhtwDesc": "改善效能與使用者介面"
+  "downloadUrl": "https://github.com/Jimex/DictTango-Android/releases/latest/download/DictTango.v2.3.5.6.apk",
+  "enDesc": "Improve the user interface and fix crash issues",
+  "zhcnDesc": "改善用户界面与修正闪退问题",
+  "zhtwDesc": "改善使用者介面並修正閃退問題"
 }
