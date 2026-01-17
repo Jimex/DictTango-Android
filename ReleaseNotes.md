@@ -1,3 +1,22 @@
+# v2.3.5.7 (2026-01-17)
+#### Update Log
+* This version no longer supports systems below Android 10.
+* Fixed an issue with the TTS locale
+* Fixed pagination issues in the word book
+* Squashed a few other minor bugs
+---
+### 更新日志
+* 此版本不再支持安卓10以下系统
+* 修复了 TTS 语言区域的问题
+* 修复了单词本分页的问题
+* 修复了一些其他小问题
+---
+#### 更新日誌
+* 此版本不再支援 Android 10 以下的系統
+* 修復了 TTS 語言區域的問題
+* 修復了單字本分頁的問題
+* 修復了一些其他小問題
+* 
 # v2.3.5.6 (2025-12-23)
 
 
