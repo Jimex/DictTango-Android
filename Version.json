@@ -1,9 +1,9 @@
 {
-  "versionCode": 2356,
-  "versionName": "2.3.5.6",
+  "versionCode": 2357,
+  "versionName": "2.3.5.7",
   "url": "https://github.com/Jimex/DictTango-Android",
-  "downloadUrl": "https://github.com/Jimex/DictTango-Android/releases/latest/download/DictTango.v2.3.5.6.apk",
-  "enDesc": "Improved the user interface and fixed crash issues. This version is the last one to support systems below Android 10. The next version will require Android 10 or higher.",
-  "zhcnDesc": "改进用户界面并修复闪退问题。本版本为最后一个支持 Android 10 以下系统的版本，下一版本起最低系统要求为 Android 10。",
-  "zhtwDesc": "改善使用者介面並修正閃退問題。本版本為最後一個支援 Android 10 以下系統的版本，下一個版本的最低系統需求為 Android 10。"
+  "downloadUrl": "https://github.com/Jimex/DictTango-Android/releases/latest/download/DictTango.v2.3.5.7.apk",
+  "enDesc": "- This version no longer supports systems below Android 10.\n- Fixed an issue with the TTS locale\n- Fixed pagination issues in the word book\n- Squashed a few other minor bugs",
+  "zhcnDesc": "- 此版本不再支持安卓10以下系统\n- 修复了 TTS 语言区域的问题\n- 修复了单词本分页的问题\n- 修复了一些其他小问题",
+  "zhtwDesc": "- 此版本不再支援 Android 10 以下的系統\n- 修復了 TTS 語言區域的問題\n- 修復了單字本分頁的問題\n- 修復了一些其他小問題"
 }
