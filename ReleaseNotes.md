@@ -1,3 +1,14 @@
+# v2.3.5.8 (2026-01-20)
+#### Update Log
+* Fixed Edge TTS 403 issue
+
+### 更新日志
+* 修复了微软大声朗读的403问题
+
+#### 更新日誌
+* 修復了微軟大聲朗讀的 403 問題
+  
+
 # v2.3.5.7 (2026-01-17)
 #### Update Log
 * This version no longer supports systems below Android 10.
