@@ -1,3 +1,18 @@
+# v2.3.6.0 (2026-01-31)
+#### Update Log
+* Include SearchTextReplacement into auto backup
+* Add Japanese Word Deinflection (Settings → Spelling & Language → Restore Japanese words to original form)
+  
+Japanese Word Deinflection: https://github.com/Jimex/DictTango-Android/wiki/Japanese-Word-Deinflection
+
+#### 更新日志
+* 将 SearchTextReplacement 纳入自动备份
+* 新增日语词形还原功能（设置 → 拼写与语言 → 还原日语单词原形）
+
+#### 更新日誌
+* 將 SearchTextReplacement 納入自動備份
+* 新增日語詞形還原功能（設定 → 拼字與語言 → 還原日語單詞原形）
+
 # v2.3.5.8 (2026-01-20)
 #### Update Log
 * Fixed Edge TTS 403 issue
