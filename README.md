@@ -10,6 +10,7 @@ DictTango is an offline tool to display the dictionary of MDict format
 - -Supports online dictionaries.
 - -Standard word lookup supports union search, allowing you to view dictionary content in either waterfall or sliding view.
 - -Reading mode facilitates reading a single dictionary, automatically sorts Chinese entries by pinyin, and provides a picture dictionary viewing mode.
+- Standard word lookup supports spell checking (SymSpell), English word lemmatization, and Japanese base-form (lemma) restoration.
 - -Allows setting global fonts, supports loading large fonts over 30MB, and offers a font minimizer to trim large fonts.
 - -Allows setting multiple fonts for individual dictionaries.
 - -User comment feature.
@@ -46,6 +47,7 @@ DictTango是一款基于Mdict格式进行查词的App
 - 支持加入在线词典
 - 普通查词方式支持联合查询，可以选择以瀑布流或者滑动视图方式查看词典内容
 - 阅读模式方便阅读单本词典，中文词条自动以拼音排序，并提供图片词典查看模式
+- 普通查词支持拼写检查(SymSpell), 英语单词原形还原，日语原形还原
 - 可以设置全局字体, 支持加载30mb以上的大字体，同时提供字体精简器对大字体进行精简
 - 可以为词典单独设置多个字体
 - 用户批注功能
