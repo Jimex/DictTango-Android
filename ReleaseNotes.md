@@ -1,3 +1,23 @@
+# v2.3.6.1 (2026-02-10)
+
+#### Update Log
+* **[Regular Lookup]** Added a quick settings button next to the lookup input box for fast adjustment of commonly used parameters
+* **[Regular Lookup]** Supports long-pressing the dictionary list icon to directly open the group switching window
+* **[Backup & Restore]** Added the linked resource library to the backup/restore list
+* **[Spelling Language]** Fixed the issue where Japanese lemmatization could only load a fixed Sudachi dictionary filename, and added support for loading user dictionaries
+
+#### 更新日志
+* [普通查词]在查词输入框旁边新增了快捷设置按钮，方便快速调整常用参数
+* [普通查词]支持长按词典列表图标，直接弹出分组切换窗口
+* [备份与恢复]备份/恢复列表中加入关联资源库
+* [拼写语言]修复了日语还原只能加载固定 Sudachi 词典文件名的问题, 并支持用户词典加载
+
+#### 更新日誌
+* **[一般查詞]** 在查詞輸入框旁新增了快捷設定按鈕，方便快速調整常用參數
+* **[一般查詞]** 支援長按詞典列表圖示，直接彈出分組切換視窗
+* **[備份與還原]** 在備份／還原清單中加入關聯資源庫
+* **[拼寫語言]** 修正了日語還原只能載入固定 Sudachi 詞典檔名的問題，並支援使用者詞典載入
+  
 # v2.3.6.0 (2026-01-31)
 #### Update Log
 * Include SearchTextReplacement into auto backup
