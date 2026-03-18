@@ -1,9 +1,9 @@
 {
-  "versionCode": 2361,
-  "versionName": "2.3.6.1",
+  "versionCode": 2362,
+  "versionName": "2.3.6.2",
   "url": "https://github.com/Jimex/DictTango-Android",
-  "downloadUrl": "https://github.com/Jimex/DictTango-Android/releases/latest/download/DictTango.v2.3.6.1.apk",
-  "enDesc": "* [Regular Lookup] Added a quick settings button next to the lookup input box for fast adjustment of commonly used parameters\n* [Regular Lookup] Supports long-pressing the dictionary list icon to directly open the group switching window\n* [Backup & Restore] Added the linked resource library to the backup/restore list\n* [Spelling Language] Fixed the issue where Japanese lemmatization could only load a fixed Sudachi dictionary filename, and added support for loading user dictionaries",
-  "zhcnDesc": "* [普通查词]在查词输入框旁边新增了快捷设置按钮，方便快速调整常用参数\n* [普通查词]支持长按词典列表图标，直接弹出分组切换窗口\n* [备份与恢复]备份/恢复列表中加入关联资源库\n* [拼写语言]修复了日语还原只能加载固定 Sudachi 词典文件名的问题, 并支持用户词典加载",
-  "zhtwDesc": "* [一般查詞] 在查詞輸入框旁新增了快捷設定按鈕，方便快速調整常用參數\n* [一般查詞] 支援長按詞典列表圖示，直接彈出分組切換視窗\n* [備份與還原] 在備份／還原清單中加入關聯資源庫\n* [拼寫語言] 修正了日語還原只能載入固定 Sudachi 詞典檔名的問題，並支援使用者詞典載入"
+  "downloadUrl": "https://github.com/Jimex/DictTango-Android/releases/latest/download/DictTango.v2.3.6.2.apk",
+  "enDesc": "Feature improvements and bug fixes",
+  "zhcnDesc": "功能改善与问题修复",
+  "zhtwDesc": "功能改善與問題修復"
 }
