@@ -1,3 +1,65 @@
+## v2.3.6.2 (2026-03-18)
+
+### Changelog
+
+* **[E-ink Mode]**
+  Improved display for e-ink devices; dark mode is now automatically disabled in e-ink mode for better readability.
+
+* **[Standard Lookup]**
+  Added a new option “Keep dictionary collapsed state” under **Settings → Dictionary Settings**:
+
+  * When enabled: remembers the expand/collapse state of dictionary entries
+  * When disabled: resets to the default collapsed state each time
+    (Enabled by default)
+
+* **[Standard Lookup]**
+  Fixed an issue where dictionaries encoded in UTF-16LE could not return results when MDict official sorting mode was enabled.
+
+* **[Reading Mode]**
+  Regex search is only supported for TangoDict format dictionaries; the option is automatically hidden when using MDict format.
+
+---
+
+### 更新日志
+
+* **[墨水屏场景]**
+  优化墨水屏显示效果；在墨水屏模式下自动禁用深色模式，以提升阅读体验。
+
+* **[普通查词]**
+  在「设置 → 词典设置」中新增“保持词典折叠状态”选项：
+
+  * 启用时：自动记忆词典的展开/折叠状态
+  * 禁用时：每次打开词条都会重置为默认折叠状态
+    （默认开启）
+
+* **[普通查词]**
+  修复在启用 MDict 官方排序模式后，使用 UTF-16LE 编码的词典无法正常查词的问题。
+
+* **[阅读模式]**
+  正则搜索仅支持 TangoDict 格式词典；当当前词典为 MDict 格式时，将自动隐藏正则搜索选项。
+
+---
+
+### 更新日誌
+
+* **[墨水屏場景]**
+  優化墨水屏顯示效果；在墨水屏模式下自動停用深色模式，以提升閱讀體驗。
+
+* **[一般查詞]**
+  在「設定 → 詞典設定」中新增「保持詞典折疊狀態」選項：
+
+  * 啟用時：自動記住詞典的展開／折疊狀態
+  * 停用時：每次開啟詞條都會重置為預設折疊狀態
+    （預設為啟用）
+
+* **[一般查詞]**
+  修正啟用 MDict 官方排序模式後，使用 UTF-16LE 編碼的詞典無法正常查詢的問題。
+
+* **[閱讀模式]**
+  正則搜尋僅支援 TangoDict 格式詞典；當目前使用 MDict 格式時，將自動隱藏正則搜尋選項。
+
+
+
 # v2.3.6.1 (2026-02-10)
 
 #### Update Log
