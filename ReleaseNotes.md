@@ -1,3 +1,25 @@
+## v2.3.6.3 (2026-03-20)
+
+### Changelog
+
+* **[Local Large Model]** Upgraded the llama.cpp library to version b8429
+* **[Local Large Model]** Added support for Qwen 3.5
+
+---
+
+### 更新日志
+
+* **[本地大模型]** 升级llama.cpp库版本到b8429
+* **[本地大模型]** 添加对Qwen3.5的支持
+  
+---
+
+### 更新日誌
+
+* **[本地大型模型]** 將 llama.cpp 函式庫升級至 b8429 版本
+* **[本地大型模型]** 新增對 Qwen 3.5 的支援
+
+
 ## v2.3.6.2 (2026-03-18)
 
 ### Changelog
