@@ -1,9 +1,9 @@
 {
-  "versionCode": 2362,
-  "versionName": "2.3.6.2",
+  "versionCode": 2363,
+  "versionName": "2.3.6.3",
   "url": "https://github.com/Jimex/DictTango-Android",
-  "downloadUrl": "https://github.com/Jimex/DictTango-Android/releases/latest/download/DictTango.v2.3.6.2.apk",
-  "enDesc": "Feature improvements and bug fixes",
-  "zhcnDesc": "功能改善与问题修复",
-  "zhtwDesc": "功能改善與問題修復"
+  "downloadUrl": "https://github.com/Jimex/DictTango-Android/releases/latest/download/DictTango.v2.3.6.3.apk",
+  "enDesc": "[Local Large Model] Added support for Qwen 3.5",
+  "zhcnDesc": "[本地大模型] 添加对Qwen3.5的支持",
+  "zhtwDesc": "[本地大型模型] 新增對 Qwen 3.5 的支援"
 }
