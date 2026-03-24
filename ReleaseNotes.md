@@ -1,3 +1,27 @@
+## v2.3.6.6 (2026-03-24)
+
+
+### **English**
+
+### Update Log
+
+* **[Regular Lookup]** Improved the lookup speed of MDX dictionaries. With 300 dictionaries in a single group, the time for a single lookup has been reduced from 285 ms to 180 ms.
+
+---
+
+### 更新日志
+* **[普通查词]** 提高mdx词典的查词速度，在单个分组300本词典的情况下，单次查词的用时从285毫秒降到180毫秒
+  
+---
+
+### **繁體中文 (Traditional Chinese)**
+
+### 更新日誌
+
+* **[一般查詞]** 提升 MDX 詞典的查詞速度，在單一分組包含 300 本詞典的情況下，單次查詞時間由 285 毫秒降低至 180 毫秒。
+
+
+
 ## v2.3.6.3 (2026-03-20)
 
 ### Changelog
