@@ -1,4 +1,4 @@
-## v2.3.6.7 (2026-04-03)
+## v2.3.6.8 (2026-04-03)
 
 ### Update Log
 
@@ -6,12 +6,14 @@
 * **[Regular Lookup]** Added a “Pop Out” option in the dictionary menu, allowing dictionary content to be displayed in a new window
 * **[AI PROMPT]** Supports copying output results to the clipboard
 * **[Regular Lookup]** Fixed an issue where the in-page search toolbar could not be displayed correctly in the sliding view
+* **[Regular Lookup]** Fine-tuned the accuracy of anchor jumping
 
 ### 更新日志
 * **[普通查词]** 如果html元素中带有"tap-translate"属性，点击时会触发元素中全部文字的查词功能，而非由浏览器决定
 * **[普通查词]** 词典菜单中添加"单独打开"菜单，可以在新的窗口中显示词典内容
 * **[AI PROMPT]** 输出时支持复制结果到剪贴板
 * **[普通查词]** 修正了滑动视图中页内查找工具栏无法正确显示的问题
+* **[普通查词]** 微调了一下锚跳的精确度
 
 
 ### 更新日誌
@@ -20,6 +22,7 @@
 * **[一般查詞]** 詞典選單中新增「單獨開啟」選項，可在新視窗中顯示詞典內容
 * **[AI PROMPT]** 支援將輸出結果複製到剪貼簿
 * **[一般查詞]** 修正滑動視圖中頁內搜尋工具列無法正確顯示的問題
+* **[一般查詞]** 微調了錨點跳轉的精確度
 
 ## v2.3.6.6 (2026-03-24)
 
