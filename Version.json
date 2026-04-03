@@ -1,9 +1,9 @@
 {
-  "versionCode": 2366,
-  "versionName": "2.3.6.6",
+  "versionCode": 2367,
+  "versionName": "2.3.6.7",
   "url": "https://github.com/Jimex/DictTango-Android",
-  "downloadUrl": "https://github.com/Jimex/DictTango-Android/releases/latest/download/DictTango.v2.3.6.6.apk",
-  "enDesc": "Improved the lookup speed of MDX dictionaries. With 300 dictionaries in a single group, the time for a single lookup has been reduced from 285 ms to 180 ms.",
-  "zhcnDesc": "提高mdx词典的查词速度，在单个分组300本词典的情况下，单次查词的用时从285毫秒降到180毫秒",
-  "zhtwDesc": "提升 MDX 詞典的查詞速度，在單一分組包含 300 本詞典的情況下，單次查詞時間由 285 毫秒降低至 180 毫秒"
+  "downloadUrl": "https://github.com/Jimex/DictTango-Android/releases/latest/download/DictTango.v2.3.6.7.apk",
+  "enDesc": "Feature Improvements and Bug Fixes",
+  "zhcnDesc": "功能改善与问题修复",
+  "zhtwDesc": "功能改善與問題修復"
 }
