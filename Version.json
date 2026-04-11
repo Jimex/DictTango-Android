@@ -1,9 +1,9 @@
 {
-  "versionCode": 2368,
-  "versionName": "2.3.6.8",
+  "versionCode": 2369,
+  "versionName": "2.3.6.9",
   "url": "https://github.com/Jimex/DictTango-Android",
-  "downloadUrl": "https://github.com/Jimex/DictTango-Android/releases/latest/download/DictTango.v2.3.6.8.apk",
-  "enDesc": "Feature Improvements and Bug Fixes",
-  "zhcnDesc": "功能改善与问题修复",
-  "zhtwDesc": "功能改善與問題修復"
+  "downloadUrl": "https://github.com/Jimex/DictTango-Android/releases/latest/download/DictTango.v2.3.6.9.apk",
+  "enDesc": "Minor bugs fixed",
+  "zhcnDesc": "修复了一些小问题",
+  "zhtwDesc": "修復了一些小問題"
 }
