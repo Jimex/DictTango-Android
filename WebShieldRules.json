@@ -1,0 +1,92 @@
+[
+  {
+    "rule": "sdk.51.la",
+    "action": 20,
+    "name": "SDK 51 LA",
+    "description": "Detect SDK 51 LA tracking requests.",
+    "example": "https://sdk.51.la/js-sdk-pro.min.js"
+  },
+  {
+    "rule": "google-analytics.com",
+    "action": 20,
+    "name": "Google Analytics",
+    "description": "Detect Google Analytics tracking requests."
+  },
+  {
+    "rule": "googletagmanager.com",
+    "action": 20,
+    "name": "Google Tag Manager",
+    "description": "Detect Google Tag Manager requests.",
+    "example": "https://www.googletagmanager.com/gtm.js"
+  },
+  {
+    "rule": "doubleclick.net",
+    "category": 20,
+    "severity": 20,
+    "action": 30,
+    "name": "DoubleClick Ads",
+    "description": "Advertising and tracking network.",
+    "example": "https://ad.doubleclick.net/"
+  },
+  {
+    "rule": "facebook.net",
+    "category": 30,
+    "severity": 20,
+    "action": 20,
+    "name": "Facebook Tracker",
+    "description": "Facebook social tracking resources.",
+    "example": "https://connect.facebook.net/"
+  },
+  {
+    "rule": "connect.facebook.net",
+    "category": 30,
+    "severity": 20,
+    "action": 20,
+    "name": "Facebook Connect",
+    "description": "Facebook connect tracking script.",
+    "example": "https://connect.facebook.net/en_US/fbevents.js"
+  },
+  {
+    "rule": "googlesyndication.com",
+    "category": 20,
+    "severity": 20,
+    "action": 30,
+    "name": "Google Ads",
+    "description": "Google advertising scripts.",
+    "example": "https://pagead2.googlesyndication.com/"
+  },
+  {
+    "rule": "amazon-adsystem.com",
+    "category": 20,
+    "severity": 20,
+    "action": 20,
+    "name": "Amazon Ads",
+    "description": "Amazon advertising network.",
+    "example": "https://c.amazon-adsystem.com/"
+  },
+  {
+    "rule": "hotjar.com",
+    "category": 40,
+    "severity": 20,
+    "action": 20,
+    "name": "Hotjar Tracker",
+    "description": "Hotjar analytics and session tracking.",
+    "example": "https://script.hotjar.com/"
+  },
+  {
+    "rule": "mixpanel.com",
+    "severity": 20,
+    "action": 20,
+    "name": "Mixpanel",
+    "description": "Mixpanel analytics tracking.",
+    "example": "https://api.mixpanel.com/"
+  },
+  {
+    "rule": "segment.io",
+    "severity": 20,
+    "action": 20,
+    "name": "Segment Analytics",
+    "description": "Segment tracking service.",
+    "example": "https://cdn.segment.com/"
+  }
+]
