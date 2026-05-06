@@ -1,3 +1,26 @@
+# v2.3.7.0 (2026-05-07)
+**English:**
+* Added Security Settings in Settings, allowing users to enable NetShield and check whether dictionary content has potential data leakage risks based on specific filtering rules. Several preset filtering rules are also provided for users to choose from.
+* Added an option in Security Settings that allows users to enable or disable JavaScript Fetch API monitoring. This enables users to monitor whether dictionary content uses Fetch API, XMLHttpRequest, or WebSocket for network requests during display, and records related request information for user review.
+* The in-page search function is no longer displayed by default in the standard dictionary lookup interface, in order to reduce interface complexity and improve user experience.
+* Added an option in User Interface Settings that allows users to choose whether to enable the in-page search function.
+
+
+
+---
+### 更新日志
+* 在设置中添加安全设置，允许用户启用网盾并根据一定的过滤规则来检查词典内容是否有数据泄露的风险，并提供了一些预设的过滤规则供用户选择
+* 安全设置中添加了一个选项，允许用户选择是否启用Javascript Fetch API监控功能，以便用户可以监控词典内容显示示时是否有使用Fetch API,XMLHttpRequest及WebSocket进行网络请求，并记录相关的请求信息以供用户查看
+* 普通查词界面默认不再显示页内查找功能，以减少界面复杂度和提升用户体验
+* 在用户界面设置中添加了一个选项，允许用户选择是否启用页内查找功能
+
+
+### 更新日誌
+* 在設定中新增了安全設定，允許使用者啟用網盾，並根據特定的過濾規則檢查詞典內容是否存在資料洩漏風險，同時提供了一些預設的過濾規則供使用者選擇。
+* 在安全設定中新增了一個選項，允許使用者選擇是否啟用 JavaScript Fetch API 監控功能，以便使用者可以監控詞典內容顯示時是否使用 Fetch API、XMLHttpRequest 及 WebSocket 進行網路請求，並記錄相關的請求資訊供使用者查看。
+* 普通查詞介面預設不再顯示頁內查找功能，以減少介面複雜度並提升使用者體驗。
+* 在使用者介面設定中新增了一個選項，允許使用者選擇是否啟用頁內查找功能。
+* 
 # v2.3.6.9 (2026-04-11)
 #### Update Log
 * Minor bugs fixed
