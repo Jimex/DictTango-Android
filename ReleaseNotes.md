@@ -1,3 +1,36 @@
+# v2.3.7.2 (2026-05-14)
+
+## English
+
+* Added several JavaScript AI functions, allowing users to use AI Prompt features in dictionaries for translation, explanations, example sentence generation, and more.
+
+* Introduced a new WebView preloading mechanism to improve dictionary content loading speed and overall user experience.
+
+* Improved the display effect of floating windows in landscape mode.
+
+* Added the ability to set an individual zoom percentage for each dictionary in the dictionary details page, adapting to different dictionary display requirements.
+
+* Added a “Direct Exit on Back Press” toggle in User Interface settings, allowing users to choose whether pressing the Back button exits the lookup interface directly instead of returning to the previous entry list.
+
+### 更新日志
+* 添加了几个js的AI函数，允许用户在词典中使用AI Prompt功能进行翻译、解释和例句生成等操作
+* 引入Webview新预热机制，提升词典内容的加载速度和用户体验
+* 改善横屏模式下浮动窗口的显示效果
+* 可以在词典详情中单独设置词典的缩放百分比，以适应不同词典的显示需求
+* 用户界面设置中添加"按返回键时直接退出"开关，允许用户选择是否在按下返回键时直接退出查词界面，而不是返回上词条列表
+### 更新日誌
+
+* 新增多個 JavaScript AI 函式，允許使用者在詞典中使用 AI Prompt 功能進行翻譯、解釋與例句生成等操作。
+
+* 引入新的 WebView 預熱機制，提升詞典內容的載入速度與整體使用體驗。
+
+* 改善橫向模式下浮動視窗的顯示效果。
+
+* 可在詞典詳情中單獨設定詞典的縮放百分比，以適應不同詞典的顯示需求。
+
+* 在使用者介面設定中新增「按返回鍵時直接退出」開關，允許使用者選擇按下返回鍵時是否直接退出查詞介面，而非返回上一詞條列表。
+
+
 # v2.3.7.0 (2026-05-07)
 **English:**
 * Added Security Settings in Settings, allowing users to enable NetShield and check whether dictionary content has potential data leakage risks based on specific filtering rules. Several preset filtering rules are also provided for users to choose from.
