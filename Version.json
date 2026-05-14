@@ -1,9 +1,9 @@
 {
-  "versionCode": 2370,
-  "versionName": "2.3.7.0",
+  "versionCode": 2372,
+  "versionName": "2.3.7.2",
   "url": "https://github.com/Jimex/DictTango-Android",
-  "downloadUrl": "https://github.com/Jimex/DictTango-Android/releases/latest/download/DictTango.v2.3.7.0.apk",
-  "enDesc": "Added Web Shield feature",
-  "zhcnDesc": "添加网盾功能",
-  "zhtwDesc": "添加網盾功能"
+  "downloadUrl": "https://github.com/Jimex/DictTango-Android/releases/latest/download/DictTango.v2.3.7.2.apk",
+  "enDesc": "Add new features and improve existing functionality",
+  "zhcnDesc": "添加新功能及现在功能改善",
+  "zhtwDesc": "新增功能及改善現有功能"
 }
