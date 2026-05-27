@@ -1,3 +1,32 @@
+# v2.3.7.5 (2026-05-14)
+## English
+
+### Changelog
+
+* Added an "Enable Authentication" feature to the PC Console, allowing access to the console to require a username and password for improved security.
+* Improved the file management functionality in the PC Console, increasing file upload speeds by approximately 2–4 times.
+* Added a Dictionary Content Retrieval API to the PC Console, allowing other applications to retrieve dictionary content via API for easier integration and usage.
+* Fixed some minor issues.
+
+---
+
+### 更新日志
+* PC控制台新增"开启验证"功能，允许设置需要用户名和密码才可以访问控制台，提升安全性
+* 改善PC控制台中的文件管理功能，文件上传速度大概提升了2-4倍
+* PC控制台添加了词典内容获取API, 允许其它应用通过API获取词典内容，方便集成和使用
+* 修复了一些小问题
+
+---
+
+### 更新日誌
+
+* PC 控制台新增「啟用驗證」功能，可設定需輸入使用者名稱與密碼才能存取控制台，提升安全性。
+* 改善 PC 控制台中的檔案管理功能，檔案上傳速度約提升 2–4 倍。
+* PC 控制台新增詞典內容取得 API，允許其他應用程式透過 API 取得詞典內容，方便整合與使用。
+* 修復一些小問題。
+
+
+
 # v2.3.7.3 (2026-05-14)
 
 ## English
