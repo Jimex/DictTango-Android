@@ -1,9 +1,9 @@
 {
-  "versionCode": 2375,
-  "versionName": "2.3.7.5",
+  "versionCode": 2376,
+  "versionName": "2.3.7.6",
   "url": "https://github.com/Jimex/DictTango-Android",
   "downloadUrl": "https://github.com/Jimex/DictTango-Android/releases/latest/download/DictTango.v2.3.7.5.apk",
-  "enDesc": "Add new features and improve existing functionality",
-  "zhcnDesc": "添加新功能及现在功能改善",
-  "zhtwDesc": "新增功能及改善現有功能"
+  "enDesc": "Fixed the issue of TTS icon not displaying fully",
+  "zhcnDesc": "修复了TTS图标显示不全的问题",
+  "zhtwDesc": "修復了TTS圖標顯示不全的問題"
 }
