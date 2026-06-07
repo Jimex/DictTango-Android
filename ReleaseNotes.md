@@ -1,3 +1,23 @@
+# v2.3.7.6 (2026-06-07)
+## English
+
+### Changelog
+
+* Fixed the issue of TTS icon not displaying fully
+
+---
+
+### 更新日志
+* 修复了TTS图标显示不全的问题
+
+---
+
+### 更新日誌
+
+* 修復了TTS圖標顯示不全的問題
+
+
+  
 # v2.3.7.5 (2026-05-14)
 ## English
 
