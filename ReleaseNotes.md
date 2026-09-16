@@ -1,3 +1,30 @@
+# v2.3.7.7 (2026-06-07)
+
+### English
+
+### Changelog
+
+* Automatically detects whether a dictionary was created using **Mdx Builder** or **Mdict Utils**, and applies the corresponding sorting rules for binary search based on the creation method.
+* Fixed an issue where some interface elements were not displayed completely during full-text searches.
+* Fixed several spelling errors.
+
+---
+### 更新日志
+* 自动检测词典是使用 Mdx Builder 还是 Mdict Utils 制作的，并根据不同的制作方式采用相应的排序规则进行二分法查询
+* 修复了全文搜索时，部分界面显示不全的问题
+* 修复了一些拼写错误
+
+---
+
+### 繁體中文
+
+### 更新日誌
+
+* 自動檢測詞典是使用 **Mdx Builder** 還是 **Mdict Utils** 製作的，並根據不同的製作方式採用相應的排序規則進行二分搜尋。
+* 修復了進行全文搜尋時，部分介面顯示不完整的問題。
+* 修復了一些拼寫錯誤。
+
+
 # v2.3.7.6 (2026-06-07)
 ## English
 
