@@ -1,9 +1,9 @@
 {
-  "versionCode": 2378,
-  "versionName": "2.3.7.8",
+  "versionCode": 2380,
+  "versionName": "2.3.8.0",
   "url": "https://github.com/Jimex/DictTango-Android",
-  "downloadUrl": "https://github.com/Jimex/DictTango-Android/releases/latest/download/DictTango.v2.3.7.8.apk",
-  "enDesc": "Minor UI Improvements",
-  "zhcnDesc": "小幅调整用户界面",
-  "zhtwDesc": "小幅調整使用者介面"
+  "downloadUrl": "https://github.com/Jimex/DictTango-Android/releases/latest/download/DictTango.v2.3.8.0.apk",
+  "enDesc": "Added Auto Naming and Grouping Rules",
+  "zhcnDesc": "添加词典自动命名与分组规则”",
+  "zhtwDesc": "新增詞典自動命名與分組規則"
 }
