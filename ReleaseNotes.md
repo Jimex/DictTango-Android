@@ -1,3 +1,69 @@
+# v2.3.8.0 (2026-06-07)
+### English
+
+### Changelog
+
+* Added **Auto Naming and Grouping Rules** in Dictionary settings: name and group dictionaries automatically when they are added, by file path, file name or internal name.
+* Newly added dictionaries (MDX and .dc) are now named after their internal name (unless it is empty or the Mdx Builder placeholder), otherwise after the file name. This default rule can be edited, disabled or deleted. Existing dictionaries are not renamed.
+* Adding several dictionaries no longer stops at the first file that cannot be opened: the other files are added and the failed ones are reported.
+* Dictionary rules can be exported to and imported from a JSON file (select rules, then Export; Import adds new rules and skips duplicates).
+* The dictionary scan can be limited to MDict or TangoDict files; the chosen type is remembered for the next scan.
+* New rule template variables: ${MATCH_1}, ${MATCH_2}… (regular expression capture groups), ${PARENT_FOLDER}, and for a custom folder scan ${RELATIVE_PATH}, ${RELATIVE_FOLDER_1}, ${RELATIVE_FOLDER_2}… (folders below the scanned folder).
+* The scan result list shows the name each dictionary will get and the groups it will join before it is added.
+* The Dictionaries screen shows the groups each dictionary is in (the default group is not shown).
+* Rules can be applied to dictionaries already added (Apply Rules to Existing Dictionaries in the rules menu): review the proposed renames and groups, untick any you do not want, then apply.
+* A grouping rule can add several groups: separate them with | in the template. Write $$ for a literal $ and $| for a literal |.
+* The rule editor has three tabs: Rule, Test (enter a sample file path, and optionally the internal name and scanned folder, to see the name or groups the rule produces) and Guide (how rules work, every template variable with examples, and sample rules).
+* Restore Default Rule in the rules menu adds the default naming rule again after it was deleted.
+* Adding dictionaries now always runs in the background, so a slow rule or a large file no longer freezes the screen. Generated names are limited to 200 characters.
+* Redesigned the dictionary scan screen: a progress bar is shown while scanning, the result list has more room, and the whole "Select all" row can be tapped.
+* Fixed the dictionary scan list showing the MDict badge for TangoDict (.dc) files.
+* Fixed a crash when choosing Ask AI from another app's text selection menu.
+
+---
+### 更新日志
+* 词典设置和词典管理中中新增“自动命名与分组规则”：添加词典时，可根据文件路径、文件名或内部名字自动设置名称和分组
+* 新添加的词典（MDX 和 .dc）默认使用其内部名字命名（为空或为 Mdx Builder 默认占位符时使用文件名）。此默认规则可编辑、停用或删除，已有词典不会被重命名
+* 批量添加词典时，遇到无法打开的文件不再中断：其余文件会继续添加，并提示添加失败的文件
+* 词典规则可导出为 JSON 文件，或从 JSON 文件导入（选择规则后点“导出”；导入时添加新规则并跳过重复规则）
+* 扫描词典时可只扫描 MDict 或 TangoDict 文件，所选类型会在下次扫描时保留
+* 规则模板新增变量：${MATCH_1}、${MATCH_2}…（正则表达式捕获组）、${PARENT_FOLDER}，以及自定义扫描时可用的 ${RELATIVE_PATH}、${RELATIVE_FOLDER_1}、${RELATIVE_FOLDER_2}…（扫描文件夹下的子文件夹）
+* 扫描结果列表在添加前即显示词典将使用的名称和将加入的分组
+* 词典管理界面显示每本词典所在的分组（不显示默认分组）
+* 规则可应用到已添加的词典（规则菜单中的“对已有词典应用规则”）：查看将要进行的重命名和分组，取消勾选不需要的项后应用
+* 分组规则可以加入多个分组：在模板中用 | 分隔。用 $$ 表示 $ 本身，用 $| 表示 | 本身
+* 规则编辑界面分为“规则”“测试”“说明”三个标签页：“测试”中输入示例文件路径（可选填内部名字和扫描文件夹）即可查看规则生成的名称或分组；“说明”介绍规则的工作方式、每个模板变量及示例规则
+* 规则菜单中的“恢复默认规则”可在默认命名规则被删除后重新添加
+* 添加词典现在始终在后台进行，规则较慢或文件较大时界面不再卡住。生成的名称最长 200 个字符
+* 重新设计了扫描词典界面：扫描时显示进度条，结果列表的显示空间更大，点击整行“全选”即可全选
+* 修复了扫描词典列表中，TangoDict（.dc）文件显示为 MDict 标识的问题
+* 修复了在其他应用的文本选择菜单中选择“问 AI”时程序崩溃的问题
+
+
+---
+
+### 繁體中文
+
+### 更新日誌
+
+* 詞典設定中新增 **自動命名與分組規則**：添加詞典時，可根據文件路徑、文件名或內部名字自動設定名稱和分組。
+* 新添加的詞典（MDX 和 .dc）預設使用其內部名字命名（為空或為 Mdx Builder 預設佔位符時使用文件名）。此預設規則可編輯、停用或刪除，已有詞典不會被重新命名。
+* 批量添加詞典時，遇到無法開啟的文件不再中斷：其餘文件會繼續添加，並提示添加失敗的文件。
+* 詞典規則可導出為 JSON 文件，或從 JSON 文件導入（選擇規則後點「導出」；導入時添加新規則並跳過重複規則）。
+* 掃描詞典時可只掃描 MDict 或 TangoDict 文件，所選類型會在下次掃描時保留。
+* 規則模板新增變數：${MATCH_1}、${MATCH_2}…（正則表達式捕獲組）、${PARENT_FOLDER}，以及自定義掃描時可用的 ${RELATIVE_PATH}、${RELATIVE_FOLDER_1}、${RELATIVE_FOLDER_2}…（掃描文件夾下的子文件夾）。
+* 掃描結果列表在添加前即顯示詞典將使用的名稱和將加入的分組。
+* 詞典管理介面顯示每本詞典所在的分組（不顯示預設分組）。
+* 規則可套用到已添加的詞典（規則選單中的「對已有詞典套用規則」）：查看將要進行的重新命名和分組，取消勾選不需要的項目後套用。
+* 分組規則可以加入多個分組：在模板中用 | 分隔。用 $$ 表示 $ 本身，用 $| 表示 | 本身。
+* 規則編輯介面分為「規則」「測試」「說明」三個標籤頁：「測試」中輸入範例文件路徑（可選填內部名字和掃描文件夾）即可查看規則產生的名稱或分組；「說明」介紹規則的運作方式、每個模板變數及範例規則。
+* 規則選單中的「還原預設規則」可在預設命名規則被刪除後重新新增。
+* 添加詞典現在始終在背景進行，規則較慢或文件較大時介面不再卡住。產生的名稱最長 200 個字元。
+* 重新設計了掃描詞典介面：掃描時顯示進度條，結果列表的顯示空間更大，點擊整行「全選」即可全選。
+* 修復了掃描詞典列表中，TangoDict（.dc）文件顯示為 MDict 標識的問題。
+* 修復了在其他應用的文字選取選單中選擇「問 AI」時程式當機的問題。
+
+
 # v2.3.7.8 (2026-06-07)
 
 **English：** Minor UI Improvements
