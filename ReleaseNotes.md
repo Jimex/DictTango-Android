@@ -1,3 +1,33 @@
+# v2.3.8.1 (2026-10-13)
+### English
+
+### Changelog
+
+* Changing the dark mode or the app language now takes effect immediately, without restarting the app.
+* When dark mode is set to **Follow System**, the app now also switches when the system dark mode changes while the app is open.
+* Fixed dictionaries added or deleted from the PC Console sometimes being processed more than once.
+* Fixed the search result list sometimes showing the previous search's results overlapping the current ones in the lookup window and the floating window.
+
+---
+### 更新日志
+* 切换暗黑模式或应用语言后立即生效，无需重启应用
+* 暗黑模式设为“跟随系统”时，应用打开期间系统切换暗黑模式，应用也会随之切换
+* 修复了从电脑控制台添加或删除词典时，有时会被重复处理的问题
+* 修复了查词窗口和浮动窗口中，搜索结果列表有时与上一次搜索的结果重叠显示的问题
+
+
+---
+
+### 繁體中文
+
+### 更新日誌
+
+* 切換暗黑模式或應用語言後立即生效，無需重啟應用。
+* 暗黑模式設為「跟隨系統」時，應用開啟期間系統切換暗黑模式，應用也會隨之切換。
+* 修復了從電腦控制台添加或刪除詞典時，有時會被重複處理的問題。
+* 修復了查詞窗口和浮動窗口中，搜尋結果列表有時與上一次搜尋的結果重疊顯示的問題。
+
+
 # v2.3.8.0 (2026-10-11)
 ### English
 
