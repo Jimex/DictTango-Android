@@ -1,9 +1,9 @@
 {
-  "versionCode": 2381,
-  "versionName": "2.3.8.1",
+  "versionCode": 2382,
+  "versionName": "2.3.8.2",
   "url": "https://github.com/Jimex/DictTango-Android",
-  "downloadUrl": "https://github.com/Jimex/DictTango-Android/releases/latest/download/DictTango.v2.3.8.1.apk",
-  "enDesc": "- Dark mode and app language changes now apply immediately, without restarting the app\n- Fixed the search results sometimes overlapping the previous search's results in the lookup window and floating window\n- Fixed dictionaries added or deleted from the PC Console sometimes being processed more than once",
-  "zhcnDesc": "- 切换暗黑模式或应用语言后立即生效，无需重启应用\n- 修复了查词窗口和浮动窗口中，搜索结果有时与上一次搜索的结果重叠显示的问题\n- 修复了从电脑控制台添加或删除词典时，有时会被重复处理的问题",
-  "zhtwDesc": "- 切換暗黑模式或應用語言後立即生效，無需重啟應用\n- 修復了查詞窗口和浮動窗口中，搜尋結果有時與上一次搜尋的結果重疊顯示的問題\n- 修復了從電腦控制台添加或刪除詞典時，有時會被重複處理的問題"
+  "downloadUrl": "https://github.com/Jimex/DictTango-Android/releases/latest/download/DictTango.v2.3.8.2.apk",
+  "enDesc": "Fixed TTS issue",
+  "zhcnDesc": "修复了TTS的问题",
+  "zhtwDesc": "修復了TTS的問題"
 }
