@@ -1,9 +1,9 @@
 {
-  "versionCode": 2382,
-  "versionName": "2.3.8.2",
+  "versionCode": 2383,
+  "versionName": "2.3.8.3",
   "url": "https://github.com/Jimex/DictTango-Android",
-  "downloadUrl": "https://github.com/Jimex/DictTango-Android/releases/latest/download/DictTango.v2.3.8.2.apk",
-  "enDesc": "Fixed TTS issue",
-  "zhcnDesc": "修复了TTS的问题",
-  "zhtwDesc": "修復了TTS的問題"
+  "downloadUrl": "https://github.com/Jimex/DictTango-Android/releases/latest/download/DictTango.v2.3.8.3.apk",
+  "enDesc": "Fixed an issue with loading the Japanese spelling dictionary",
+  "zhcnDesc": "修正了日语拼写词典的读取问题",
+  "zhtwDesc": "修正了日語拼寫詞典的讀取問題"
 }
