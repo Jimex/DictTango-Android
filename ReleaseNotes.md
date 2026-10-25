@@ -1,3 +1,17 @@
+# v2.3.8.2 (2026-10-25)
+### English
+English: Fixed an issue with loading the Japanese spelling dictionary.
+
+---
+### 更新日志
+修正了日语拼写词典的读取问题
+
+---
+
+### 繁體中文
+### 更新日誌
+修正了日語拼寫詞典的讀取問題。
+
 # v2.3.8.2 (2026-10-16)
 ### English
 Fixed TTS issue
