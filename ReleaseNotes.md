@@ -1,4 +1,4 @@
-# v2.3.8.2 (2026-10-25)
+# v2.3.8.3 (2026-10-25)
 ### English
 English: Fixed an issue with loading the Japanese spelling dictionary.
 
