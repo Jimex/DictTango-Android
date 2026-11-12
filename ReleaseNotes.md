@@ -1,3 +1,51 @@
+# v2.3.8.6 (2026-11-12)
+
+### English
+
+### Changelog
+
+* New **Display layout** setting (Settings → Dictionary View Color Scheme): show each dictionary's entry in the Original list, on a Page White background, or as Clean Linen or Warm Paper Book Page cards, with an optional card shadow.
+* New PC Console: a redesigned browser console that works on computers and phones, with dark mode, quicker word lookup and full-text search, links you can bookmark, and a file manager with drag-and-drop uploads and per-file progress. The previous console is still available at /classic/ for this release.
+* PC Console: edit dictionary groups: create, rename and delete groups, add and remove dictionaries, and drag them into the order words are looked up in. A group can also be made the console's lookup group.
+* PC Console: refreshed look, with a clearer sidebar, full-width pages, and the lookup group's dictionaries on the dashboard.
+* PC Console: fixed security issues: it could reach files outside the DictTango folder, and other websites could send it requests.
+* PC Console: full-text search can search a single dictionary, like the app's Search Source option.
+* PC Console: faster entry pages, faster uploads, resumable downloads, and correct names for downloaded files with non-ASCII names.
+* PC Console: fixed words containing "/" or "+" not opening, search history recording the wrong word, and search matches not being highlighted in entries.
+* PC Console: deleting a dictionary or group now updates the app right away; the default group can no longer be deleted.
+
+---
+### 更新日志
+* 新增“显示布局”设置（设置 → 词典视图配色）：词条可按原始列表、纯白页面显示，或显示为素雅亚麻、暖色纸张书页卡片，并可开启卡片阴影
+* 全新电脑控制台：重新设计的浏览器控制台，可在电脑和手机上使用，支持深色模式，查词和全文检索更快，网址可加入书签，文件管理器支持拖放上传并显示每个文件的进度。本版本仍可在 /classic/ 使用旧版控制台
+* 电脑控制台：可编辑词典分组：新建、重命名和删除分组，添加和移出词典，并拖动调整查词顺序；也可将分组设为控制台的查词分组
+* 电脑控制台：界面焕新，侧边栏更清晰，页面占满窗口宽度，仪表板显示查词分组中的词典
+* 电脑控制台：修复了安全问题：可访问 DictTango 文件夹以外的文件，以及其他网站可向其发送请求
+* 电脑控制台：全文检索可只搜索单个词典，与应用中的“搜索源”选项相同
+* 电脑控制台：词条页面和上传更快，下载可续传，非英文文件名下载后名称正确
+* 电脑控制台：修复了含“/”或“+”的单词无法打开、搜索历史记录了错误的单词、词条中搜索结果未高亮的问题
+* 电脑控制台：删除词典或分组后应用会立即更新；默认分组不能再被删除
+
+
+
+
+---
+
+### 繁體中文
+
+### 更新日誌
+
+* 新增「顯示佈局」設定（設定 → 詞典視圖配色）：詞條可按原始列表、純白頁面顯示，或顯示為素雅亞麻、暖色紙張書頁卡片，並可開啟卡片陰影。
+* 全新電腦控制台：重新設計的瀏覽器控制台，可在電腦和手機上使用，支援深色模式，查詞和全文檢索更快，網址可加入書籤，檔案管理器支援拖放上傳並顯示每個檔案的進度。本版本仍可在 /classic/ 使用舊版控制台。
+* 電腦控制台：可編輯詞典分組：新增、重新命名和刪除分組，加入和移出詞典，並拖曳調整查詞順序；也可將分組設為控制台的查詞分組。
+* 電腦控制台：介面煥新，側邊欄更清晰，頁面佔滿視窗寬度，儀表板顯示查詞分組中的詞典。
+* 電腦控制台：修復了安全問題：可存取 DictTango 資料夾以外的檔案，以及其他網站可向其傳送請求。
+* 電腦控制台：全文檢索可只搜尋單一詞典，與應用程式中的「搜尋來源」選項相同。
+* 電腦控制台：詞條頁面和上傳更快，下載可續傳，非英文檔名下載後名稱正確。
+* 電腦控制台：修復了含「/」或「+」的單字無法開啟、搜尋紀錄記錄了錯誤的單字、詞條中搜尋結果未醒目提示的問題。
+* 電腦控制台：刪除詞典或分組後應用程式會立即更新；預設分組不能再被刪除。
+
+  
 # v2.3.8.3 (2026-10-25)
 ### English
 English: Fixed an issue with loading the Japanese spelling dictionary.
