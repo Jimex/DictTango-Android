@@ -1,3 +1,30 @@
+# v2.3.8.7 (2026-11-13)
+### English
+
+### Changelog
+
+* Fixed the **Direct Lookup** setting: with it on, the app did not open the lookup screen at launch and the home screen did not finish loading.
+* Fixed the floating lookup window not releasing its pages when it closed while Direct Lookup was off.
+
+---
+### 更新日志
+* 修复了“直接查词”设置：开启后，应用启动时不会进入查词界面，主页也无法完成加载
+* 修复了“直接查词”关闭时，浮动查词窗口关闭后未释放其页面的问题
+
+
+
+
+---
+
+### 繁體中文
+
+### 更新日誌
+
+* 修復了「直接查詞」設定：開啟後，應用程式啟動時不會進入查詞介面，首頁也無法完成載入。
+* 修復了「直接查詞」關閉時，浮動查詞視窗關閉後未釋放其頁面的問題。
+
+---
+
 # v2.3.8.6 (2026-11-12)
 
 ### English
