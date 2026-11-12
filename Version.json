@@ -1,9 +1,9 @@
 {
-  "versionCode": 2383,
-  "versionName": "2.3.8.3",
+  "versionCode": 2386,
+  "versionName": "2.3.8.6",
   "url": "https://github.com/Jimex/DictTango-Android",
-  "downloadUrl": "https://github.com/Jimex/DictTango-Android/releases/latest/download/DictTango.v2.3.8.3.apk",
-  "enDesc": "Fixed an issue with loading the Japanese spelling dictionary",
-  "zhcnDesc": "修正了日语拼写词典的读取问题",
-  "zhtwDesc": "修正了日語拼寫詞典的讀取問題"
+  "downloadUrl": "https://github.com/Jimex/DictTango-Android/releases/latest/download/DictTango.v2.3.8.6.apk",
+  "enDesc": "- New Display layout setting: Original, Page White, or Clean Linen and Warm Paper Book Page cards\n- New PC Console: redesigned for computers and phones, with dark mode, quicker lookup and full-text search, and a file manager with drag-and-drop uploads\n- PC Console: edit dictionary groups, including the order words are looked up in\n- PC Console: fixed security issues: it could reach files outside the DictTango folder, and other websites could send it requests",
+  "zhcnDesc": "- 新增“显示布局”设置：原始、纯白页面，或素雅亚麻、暖色纸张书页卡片\n- 全新电脑控制台：重新设计，可在电脑和手机上使用，支持深色模式，查词和全文检索更快，文件管理器支持拖放上传\n- 电脑控制台：可编辑词典分组，包括查词顺序\n- 电脑控制台：修复了安全问题：可访问 DictTango 文件夹以外的文件，以及其他网站可向其发送请求",
+  "zhtwDesc": "- 新增「顯示佈局」設定：原始、純白頁面，或素雅亞麻、暖色紙張書頁卡片\n- 全新電腦控制台：重新設計，可在電腦和手機上使用，支援深色模式，查詞和全文檢索更快，檔案管理器支援拖放上傳\n- 電腦控制台：可編輯詞典分組，包括查詞順序\n- 電腦控制台：修復了安全問題：可存取 DictTango 資料夾以外的檔案，以及其他網站可向其傳送請求"
 }
