@@ -1,3 +1,36 @@
+# v2.3.8.8  (2026-11-13)
+
+### English
+
+### Changelog
+
+* Fixed **Reading Mode** freezing while it opens: the dictionary, its icon and each entry now load in the background, so the app no longer shows a "not responding" prompt.
+* **Reading Mode** has a tidier look: the header shows the word with the dictionary name under it, and Edit User Comment, Print and Developer Tools are now in its **More** menu.
+* Reading Mode's bottom toolbar is now a floating bar with the same buttons as the lookup screen's. Buttons that don't fit move into a **More** menu at the end of the bar instead of running off it.
+* New **Fixed bottom bar** setting for Reading Mode (Settings → User interface → Reading Mode UI), like the one for the lookup screen: turn it on to keep the toolbar on screen while you scroll.
+* New **Show Tap-Translate results on the lookup screen** setting (Settings → Dictionary Settings → Touch Control): turn it on to look up a tapped word right on the lookup screen instead of in a floating window.
+
+---
+### 更新日志
+* 修复了“阅读模式”打开时卡顿的问题：词典、词典图标和词条现在在后台加载，应用不再提示“无响应”
+* “阅读模式”界面更简洁：顶栏显示单词及其下方的词典名称，“编辑用户批注”、“打印”和“开发者工具”移入了“更多”菜单
+* 阅读模式的底部工具栏改为浮动工具栏，按钮样式与查词界面一致；放不下的按钮会移入工具栏末尾的“更多”菜单，不再超出工具栏
+* 阅读模式新增“固定底部栏”设置（设置 → 用户界面 → 阅读模式界面），与查词界面的同名设置相同：开启后，滚动时工具栏会保持显示
+* 新增“在查词界面显示点译结果”设置（设置 → 词典设置 → 触控）：开启后，在查词界面点译单词时直接在该界面查词，而不是打开浮动窗口
+
+
+---
+
+### 繁體中文
+
+### 更新日誌
+
+* 修復了「閱讀模式」開啟時卡頓的問題：詞典、詞典圖示和詞條現在在背景載入，應用程式不再提示「沒有回應」。
+* 「閱讀模式」介面更簡潔：頂欄顯示單字及其下方的詞典名稱，「編輯用戶批注」、「列印」和「開發者工具」移入了「更多」選單。
+* 閱讀模式的底部工具列改為浮動工具列，按鈕樣式與查詞介面一致；放不下的按鈕會移入工具列末端的「更多」選單，不再超出工具列。
+* 閱讀模式新增「固定底部欄」設定（設定 → 用戶界面 → 閱讀模式界面），與查詞介面的同名設定相同：開啟後，捲動時工具列會保持顯示。
+* 新增「在查詞介面顯示點譯結果」設定（設定 → 詞典設置 → 觸控）：開啟後，在查詞介面點譯單字時直接在該介面查詞，而不是開啟浮動視窗。
+
 # v2.3.8.7 (2026-11-13)
 ### English
 
