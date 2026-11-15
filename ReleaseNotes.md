@@ -1,3 +1,48 @@
+# v2.3.8.9  (2026-11-15)
+
+### English
+
+### Changelog
+
+
+* Fixed the PC Console's **File Manager** showing a broken preview for images whose names have Chinese characters or spaces; opening such files in the browser now shows them instead of "unknown content type".
+* Redesigned the **Display Font** list: each font shows its priority, a preview drawn in the font itself, the file name, size and folder, and a "Part 1 of 2" tag for split font files. Tap a font for a details sheet with a larger preview, your own preview text, Edit, Move to top and Remove. Reorder mode has drag handles, and fonts are added with the new **Add font** button.
+* Font names are now read from the font's family name. Fonts that were named after their copyright notice are renamed automatically.
+* Redesigned the **Edit font** page: settings are grouped into cards, weight, style and font display are chosen with buttons, and the Unicode range and weight are checked before saving.
+* Redesigned the **Audio Resource** and **Linked Resources** screens in the same style. Audio packs have a new **Test pronunciation** action that plays a word from that pack alone.
+* Redesigned the **Dictionary List**: search is always shown, with filters for type, sort order and dictionary group; dictionaries are added with the **Add dictionary** button; and tapping a dictionary opens a details sheet with its actions.
+* Reorganized the **Edit dictionary** page into cards, with buttons and switches in place of drop-down lists.
+* Dictionaries without a cover now show the first character of their name on a coloured tile, instead of the same "M" icon for all.
+
+---
+### 更新日志
+* 修复了电脑控制台“文件管理”中，文件名含中文或空格的图片预览无法显示的问题；在浏览器中打开这类文件时，也不再提示无法识别的文件类型
+* 重新设计了“显示字体”列表：每个字体显示优先级、用字体本身绘制的预览、文件名、大小和所在文件夹，拆分的字体文件会标注“第 1 部分，共 2 部分”。点按字体可打开详情面板，查看较大的预览、设置自己的预览文字，以及编辑、移到顶部和移除。排序模式新增拖动手柄，添加字体改用新的“添加字体”按钮
+* 字体名称改为读取字体的字体族名称；以前被命名为版权声明的字体会自动改回正确的名称
+* 重新设计了“编辑字体”页面：设置按卡片分组，粗细、样式和字体显示方式改用按钮选择，保存前会检查 Unicode 范围和粗细值
+* 以同样的风格重新设计了“音频资源”和“链接资源”界面。音频包新增“试听发音”，只从该音频包播放单词
+* 重新设计了“词典列表”：搜索栏常驻显示，并可按类型、排序方式和词典分组筛选；添加词典改用“添加词典”按钮；点按词典会打开包含各项操作的详情面板
+* “编辑词典”页面改为卡片布局，下拉列表改为按钮和开关
+* 没有封面的词典改为在彩色方块上显示名称的第一个字，不再全部显示相同的“M”图标
+
+
+
+
+---
+
+### 繁體中文
+
+### 更新日誌
+
+* 修復了電腦控制台「檔案管理」中，檔名含中文或空格的圖片預覽無法顯示的問題；在瀏覽器中開啟這類檔案時，也不再提示無法識別的檔案類型。
+* 重新設計了「顯示字體」列表：每個字體顯示優先順序、用字體本身繪製的預覽、檔名、大小和所在資料夾，拆分的字體檔案會標註「第 1 部分，共 2 部分」。輕觸字體可開啟詳情面板，查看較大的預覽、設定自己的預覽文字，以及編輯、移到頂部和移除。排序模式新增拖動把手，新增字體改用新的「新增字體」按鈕。
+* 字體名稱改為讀取字體的字體族名稱；以前被命名為版權聲明的字體會自動改回正確的名稱。
+* 重新設計了「編輯字體」頁面：設定按卡片分組，粗細、樣式和字體顯示方式改用按鈕選擇，儲存前會檢查 Unicode 範圍和粗細值。
+* 以同樣的風格重新設計了「音訊資源」和「連結資源」介面。音訊包新增「試聽發音」，只從該音訊包播放單字。
+* 重新設計了「詞典列表」：搜尋列常駐顯示，並可按類型、排序方式和詞典群組篩選；新增詞典改用「新增詞典」按鈕；輕觸詞典會開啟包含各項操作的詳情面板。
+* 「編輯詞典」頁面改為卡片版面，下拉清單改為按鈕和開關。
+* 沒有封面的詞典改為在彩色方塊上顯示名稱的第一個字，不再全部顯示相同的「M」圖示。
+
 # v2.3.8.8  (2026-11-13)
 
 ### English
