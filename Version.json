@@ -1,9 +1,9 @@
 {
-  "versionCode": 2388,
-  "versionName": "2.3.8.8",
+  "versionCode": 2389,
+  "versionName": "2.3.8.9",
   "url": "https://github.com/Jimex/DictTango-Android",
-  "downloadUrl": "https://github.com/Jimex/DictTango-Android/releases/latest/download/DictTango.v2.3.8.8.apk",
-  "enDesc": "- Reading Mode no longer freezes while it opens\n- Reading Mode has a tidier header and a floating toolbar, styled like the lookup screen's\n- New Fixed bottom bar setting for Reading Mode\n- New setting to show Tap-Translate results on the lookup screen instead of in a floating window",
-  "zhcnDesc": "- 修复了阅读模式打开时卡顿的问题\n- 阅读模式顶栏更简洁，底部工具栏改为与查词界面一致的浮动工具栏\n- 阅读模式新增“固定底部栏”设置\n- 新增“在查词界面显示点译结果”设置，点译结果可直接显示在查词界面，而不是浮动窗口",
-  "zhtwDesc": "- 修復了閱讀模式開啟時卡頓的問題\n- 閱讀模式頂欄更簡潔，底部工具列改為與查詞介面一致的浮動工具列\n- 閱讀模式新增「固定底部欄」設定\n- 新增「在查詞介面顯示點譯結果」設定，點譯結果可直接顯示在查詞介面，而不是浮動視窗"
+  "downloadUrl": "https://github.com/Jimex/DictTango-Android/releases/latest/download/DictTango.v2.3.8.9.apk",
+  "enDesc": "- Fixed broken image previews in the PC Console's File Manager for names with Chinese characters or spaces\n- Redesigned the Display Font list, with font previews, priorities, folders and a details sheet\n- Font names are read correctly; fonts named after their copyright notice are renamed\n- Redesigned the Edit font page\n- Redesigned the Audio Resource and Linked Resources screens; audio packs can test a pronunciation\n- Redesigned the Dictionary List, with search, type, sort and group filters and a details sheet\n- Reorganized the Edit dictionary page\n- Dictionaries without a cover show the first character of their name instead of an \"M\" icon",
+  "zhcnDesc": "- 修复了电脑控制台“文件管理”中文件名含中文或空格的图片无法预览的问题\n- 重新设计了“显示字体”列表，新增字体预览、优先级、所在文件夹和详情面板\n- 修复了字体名称读取错误的问题；以版权声明命名的字体会自动改名\n- 重新设计了“编辑字体”页面\n- 重新设计了“音频资源”和“链接资源”界面；音频包可试听发音\n- 重新设计了“词典列表”，新增搜索、类型、排序和分组筛选以及详情面板\n- “编辑词典”页面改为卡片布局\n- 没有封面的词典显示名称的第一个字，不再显示“M”图标",
+  "zhtwDesc": "- 修復了電腦控制台「檔案管理」中檔名含中文或空格的圖片無法預覽的問題\n- 重新設計了「顯示字體」列表，新增字體預覽、優先順序、所在資料夾和詳情面板\n- 修復了字體名稱讀取錯誤的問題；以版權聲明命名的字體會自動改名\n- 重新設計了「編輯字體」頁面\n- 重新設計了「音訊資源」和「連結資源」介面；音訊包可試聽發音\n- 重新設計了「詞典列表」，新增搜尋、類型、排序和群組篩選以及詳情面板\n- 「編輯詞典」頁面改為卡片版面\n- 沒有封面的詞典顯示名稱的第一個字，不再顯示「M」圖示"
 }
