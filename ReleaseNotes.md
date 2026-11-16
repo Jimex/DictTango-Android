@@ -1,3 +1,32 @@
+# v2.3.9.0  (2026-11-16)
+
+### English
+
+### Changelog
+
+
+* Redesigned the **Dictionary Group** list: each group shows tags for where it is used (lookup screen, floating window, default), its dictionary count and brief dictionary, and small icons of its first dictionaries. Groups are added with the new **New Group** button, and reorder mode has drag handles. Tap a group, including the Default Group, for a sheet with Dictionaries, Reorder, Rename, **Use** for the lookup screen or floating window, the brief dictionary and Delete group.
+* Redesigned the list of dictionaries in a group: each dictionary shows its position, icon and its states as tags (starts collapsed or open, always open, no header, brief). Tapping a dictionary opens a sheet with switches for these states, Move to top and Remove from this group. In selection mode, **More** opens the same sheet for all selected dictionaries. Dictionaries are added with the **Add dictionaries** button.
+* Added an **MDict key sort order** option to the **Edit dictionary** page: Auto, MdxBuilder or MdictUtils. Auto detects the tool that built the .mdx file from its header, as before; if some words in a dictionary can't be found because the detection was wrong, choose the other tool. MdictUtils only applies to UTF-8 dictionaries.
+
+---
+### 更新日志
+* 重新设计了“词典分组”列表：每个分组以标签显示其用途（查词界面、浮动窗口、默认），并显示词典数量、简明词典和前几部词典的小图标。添加分组改用新的“新建分组”按钮，排序模式新增拖动手柄。点按分组（包括默认分组）会打开详情面板，可进入词典列表、排序、重命名、“使用”于查词界面或浮动窗口、设置简明词典和删除分组
+* 重新设计了分组内的词典列表：每部词典显示序号、图标，并以标签显示其状态（默认折叠或展开、始终展开、无标题栏、简明词典）。点按词典会打开详情面板，可用开关切换这些状态，也可移到顶部或从该分组移除。在多选模式下，“更多”会为所有选中的词典打开同一面板。添加词典改用“添加词典”按钮
+* “编辑词典”页面新增“MDict 词条排序方式”选项：自动、MdxBuilder 或 MdictUtils。“自动”与以前一样，根据文件头判断生成 .mdx 文件所用的工具；如果因判断有误导致词典中有些词条查不到，可改选另一种工具。MdictUtils 仅适用于 UTF-8 编码的词典
+
+
+---
+
+### 繁體
+
+### 更新日誌
+
+* 重新設計了「詞典分組」列表：每個分組以標籤顯示其用途（查詞介面、浮動視窗、預設），並顯示詞典數量、簡明詞典和前幾部詞典的小圖示。新增分組改用新的「新建分組」按鈕，排序模式新增拖動把手。輕觸分組（包括預設分組）會開啟詳情面板，可進入詞典列表、排序、重新命名、「使用」於查詞介面或浮動視窗、設定簡明詞典和刪除分組。
+* 重新設計了分組內的詞典列表：每部詞典顯示序號、圖示，並以標籤顯示其狀態（預設摺疊或展開、始終展開、無標題列、簡明詞典）。輕觸詞典會開啟詳情面板，可用開關切換這些狀態，也可移到頂部或從該分組移除。在多選模式下，「更多」會為所有選取的詞典開啟同一面板。新增詞典改用「新增詞典」按鈕。
+* 「編輯詞典」頁面新增「MDict 詞條排序方式」選項：自動、MdxBuilder 或 MdictUtils。「自動」與以前一樣，根據檔案標頭判斷產生 .mdx 檔案所用的工具；如果因判斷有誤導致詞典中有些詞條查不到，可改選另一種工具。MdictUtils 僅適用於 UTF-8 編碼的詞典。
+
+
 # v2.3.8.9  (2026-11-15)
 
 ### English
