@@ -1,3 +1,37 @@
+# v2.3.9.1  (2026-11-18)
+
+### English
+
+### Changelog
+
+
+* Redesigned **AI Chat**: the title shows the AI service and mode, and tapping it opens a sheet to switch the service or choose Chat or Q&A. Messages have a cleaner look in light and dark themes, a new chat shows your first prompt templates, and the message box has a round send button that turns into Stop while a reply is written. Prompt templates open in a sheet that marks the ones that ask for input. A **Jump to latest** button appears when you scroll up during a reply.
+* Added a **LiteRT-LM** AI service for running `.litertlm` models (such as Gemma and Qwen) on the phone. Choose it as the provider when adding an AI service, pick the model file and, optionally, let it use the GPU; it falls back to the CPU when the phone or model doesn't support the GPU. It works in AI Chat and for AI prompts. It needs a 64-bit ARM phone.
+* Added **Ask about a Photo**: point the camera at something (or choose a photo), optionally type or say a question, and an on-device AI model answers as your language teacher and makes a word card in the language you are learning, with an example sentence. Speak the word, look it up in your dictionaries, add it to a word book with the photo, or ask follow-up questions. Choose your language, the language to learn and one of four teacher personas (Buddy, Nerdy, Secret Agent, Wizard), whose prompts you can edit. It needs a LiteRT-LM AI service with a model that takes images, such as Gemma 4 E2B or E4B. Open it from the home menu, or from the new icon in the search box, which shows once you have a LiteRT-LM service.
+* Redesigned the **AI Service** and **AI Prompt** lists and edit pages in the style of the display font screens: numbered rows with each provider's icon, a details sheet with Edit, Move to top and Delete, drag handles in reorder mode, and card-style edit pages with help text and checks before saving.
+* Fixed a crash when sorting the dictionaries of a large group by name.
+
+---
+### 更新日志
+* 重新设计了“AI 对话”：标题显示当前 AI 服务和模式，点按标题可切换服务或选择“对话”“问答”模式。消息在浅色和深色主题下都更清爽，新对话会显示前几个提示词模板，输入框改用圆形发送按钮，生成回复时变为“停止”。提示词模板改在底部面板中打开，并标出需要输入的模板。回复过程中向上滚动时会出现“跳到最新”按钮
+* 新增 **LiteRT-LM** AI 服务，可在手机上运行 `.litertlm` 模型（如 Gemma、Qwen）。添加 AI 服务时选择它作为服务提供方，选择模型文件，并可选择使用 GPU；手机或模型不支持 GPU 时会自动改用 CPU。可用于 AI 对话和 AI 提示词。需要 64 位 ARM 手机
+* 新增“看图学单词”：用相机对准一样东西（或选择一张照片），可先输入或说出问题，本机上的 AI 模型会以语言老师的身份回答，并用你正在学的语言生成带例句的单词卡。可朗读单词、在你的词典中查找、连同照片加入单词本，也可继续追问。可选择你的语言、要学的语言以及四种老师角色之一（小伙伴、学霸、特工、巫师），角色的提示词可以编辑。需要一个模型能读图片的 LiteRT-LM AI 服务，例如 Gemma 4 E2B 或 E4B。可从首页菜单打开；添加 LiteRT-LM 服务后，搜索框中也会出现新图标
+* 重新设计了“AI 服务”和“AI 提示词”列表及编辑页面，与“显示字体”界面风格一致：带序号和服务提供方图标的列表、包含编辑、移到顶部和删除的详情面板、排序模式下的拖动手柄，以及带说明文字和保存前检查的卡片式编辑页面
+* 修复了对大型词典分组按名称排序时闪退的问题
+
+
+---
+
+### 繁體
+
+### 更新日誌
+
+* 重新設計了「AI 對話」：標題顯示目前的 AI 服務和模式，輕觸標題可切換服務或選擇「對話」「問答」模式。訊息在淺色和深色主題下都更清爽，新對話會顯示前幾個提示詞範本，輸入框改用圓形傳送按鈕，產生回覆時變為「停止」。提示詞範本改在底部面板中開啟，並標出需要輸入的範本。回覆過程中向上捲動時會出現「跳到最新」按鈕。
+* 新增 **LiteRT-LM** AI 服務，可在手機上執行 `.litertlm` 模型（如 Gemma、Qwen）。新增 AI 服務時選擇它作為服務提供者，選擇模型檔案，並可選擇使用 GPU；手機或模型不支援 GPU 時會自動改用 CPU。可用於 AI 對話和 AI 提示詞。需要 64 位元 ARM 手機。
+* 新增「看圖學單字」：用相機對準一樣東西（或選擇一張照片），可先輸入或說出問題，本機上的 AI 模型會以語言老師的身分回答，並用你正在學的語言產生附例句的單字卡。可朗讀單字、在你的字典中查詢、連同照片加入單詞本，也可繼續追問。可選擇你的語言、要學的語言以及四種老師角色之一（小夥伴、學霸、特務、巫師），角色的提示詞可以編輯。需要一個模型能讀圖片的 LiteRT-LM AI 服務，例如 Gemma 4 E2B 或 E4B。可從首頁選單開啟；新增 LiteRT-LM 服務後，搜尋框中也會出現新圖示。
+* 重新設計了「AI 服務」和「AI 提示詞」列表及編輯頁面，與「顯示字體」介面風格一致：附序號和服務提供者圖示的列表、包含編輯、移到頂部和刪除的詳情面板、排序模式下的拖動把手，以及附說明文字和儲存前檢查的卡片式編輯頁面。
+* 修復了對大型詞典分組按名稱排序時閃退的問題。
+
 # v2.3.9.0  (2026-11-16)
 
 ### English
