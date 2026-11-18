@@ -1,9 +1,9 @@
 {
-  "versionCode": 2390,
-  "versionName": "2.3.9.0",
+  "versionCode": 2391,
+  "versionName": "2.3.9.1",
   "url": "https://github.com/Jimex/DictTango-Android",
-  "downloadUrl": "https://github.com/Jimex/DictTango-Android/releases/latest/download/DictTango.v2.3.9.0.apk",
-  "enDesc": "- Redesigned the Dictionary Group list, with usage tags, dictionary icons and a details sheet for each group\n- Redesigned the dictionaries in a group, with state tags and a sheet to change them for one or several dictionaries\n- Added an MDict key sort order option (Auto, MdxBuilder or MdictUtils) to the Edit dictionary page, for dictionaries whose sort order is detected wrongly",
-  "zhcnDesc": "- 重新设计了“词典分组”列表，新增用途标签、词典图标和分组详情面板\n- 重新设计了分组内的词典列表，以标签显示状态，并可在面板中为一部或多部词典修改\n- “编辑词典”页面新增“MDict 词条排序方式”选项（自动、MdxBuilder 或 MdictUtils），用于排序方式判断有误的词典",
-  "zhtwDesc": "- 重新設計了「詞典分組」列表，新增用途標籤、詞典圖示和分組詳情面板\n- 重新設計了分組內的詞典列表，以標籤顯示狀態，並可在面板中為一部或多部詞典修改\n- 「編輯詞典」頁面新增「MDict 詞條排序方式」選項（自動、MdxBuilder 或 MdictUtils），用於排序方式判斷有誤的詞典"
+  "downloadUrl": "https://github.com/Jimex/DictTango-Android/releases/latest/download/DictTango.v2.3.9.1.apk",
+  "enDesc": "- New Ask about a Photo: point the camera at something and an on-device AI teacher gives you the word in the language you are learning, with an example; look it up, speak it or add it to a word book\n- Redesigned AI Chat, with a service and mode sheet, a cleaner message look and a Stop button\n- New LiteRT-LM AI service for running .litertlm models such as Gemma on the phone\n- Redesigned the AI Service and AI Prompt lists and edit pages\n- Fixed a crash when sorting a large dictionary group by name",
+  "zhcnDesc": "- 新增“看图学单词”：用相机对准一样东西，本机 AI 老师会用你正在学的语言告诉你它的说法并给出例句，可查词典、朗读或加入单词本\n- 重新设计了“AI 对话”，新增服务和模式面板，消息外观更清爽，并有“停止”按钮\n- 新增 LiteRT-LM AI 服务，可在手机上运行 Gemma 等 .litertlm 模型\n- 重新设计了“AI 服务”和“AI 提示词”列表及编辑页面\n- 修复了对大型词典分组按名称排序时闪退的问题",
+  "zhtwDesc": "- 新增「看圖學單字」：用相機對準一樣東西，本機 AI 老師會用你正在學的語言告訴你它的說法並提供例句，可查字典、朗讀或加入單詞本\n- 重新設計了「AI 對話」，新增服務和模式面板，訊息外觀更清爽，並有「停止」按鈕\n- 新增 LiteRT-LM AI 服務，可在手機上執行 Gemma 等 .litertlm 模型\n- 重新設計了「AI 服務」和「AI 提示詞」列表及編輯頁面\n- 修復了對大型詞典分組按名稱排序時閃退的問題"
 }
