@@ -1,9 +1,9 @@
 {
-  "versionCode": 2391,
-  "versionName": "2.3.9.1",
+  "versionCode": 2392,
+  "versionName": "2.3.9.2",
   "url": "https://github.com/Jimex/DictTango-Android",
-  "downloadUrl": "https://github.com/Jimex/DictTango-Android/releases/latest/download/DictTango.v2.3.9.1.apk",
-  "enDesc": "- New Ask about a Photo: point the camera at something and an on-device AI teacher gives you the word in the language you are learning, with an example; look it up, speak it or add it to a word book\n- Redesigned AI Chat, with a service and mode sheet, a cleaner message look and a Stop button\n- New LiteRT-LM AI service for running .litertlm models such as Gemma on the phone\n- Redesigned the AI Service and AI Prompt lists and edit pages\n- Fixed a crash when sorting a large dictionary group by name",
-  "zhcnDesc": "- 新增“看图学单词”：用相机对准一样东西，本机 AI 老师会用你正在学的语言告诉你它的说法并给出例句，可查词典、朗读或加入单词本\n- 重新设计了“AI 对话”，新增服务和模式面板，消息外观更清爽，并有“停止”按钮\n- 新增 LiteRT-LM AI 服务，可在手机上运行 Gemma 等 .litertlm 模型\n- 重新设计了“AI 服务”和“AI 提示词”列表及编辑页面\n- 修复了对大型词典分组按名称排序时闪退的问题",
-  "zhtwDesc": "- 新增「看圖學單字」：用相機對準一樣東西，本機 AI 老師會用你正在學的語言告訴你它的說法並提供例句，可查字典、朗讀或加入單詞本\n- 重新設計了「AI 對話」，新增服務和模式面板，訊息外觀更清爽，並有「停止」按鈕\n- 新增 LiteRT-LM AI 服務，可在手機上執行 Gemma 等 .litertlm 模型\n- 重新設計了「AI 服務」和「AI 提示詞」列表及編輯頁面\n- 修復了對大型詞典分組按名稱排序時閃退的問題"
+  "downloadUrl": "https://github.com/Jimex/DictTango-Android/releases/latest/download/DictTango.v2.3.9.2.apk",
+  "enDesc": "- Sliding View can stack dictionaries vertically: read to the end of one and keep dragging to slide in the next, with a Release hint and an adjustable sensitivity\n- The floating window can use Sliding View too, with its own setting\n- Sliding View settings have their own section that shows only what applies to the chosen direction\n- Redesigned the Word Book list, edit page and Read words screens\n- Add to word book is now a bottom sheet with category chips and a note",
+  "zhcnDesc": "- 滑动视图可以垂直排列词典：读到一部词典末尾后继续拖动即可滑入下一部，有“松开切换”提示，灵敏度可调\n- 浮动窗口也可以使用滑动视图，并有单独的设置\n- 滑动视图的设置有了单独的分类，只显示当前方向适用的设置\n- 重新设计了“单词本”列表、编辑页面和“朗读单词”界面\n- “添加到单词本”改为底部面板，可点选类别并写备注",
+  "zhtwDesc": "- 滑動視圖可以垂直排列詞典：讀到一部詞典末尾後繼續拖動即可滑入下一部，有「放開切換」提示，靈敏度可調\n- 浮動窗口也可以使用滑動視圖，並有單獨的設定\n- 滑動視圖的設定有了單獨的分類，只顯示目前方向適用的設定\n- 重新設計了「單詞本」列表、編輯頁面和「朗讀單詞」介面\n- 「添加到單詞本」改為底部面板，可點選類別並寫備註"
 }
