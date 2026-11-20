@@ -1,3 +1,47 @@
+# v2.3.9.2  (2026-11-20)
+
+### English
+
+### Changelog
+
+* Sliding View can now stack the dictionaries vertically (**Settings → User interface → Sliding View Direction → Vertical**). Read a dictionary to its end and keep dragging: the next dictionary slides up behind your finger, and a **Release for …** hint shows when letting go will open it (dragging down at the top goes back). A short pull springs back, and quick flings never change the page. The next dictionary opens at its top, the previous one at its bottom. **Vertical Paging Sensitivity** sets how far you need to pull: Low, Medium or High.
+* In Sliding View, **Next dictionary** now moves on with the first tap when the first dictionary is set to start collapsed.
+* The floating window can use Sliding View too: set **Content Present Mode** under **Floating Window UI**, or turn on the present mode button under **Bottom bar icons on floating window**. It is separate from the main window's setting.
+* The Sliding View settings now have their own **Sliding View** section in **Settings → User interface**, which shows only the settings for the chosen direction: **Vertical Paging Sensitivity** for vertical, **Animation** and **Drag Sensitivity** for horizontal.
+* Redesigned the **Word Book** list: a rounded search box, category chips with word counts, a sort button, and card rows that show the picture (or the first letter), category, lookups, date and the start of your note. Tap a word to see its definition; tap ⋯ or long-press it for a sheet with Definition, Edit, Picture, Memorised and Delete. Memorised words get a badge. **Read words** and **Hangman** are now buttons at the bottom of the list.
+* Redesigned the **Word Book** edit page: change, search for or remove the word's picture there, pick a category or type a new one, write a longer note, mark the word as memorised or delete it. It shows how often you looked the word up and when you added it, and asks before leaving with unsaved changes.
+* Redesigned **Read words**: a setup page with the number of words, a one-tap **Resume where you stopped**, steppers for the start word and repeats, a five-way pause picker (including Manual), and switches for spelling and text-to-speech. While reading, a progress bar and counter sit at the top, letters light up as a word is spelled, your note and the chosen dictionary's definition show below, and **Previous**, **Pause** and **Next** work at any time (Manual mode has **Say it again** and **Next word**). Pausing part-way reads the word again when you continue, and the last word shows a **Read again** button.
+* Redesigned **Add to word book** as a bottom sheet: tap a category chip (the last one you used is picked), add a new category right in the sheet, and write an optional note. For a word that is already in your word book it shows how often you looked it up and when you added it, and offers **Save** and **Remove**.
+
+
+---
+### 更新日志
+* 滑动视图现在可以垂直排列词典（“设置 → 用户界面 → 滑动视图方向 → 垂直”）。读到一部词典末尾后继续向上拖动，下一部词典会跟随手指滑入，出现“松开切换到 …”提示时松手即可切换（在顶部向下拖动则返回上一部）。拉动较短会自动弹回，快速滑动不会翻页。下一部词典从顶部开始显示，上一部从底部开始显示。“垂直翻页灵敏度”可设置需要拉动的距离：低、中、高
+* 浮动窗口也可以使用滑动视图：在“浮动窗口界面”中设置“内容显示模式”，或在“浮动窗口底部栏”中打开内容显示模式按钮。它与主查词界面的设置互不影响
+* 滑动视图的设置现在集中在“设置 → 用户界面”中单独的“滑动视图”分类，只显示当前方向适用的设置：垂直方向显示“垂直翻页灵敏度”，水平方向显示“滑动视图动画”和“滑动视图灵敏度”
+* 重新设计了“单词本”列表：圆角搜索框、带单词数的类别标签、排序按钮，以及显示图片（或首字母）、类别、查询次数、日期和备注开头的卡片。点按单词查看释义；点按 ⋯ 或长按打开包含释义、编辑、图片、已记住和删除的面板。已记住的单词会显示标记。“朗读单词”和“猜单词游戏”改为列表底部的按钮
+* 重新设计了“单词本”编辑页面：可在此更换、在线搜索或移除单词的图片，选择类别或输入新类别，写更长的备注，标记为已记住或删除单词。页面显示查询次数和加入日期，有未保存的修改时离开前会询问
+* 重新设计了“朗读单词”：设置页面显示单词数，可一键“从上次停下的地方继续”，用加减按钮设置起始单词和朗读遍数，用五档选择单词间停顿（含手动），并可开关拼读和文字转语音。朗读时顶部显示进度条和计数，拼读时字母逐个点亮，下方显示你的备注和所选词典的释义；“上一个”“暂停”“下一个”随时可用（手动模式有“再读一遍”和“下一个”）。中途暂停后继续会重读当前单词，读完最后一个单词后可“重新朗读”
+* 重新设计了“添加到单词本”，改为底部面板：点按类别标签即可选择（默认选中上次用的类别），可直接在面板中新建类别，并可写备注。单词已在单词本中时，会显示查询次数和加入日期，并提供“保存”和“移除”
+* 修复了在滑动视图中，若第一部词典设为默认收起，“下一部词典”按钮需要点击两次才切换的问题
+
+
+---
+
+### 繁體
+
+### 更新日誌
+
+* 滑動視圖現在可以垂直排列詞典（「設置 → 用戶界面 → 滑動視圖方向 → 垂直」）。讀到一部詞典末尾後繼續向上拖動，下一部詞典會跟隨手指滑入，出現「放開切換到 …」提示時放開即可切換（在頂部向下拖動則返回上一部）。拉動較短會自動彈回，快速滑動不會翻頁。下一部詞典從頂部開始顯示，上一部從底部開始顯示。「垂直翻頁靈敏度」可設定需要拉動的距離：低、中、高。
+* 在滑動視圖中，若第一部詞典設為預設收起，「下一部詞典」按鈕現在第一次輕觸就會切換。
+* 浮動窗口也可以使用滑動視圖：在「浮動窗口界面」中設定「內容顯示模式」，或在「浮動窗口底部欄」中開啟內容顯示模式按鈕。它與主查詞介面的設定互不影響。
+* 滑動視圖的設定現在集中在「設置 → 用戶界面」中單獨的「滑動視圖」分類，只顯示目前方向適用的設定：垂直方向顯示「垂直翻頁靈敏度」，水平方向顯示「滑動視圖動畫」和「滑動視圖靈敏度」。
+* 重新設計了「單詞本」列表：圓角搜尋框、附單詞數的類別標籤、排序按鈕，以及顯示圖片（或首字母）、類別、查詢次數、日期和備註開頭的卡片。輕觸單詞查看釋義；輕觸 ⋯ 或長按開啟包含釋義、編輯、圖片、已記住和刪除的面板。已記住的單詞會顯示標記。「朗讀單詞」和「猜單詞遊戲」改為列表底部的按鈕。
+* 重新設計了「單詞本」編輯頁面：可在此更換、線上搜尋或移除單詞的圖片，選擇類別或輸入新類別，寫更長的備註，標記為已記住或刪除單詞。頁面顯示查詢次數和加入日期，有未儲存的修改時離開前會詢問。
+* 重新設計了「朗讀單詞」：設定頁面顯示單詞數，可一鍵「從上次停下的地方繼續」，用加減按鈕設定起始單詞和朗讀遍數，用五檔選擇單詞間停頓（含手動），並可開關拼讀和文字轉語音。朗讀時頂部顯示進度條和計數，拼讀時字母逐個點亮，下方顯示你的備註和所選詞典的釋義；「上一個」「暫停」「下一個」隨時可用（手動模式有「再讀一遍」和「下一個」）。中途暫停後繼續會重讀目前單詞，讀完最後一個單詞後可「重新朗讀」。
+* 重新設計了「添加到單詞本」，改為底部面板：輕觸類別標籤即可選擇（預設選中上次用的類別），可直接在面板中新增類別，並可寫備註。單詞已在單詞本中時，會顯示查詢次數和加入日期，並提供「儲存」和「移除」。
+
+
 # v2.3.9.1  (2026-11-18)
 
 ### English
