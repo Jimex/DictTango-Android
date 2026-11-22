@@ -14,7 +14,6 @@
 * Fixed **AI Chat** with OpenAI API services: errors are shown instead of hanging or closing the app, **Stop** works at once, and an API URL that is just a server or ends in /v1 works.
 * Fixed replies in AI Chat being able to run scripts through math formulas, formulas containing “<” showing wrongly, and a stopped reply leaving its typing dots on screen.
 * Added **AI Chat** to the **PC Console** for OpenAI API services and on-device models (LiteRT-LM and llama.cpp), with dictionary lookup and **@** for all but llama.cpp models. On-device models run on the phone, one reply at a time, and using a model on the phone stops the reply in the console. Your API keys stay on the phone. It is off until you turn on **Allow AI Chat in PC Console** in **Foreground service**, which needs the console login.
-* **Security fixes for the PC Console, please update:** anyone who could reach the console could read the app's private files, such as its settings; crafted links could run scripts as the console or start AI prompts; and other websites could get round its protection against changes. Dictionaries can no longer load files from outside their own folder. Without a console login, open the console by the phone's IP address or a local name; other host names now need the login.
 * Redesigned the **AI Chat** message box: your message is on top, and below it are round buttons for prompt templates and **Tools**, a chip with the AI service and mode (tap it to switch), and the send button.
 * Fixed the search box on the home screen staying disabled after deleting a dictionary group that was in use.
 * Fixed choosing a group for the lookup screen in **Dictionary Groups** also moving the floating window to it, when no group had been chosen for the floating window.
@@ -35,7 +34,6 @@
 * 修复了“AI 聊天”使用 OpenAI API 服务时的问题：出错时会显示原因，不再卡住或闪退；“停止”立即生效；API 地址只填服务器或以 /v1 结尾时也可使用
 * 修复了“AI 聊天”的回复可通过数学公式运行脚本、含“<”的公式显示错误，以及停止回复后输入动画不消失的问题
 * “PC 控制台”新增“AI 聊天”，支持 OpenAI API 服务和本机模型（LiteRT-LM 和 llama.cpp），除 llama.cpp 模型外均可查词典和使用 @。本机模型在手机上运行，一次只生成一条回复；在手机上使用模型时，控制台中的回复会停止。API 密钥只保存在手机上。此功能默认关闭，需在前台服务设置中允许，并且必须启用控制台登录
-* “PC 控制台”安全修复，请尽快更新：能访问控制台的人可以读取应用的私有文件（如设置）；特制链接可以用控制台的身份运行脚本或触发 AI 提示词；其他网站可以绕过对修改操作的保护。词典不能再加载其所在文件夹以外的文件。未启用登录时，请通过手机的 IP 地址或本地名称打开控制台，使用其他域名需要先启用登录
 * 重新设计了“AI 聊天”的输入框：消息在上方，下方是提示词模板和“工具”的圆形按钮、显示 AI 服务和模式的标签（点按可切换），以及发送按钮
 * 修复了删除正在使用的词典分组后，主界面搜索框一直无法使用的问题
 * 修复了在“词典分组”中为查词界面选择分组时，若浮动窗口从未单独选择过分组，浮动窗口也会一起切换的问题
@@ -60,13 +58,13 @@
 * 修正了「AI 聊天」使用 OpenAI API 服務時的問題：出錯時會顯示原因，不再卡住或閃退；「停止」立即生效；API 位址只填伺服器或以 /v1 結尾時也可使用。
 * 修正了「AI 聊天」的回覆可透過數學公式執行指令碼、含「<」的公式顯示錯誤，以及停止回覆後輸入動畫不消失的問題。
 * 「PC 控制台」新增「AI 聊天」，支援 OpenAI API 服務和本機模型（LiteRT-LM 和 llama.cpp），除 llama.cpp 模型外均可查辭典和使用 @。本機模型在手機上執行，一次只產生一則回覆；在手機上使用模型時，控制台中的回覆會停止。API 金鑰只儲存在手機上。此功能預設關閉，需在前台服務設定中允許，並且必須啟用控制台登入。
-* 「PC 控制台」安全性修正，請盡快更新：能存取控制台的人可以讀取應用程式的私有檔案（如設定）；特製連結可以用控制台的身分執行指令碼或觸發 AI 提示詞；其他網站可以繞過對修改操作的保護。辭典不能再載入其所在資料夾以外的檔案。未啟用登入時，請透過手機的 IP 位址或本機名稱打開控制台，使用其他網域名稱需要先啟用登入。
 * 重新設計了「AI 聊天」的輸入框：訊息在上方，下方是提示詞範本和「工具」的圓形按鈕、顯示 AI 服務和模式的標籤（輕觸可切換），以及傳送按鈕。
 * 修正了刪除正在使用的詞典分組後，主畫面搜尋框一直無法使用的問題。
 * 修正了在「詞典分組」中為查詞介面選擇分組時，若浮動窗口從未單獨選擇過分組，浮動窗口也會一起切換的問題。
 * 模型沒有給出回答時，「AI 聊天」會顯示提示，而不是一直停在「正在查詢…」。
 * 修正了連續第二次使用本機 llama 模型執行 AI 提示詞時失敗，以及在本機 llama 模型回覆時開始新對話會出錯的問題。
 * 修正了在本機 LiteRT-LM 模型回覆時切換 AI 服務，「AI 聊天」有時會閃退的問題，以及切換到其他服務再切回本機 llama 模型後一直顯示「正在回覆…」的問題。
+
 
 
 # v2.3.9.2  (2026-11-20)
