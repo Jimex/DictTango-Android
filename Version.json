@@ -1,9 +1,9 @@
 {
-  "versionCode": 2392,
-  "versionName": "2.3.9.2",
+  "versionCode": 2396,
+  "versionName": "2.3.9.6",
   "url": "https://github.com/Jimex/DictTango-Android",
-  "downloadUrl": "https://github.com/Jimex/DictTango-Android/releases/latest/download/DictTango.v2.3.9.2.apk",
-  "enDesc": "- Sliding View can stack dictionaries vertically: read to the end of one and keep dragging to slide in the next, with a Release hint and an adjustable sensitivity\n- The floating window can use Sliding View too, with its own setting\n- Sliding View settings have their own section that shows only what applies to the chosen direction\n- Redesigned the Word Book list, edit page and Read words screens\n- Add to word book is now a bottom sheet with category chips and a note",
-  "zhcnDesc": "- 滑动视图可以垂直排列词典：读到一部词典末尾后继续拖动即可滑入下一部，有“松开切换”提示，灵敏度可调\n- 浮动窗口也可以使用滑动视图，并有单独的设置\n- 滑动视图的设置有了单独的分类，只显示当前方向适用的设置\n- 重新设计了“单词本”列表、编辑页面和“朗读单词”界面\n- “添加到单词本”改为底部面板，可点选类别并写备注",
-  "zhtwDesc": "- 滑動視圖可以垂直排列詞典：讀到一部詞典末尾後繼續拖動即可滑入下一部，有「放開切換」提示，靈敏度可調\n- 浮動窗口也可以使用滑動視圖，並有單獨的設定\n- 滑動視圖的設定有了單獨的分類，只顯示目前方向適用的設定\n- 重新設計了「單詞本」列表、編輯頁面和「朗讀單詞」介面\n- 「添加到單詞本」改為底部面板，可點選類別並寫備註"
+  "downloadUrl": "https://github.com/Jimex/DictTango-Android/releases/latest/download/DictTango.v2.3.9.6.apk",
+  "enDesc": "- AI Chat in the PC Console for OpenAI API services and on-device models (off until you turn it on)\n- AI Chat can look words up in your dictionaries with an on-device LiteRT-LM model such as Gemma 4, in your current group or any dictionary you name\n- Type @ in AI Chat to pick the dictionary to look in\n- Tool calling and @ also work with OpenAI API services (off until you turn it on)\n- A Tools button in AI Chat turns tool calling and each tool group on or off\n- Redesigned the AI Chat message box, Full Text Search and the Smart Viewer\n- Fixed AI Chat sometimes closing when switching AI services during a reply\n- Fixed opening a picture to extract its text",
+  "zhcnDesc": "- “PC 控制台”新增“AI 聊天”，支持 OpenAI API 服务和本机模型（默认关闭）\n- “AI 聊天”使用本机 LiteRT-LM 模型（如 Gemma 4）时可以在你的词典中查词，可查当前分组或你指定的任何词典\n- 在“AI 聊天”中输入 @ 可选择要查的词典\n- OpenAI API 服务也支持工具调用和 @（默认关闭）\n- “AI 聊天”新增“工具”按钮，可开关工具调用和每个工具组\n- 重新设计了“AI 聊天”输入框、“全文检索”和“智能查看器”\n- 修复了回复时切换 AI 服务，“AI 聊天”有时会闪退的问题\n- 修复了打开图片提取文字时页面直接关闭的问题",
+  "zhtwDesc": "- PC 控制台」新增「AI 聊天」，支援 OpenAI API 服務和本機模型（預設關閉）\n- 「AI 聊天」使用本機 LiteRT-LM 模型（如 Gemma 4）時可以在你的辭典中查詞，可查目前群組或你指定的任何辭典\n- 在「AI 聊天」中輸入 @ 可選擇要查的辭典\n- OpenAI API 服務也支援工具呼叫和 @（預設關閉）\n- 「AI 聊天」新增「工具」按鈕，可開關工具呼叫和每個工具群組\n- 重新設計了「AI 聊天」輸入框、「全文檢索」和「智能查看器」\n- 修正了回覆時切換 AI 服務，「AI 聊天」有時會閃退的問題\n- 修正了打開圖片擷取文字時頁面直接關閉的問題"
 }
