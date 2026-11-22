@@ -1,3 +1,74 @@
+# v2.3.9.6  (2026-11-22)
+
+### English
+
+### Changelog
+
+* Redesigned **Full Text Search**: a setup page with a large search box, your recent searches, a one dictionary or dictionary group switch that shows how many local dictionaries will be searched, and cards for where to look, the search mode (with a line explaining each) and switches for whole words, match case and HTML tags. While searching, every dictionary shows whether it is done, being searched (with a progress bar) or waiting, with its count of matches; **Show results now** stops early and shows what was found. Results are grouped by dictionary, with chips to show one dictionary, and the matched text is highlighted. An entry shows how many matches are highlighted and **Next match** jumps between them; **Previous** and **Next** buttons move through the results, and the speak and add to word book buttons are at the top.
+* Redesigned the **Smart Viewer**. Opened from the home screen it shows a start page with **Open a file**, **Web page** and **Type text**, a card for opening text on your clipboard, and a **Recent** list of what you read (long-press an item to remove it). The top bar shows what is open, such as the word count of text or the name of a PDF, and **Find in page** highlights matches with previous and next buttons. Edit, Copy and Translate sit in a floating bar at the bottom, and Translate opens one sheet with your installed translator apps and your online dictionaries. Text has wider margins and more space between lines, and follows dark mode.
+* Fixed opening a picture in the **Smart Viewer** (and other places that recognize text in photos): the screen for cropping the picture and extracting its text closed without doing anything.
+* Turning off the Smart Viewer in the text selection menu (**Settings → User interface**) still removes it from Share and Open with, but no longer stops the **Smart Viewer** button and shortcut from opening it.
+* **AI Chat** with an on-device LiteRT-LM model can now look words up in your dictionaries. When a question is about a word, the model searches the dictionaries of your current lookup group (online dictionaries are skipped) and answers from their entries, showing **Looking up “…” in your dictionaries…** while it searches. Turn it on or off with the new **Tools** button next to the message box: it has a **Tool calling** switch and a switch for each tool group, starting with **Dictionary Tools**. It needs a model with tool calling, such as Gemma 4. You can also ask for one dictionary by name (“What does Oxford say about *apple*?”), even one outside the current group, or ask which dictionaries you have.
+* Type **@** in **AI Chat** to pick a dictionary from a searchable list (with Dictionary Tools on). Recognised dictionary names turn bold and coloured, and sending always looks the word up in that dictionary: write **@Dictionary apple** or ask a question such as “What does @Dictionary say about apples?”. You can name up to three dictionaries and ask follow-ups such as “and its plural?” in Chat mode. If the model adds nothing, the dictionary entry itself is shown.
+* Tool calling and **@** also work with **OpenAI API** services in AI Chat, including compatible servers such as llama.cpp. It is off for online services until you turn it on with the **Tools** button, because the dictionary entries and dictionary names the tools return are then sent to that service.
+* Fixed **AI Chat** with OpenAI API services: errors are shown instead of hanging or closing the app, **Stop** works at once, and an API URL that is just a server or ends in /v1 works.
+* Fixed replies in AI Chat being able to run scripts through math formulas, formulas containing “<” showing wrongly, and a stopped reply leaving its typing dots on screen.
+* Added **AI Chat** to the **PC Console** for OpenAI API services and on-device models (LiteRT-LM and llama.cpp), with dictionary lookup and **@** for all but llama.cpp models. On-device models run on the phone, one reply at a time, and using a model on the phone stops the reply in the console. Your API keys stay on the phone. It is off until you turn on **Allow AI Chat in PC Console** in **Foreground service**, which needs the console login.
+* **Security fixes for the PC Console, please update:** anyone who could reach the console could read the app's private files, such as its settings; crafted links could run scripts as the console or start AI prompts; and other websites could get round its protection against changes. Dictionaries can no longer load files from outside their own folder. Without a console login, open the console by the phone's IP address or a local name; other host names now need the login.
+* Redesigned the **AI Chat** message box: your message is on top, and below it are round buttons for prompt templates and **Tools**, a chip with the AI service and mode (tap it to switch), and the send button.
+* Fixed the search box on the home screen staying disabled after deleting a dictionary group that was in use.
+* Fixed choosing a group for the lookup screen in **Dictionary Groups** also moving the floating window to it, when no group had been chosen for the floating window.
+* **AI Chat** now says so when the model ends without an answer, instead of leaving “Looking up…” showing.
+* Fixed AI prompts with a local llama model failing the second time in a row, and starting a new chat while a local llama model was replying causing errors.
+* Fixed **AI Chat** sometimes closing when you switched AI services while an on-device LiteRT-LM model was still replying, and a local llama model staying on “replying…” after you switched away from it and back.
+
+
+---
+### 更新日志
+* 重新设计了“全文检索”：设置页面有大号搜索框和最近检索记录，可在单个词典和词典分组间切换并显示将检索的本地词典数，另有检索内容、检索模式（每种模式附说明）以及全字匹配、匹配大小写和忽略 HTML 标记的开关。检索时每部词典都显示已完成、正在检索（带进度条）或等待中，以及找到的数量；“查看结果”可提前停止并显示已找到的词条。结果按词典分组，可用标签只看一部词典，匹配的文字会高亮显示。词条页面显示已标出的匹配数，“下一处”可在匹配之间跳转；“上一个”“下一个”按钮在结果间切换，发音和加入单词本按钮位于顶部
+* 重新设计了“智能查看器”：从主屏幕打开时显示起始页，提供“打开文件”“网页”和“输入文字”，可一键打开剪贴板中的文字，并有阅读过的“最近”列表（长按项目可移除）。顶部栏显示当前打开的内容，如文字的词数或 PDF 的文件名；“页内查找”会高亮匹配并可上下跳转。编辑、复制和翻译位于底部的浮动栏，“翻译”会打开一个面板，列出已安装的翻译应用和在线词典。文字页面边距更宽、行距更大，并支持深色模式
+* 修复了在“智能查看器”（以及其他识别照片文字的地方）打开图片时，裁剪和提取文字的页面直接关闭的问题
+* 在“设置 → 用户界面”中关闭文字选择菜单里的智能查看器后，它仍会从“分享”和“打开方式”中移除，但主界面的“智能查看器”按钮和快捷方式仍可打开它
+* 使用本机 LiteRT-LM 模型的“AI 聊天”现在可以在你的词典中查词。问题涉及某个单词时，模型会搜索当前查词分组中的词典（不含在线词典），并根据词条内容回答，搜索时显示“正在词典中查找“…”…”。可通过输入框旁新增的“工具”按钮开关此功能：其中有“工具调用”总开关和每个工具组的开关，目前提供“词典工具”。需要支持工具调用的模型，例如 Gemma 4。也可以指定某部词典（如“牛津词典怎么解释 apple？”），包括当前分组以外的词典，或询问你有哪些词典
+* 在“AI 聊天”中输入 @ 可从可搜索的列表中选择词典（需开启“词典工具”）。识别出的词典名称会以粗体和彩色显示，发送时一定会在该词典中查词：可以输入“@词典名 apple”，也可以提问，如“@词典名 怎么解释 apple？”。最多可同时指定三部词典，在对话模式下还可以追问，如“它的复数呢？”。模型没有补充说明时，会直接显示词条内容
+* “AI 聊天”中的 OpenAI API 服务（包括 llama.cpp 等兼容服务器）也支持工具调用和 @。由于工具返回的词条和词典名称会发送到该服务，在线服务默认关闭此功能，可通过“工具”按钮开启
+* 修复了“AI 聊天”使用 OpenAI API 服务时的问题：出错时会显示原因，不再卡住或闪退；“停止”立即生效；API 地址只填服务器或以 /v1 结尾时也可使用
+* 修复了“AI 聊天”的回复可通过数学公式运行脚本、含“<”的公式显示错误，以及停止回复后输入动画不消失的问题
+* “PC 控制台”新增“AI 聊天”，支持 OpenAI API 服务和本机模型（LiteRT-LM 和 llama.cpp），除 llama.cpp 模型外均可查词典和使用 @。本机模型在手机上运行，一次只生成一条回复；在手机上使用模型时，控制台中的回复会停止。API 密钥只保存在手机上。此功能默认关闭，需在前台服务设置中允许，并且必须启用控制台登录
+* “PC 控制台”安全修复，请尽快更新：能访问控制台的人可以读取应用的私有文件（如设置）；特制链接可以用控制台的身份运行脚本或触发 AI 提示词；其他网站可以绕过对修改操作的保护。词典不能再加载其所在文件夹以外的文件。未启用登录时，请通过手机的 IP 地址或本地名称打开控制台，使用其他域名需要先启用登录
+* 重新设计了“AI 聊天”的输入框：消息在上方，下方是提示词模板和“工具”的圆形按钮、显示 AI 服务和模式的标签（点按可切换），以及发送按钮
+* 修复了删除正在使用的词典分组后，主界面搜索框一直无法使用的问题
+* 修复了在“词典分组”中为查词界面选择分组时，若浮动窗口从未单独选择过分组，浮动窗口也会一起切换的问题
+* 模型没有给出回答时，“AI 聊天”会显示提示，而不是一直停在“正在查找…”
+* 修复了连续第二次使用本地 llama 模型运行 AI 提示词时失败，以及在本地 llama 模型回复时开始新对话会出错的问题
+* 修复了在本机 LiteRT-LM 模型回复时切换 AI 服务，“AI 聊天”有时会闪退的问题，以及切换到其他服务再切回本地 llama 模型后一直显示“正在回复…”的问题
+
+
+---
+
+### 繁體
+
+### 更新日誌
+
+* 重新設計了「全文檢索」：設定頁面有大號搜尋框和最近檢索記錄，可在單個詞典和詞典分組間切換並顯示將檢索的本地詞典數，另有檢索內容、檢索模式（每種模式附說明）以及全字匹配、匹配大小寫和忽略 HTML 標記的開關。檢索時每部詞典都顯示已完成、正在檢索（附進度條）或等待中，以及找到的數量；「查看結果」可提前停止並顯示已找到的詞條。結果按詞典分組，可用標籤只看一部詞典，匹配的文字會醒目顯示。詞條頁面顯示已標出的匹配數，「下一處」可在匹配之間跳轉；「上一個」「下一個」按鈕在結果間切換，發音和加入單詞本按鈕位於頂部。
+* 重新設計了「智能查看器」：從主畫面打開時顯示起始頁，提供「打開檔案」「網頁」和「輸入文字」，可一鍵打開剪貼簿中的文字，並有閱讀過的「最近」列表（長按項目可移除）。頂部欄顯示目前打開的內容，如文字的詞數或 PDF 的檔名；「頁內查找」會醒目顯示匹配並可上下跳轉。編輯、複製和翻譯位於底部的浮動欄，「翻譯」會打開一個面板，列出已安裝的翻譯應用程式和線上詞典。文字頁面邊距更寬、行距更大，並支援深色模式。
+* 修正了在「智能查看器」（以及其他辨識照片文字的地方）打開圖片時，裁剪和擷取文字的頁面直接關閉的問題。
+* 在「設定 → 使用者介面」中關閉文字選取選單裡的智能查看器後，它仍會從「分享」和「開啟方式」中移除，但主畫面的「智能查看器」按鈕和捷徑仍可打開它。
+* 使用本機 LiteRT-LM 模型的「AI 聊天」現在可以在你的辭典中查詞。問題涉及某個單詞時，模型會搜尋目前查詞群組中的辭典（不含線上辭典），並根據詞條內容回答，搜尋時顯示「正在辭典中查詢「…」…」。可透過輸入框旁新增的「工具」按鈕開關此功能：其中有「工具呼叫」總開關和每個工具群組的開關，目前提供「辭典工具」。需要支援工具呼叫的模型，例如 Gemma 4。也可以指定某部辭典（如「牛津辭典怎麼解釋 apple？」），包括目前群組以外的辭典，或詢問你有哪些辭典。
+* 在「AI 聊天」中輸入 @ 可從可搜尋的列表中選擇辭典（需開啟「辭典工具」）。識別出的辭典名稱會以粗體和彩色顯示，傳送時一定會在該辭典中查詞：可以輸入「@辭典名 apple」，也可以提問，如「@辭典名 怎麼解釋 apple？」。最多可同時指定三部辭典，在對話模式下還可以追問，如「它的複數呢？」。模型沒有補充說明時，會直接顯示詞條內容。
+* 「AI 聊天」中的 OpenAI API 服務（包括 llama.cpp 等相容伺服器）也支援工具呼叫和 @。由於工具傳回的詞條和辭典名稱會傳送到該服務，線上服務預設關閉此功能，可透過「工具」按鈕開啟。
+* 修正了「AI 聊天」使用 OpenAI API 服務時的問題：出錯時會顯示原因，不再卡住或閃退；「停止」立即生效；API 位址只填伺服器或以 /v1 結尾時也可使用。
+* 修正了「AI 聊天」的回覆可透過數學公式執行指令碼、含「<」的公式顯示錯誤，以及停止回覆後輸入動畫不消失的問題。
+* 「PC 控制台」新增「AI 聊天」，支援 OpenAI API 服務和本機模型（LiteRT-LM 和 llama.cpp），除 llama.cpp 模型外均可查辭典和使用 @。本機模型在手機上執行，一次只產生一則回覆；在手機上使用模型時，控制台中的回覆會停止。API 金鑰只儲存在手機上。此功能預設關閉，需在前台服務設定中允許，並且必須啟用控制台登入。
+* 「PC 控制台」安全性修正，請盡快更新：能存取控制台的人可以讀取應用程式的私有檔案（如設定）；特製連結可以用控制台的身分執行指令碼或觸發 AI 提示詞；其他網站可以繞過對修改操作的保護。辭典不能再載入其所在資料夾以外的檔案。未啟用登入時，請透過手機的 IP 位址或本機名稱打開控制台，使用其他網域名稱需要先啟用登入。
+* 重新設計了「AI 聊天」的輸入框：訊息在上方，下方是提示詞範本和「工具」的圓形按鈕、顯示 AI 服務和模式的標籤（輕觸可切換），以及傳送按鈕。
+* 修正了刪除正在使用的詞典分組後，主畫面搜尋框一直無法使用的問題。
+* 修正了在「詞典分組」中為查詞介面選擇分組時，若浮動窗口從未單獨選擇過分組，浮動窗口也會一起切換的問題。
+* 模型沒有給出回答時，「AI 聊天」會顯示提示，而不是一直停在「正在查詢…」。
+* 修正了連續第二次使用本機 llama 模型執行 AI 提示詞時失敗，以及在本機 llama 模型回覆時開始新對話會出錯的問題。
+* 修正了在本機 LiteRT-LM 模型回覆時切換 AI 服務，「AI 聊天」有時會閃退的問題，以及切換到其他服務再切回本機 llama 模型後一直顯示「正在回覆…」的問題。
+
+
 # v2.3.9.2  (2026-11-20)
 
 ### English
