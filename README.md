@@ -2,26 +2,50 @@
 
 ## Introduction
 
-DictTango is an offline tool to display the dictionary of MDict format
+## Key Features
 
-- -Supports TangoDict format dictionaries
-- -Supports MDict MDX dictionaries
-- -Supports dictionary grouping, and allows specifying an brief dictionary for each group to display word definitions in search results.
-- -Supports online dictionaries.
-- -Standard word lookup supports union search, allowing you to view dictionary content in either waterfall or sliding view.
-- -Reading mode facilitates reading a single dictionary, automatically sorts Chinese entries by pinyin, and provides a picture dictionary viewing mode.
-- Standard word lookup supports spell checking (SymSpell), English word lemmatization, and Japanese base-form (lemma) restoration.
-- -Allows setting global fonts, supports loading large fonts over 30MB, and offers a font minimizer to trim large fonts.
-- -Allows setting multiple fonts for individual dictionaries.
-- -User comment feature.
-- -The word book includes spelling and pronunciation functions, allows downloading online images for words, adds user notes, and features a word memory mini-game.
-- -Built-in internal FTP and web server (PC console) for easy dictionary upload access from a computer.
-- -Full-text search function.
-- -Smart viewer to view URLs, images, text files, and PDF files with instant translation.
-- -Comes with a built-in in-app file explorer that can view and highlight CSS and JS files.
-- -Includes an MDD file explorer that allows direct viewing of directories and files within MDD files.
-- -Supports AI integration and custom AI prompts, currently compatible with ChatGPT, Google AI, Wenxin Yiyan, and the built-in Tango Assistant (capable of converting between simplified and traditional Chinese, OCR, and running standalone JS scripts). AI prompts can be added as online dictionaries.
-- -Support local LLM files, the AI chat feature enabling direct interaction with the local large language model
+### Dictionaries and Lookup
+* Supports TangoDict dictionaries (including entry editing) and is compatible with MDict dictionaries
+* Supports adding online dictionaries
+* Dictionary groups, with separate groups for the main lookup screen and the floating window, and an optional brief dictionary per group to show definitions in search results
+* Custom rules to name and group newly added dictionaries automatically
+* Look up several dictionaries at once, shown in List View or Sliding View (horizontal or vertical)
+* Tap Translate, floating window lookup, and Tap Anywhere to look up words you select in other apps
+* Cross Chinese Searching (Simplified and Traditional), spellcheck, search text replacement, and base-form lookup for English and Japanese (Japanese requires separate Sudachi dictionary files)
+* Full Text Search across one dictionary or a group, with regular expressions (MDict only), live progress and highlighted matches
+
+### Reading and Learning
+* Reading Mode for reading a single dictionary, with pinyin sorting of Chinese MDict entries, a table of contents and Picture Mode
+* Smart Viewer for web pages, text, images (OCR), PDF, EPUB and HTML files, with tap-to-translate, find in page and translation
+* Camera Mode for looking up printed words, recognizing Chinese, English and other Latin-script languages, Japanese and Korean
+* Custom pronunciation packs (MDD/ZIP), system TTS and Microsoft Edge TTS
+* User comments on dictionary entries
+* Word Book with categories, notes, online pictures, spelling and continuous read-aloud, import and export, and a Hangman game
+* Ask about a Photo: take or choose a photo and get a vocabulary card from an on-device vision model, with follow-up questions and several teacher personas
+
+### AI
+* AI Chat with OpenAI API and compatible services (such as DeepSeek, OpenRouter and LM Studio), or with GGUF (llama.cpp) and LiteRT-LM models running on your phone
+* AI Chat can answer from your local dictionaries, and typing @ picks a dictionary (requires an OpenAI API service or LiteRT-LM model that supports tool calling)
+* Custom AI Prompts using OpenAI API, Google AI, on-device models or the built-in Tango Assistant (Simplified/Traditional conversion, OCR of dictionary images, sandboxed JavaScript), which can also be added as online dictionaries
+* AI contextual word lookup, and Ask AI online for quick access to sites such as ChatGPT, Gemini, Claude, ERNIE Bot and DeepSeek
+
+### Display and Customization
+* Several display layouts (Original, Page White, Clean Linen Book Page, Warm Paper Book Page), with dark mode and e-ink support
+* A global font, plus multiple fonts for each dictionary
+* On-demand loading of fonts over 30 MB, with a Font Subsetter and a Font File Splitter
+* Custom CSS, JavaScript and linked resources for each dictionary
+* Adjustable home menus and toolbars, wallpaper and Minimalist Mode
+
+### PC Connection and Tools
+* PC Console: look up words, run full-text searches, manage dictionaries and groups, upload and download files, and optionally use AI Chat from a computer's browser
+* Built-in FTP server with a read-only mode
+* App File Explorer to view and edit CSS and JS files with syntax highlighting
+* MDD Viewer to browse, preview and export files inside MDD archives
+
+### Security and Data
+* Web Shield detects trackers and malicious scripts in dictionaries, and network access for dictionaries can be blocked
+* Backup and restore, with automatic backup
+  
 ## Difference between the version here and the Google Play Store version
 Starting from Android 11, all Android apps are no longer allowed to access files outside their designated app folders on the SD Card (located under the /Android/data directory). Although adding global file management permissions can resolve this issue, the Google Play Store does not allow regular apps to have this permission. However, this version includes the additional permission, so after user authorization, it can access all files on the SD Card.
 
