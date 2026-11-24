@@ -1,3 +1,35 @@
+# v2.3.9.7  (2026-11-24)
+
+### English
+
+### Changelog
+
+* Redesigned the **first-run setup**. It now takes four short steps with a progress bar, Back and Skip: the app language, the theme (shown as previews) and screen orientation, the lookup screen (search bar at the bottom or top, results as a list or sliding, with sliding sideways or up and down, Direct Lookup and Minimalist Mode), and finding dictionaries on your device. The last step sums up your choices, each with an **Edit** button. Choosing a language shows the rest of setup in it right away.
+* **LiteRT-LM** and **Local LLM** AI services can now download models from Hugging Face: tap **Download from Hugging Face** under the model file to search models, see each model’s files and sizes and download one. LiteRT-LM lists the litert-community models; Local LLM lists GGUF models that fit your phone from well-known publishers, with each quantization (Q4_K_M is recommended) and a warning for files too large for your phone’s memory or models this version can’t run. Downloads keep going in the background with a notification, resume where they stopped, and are saved in **UserAssets/Models** (change it in the menu). Where huggingface.co can’t be reached, the hf-mirror.com mirror is used automatically, or you can choose the source in the menu. Gated models, such as Gemma 3, need a Hugging Face access token, which you can add in the menu.
+* Redesigned **Ask AI Online**: it opens as a sheet with the web app button, **Reload** and **Hide**, a **Your text** box for the selected or shared text, the page with a loading bar, chips for your first three prompts and **All prompts**. If the page fails to load you can retry or switch web apps, and a prompt picked while the page is loading is sent once it has loaded. A chat in progress is no longer lost when the screen rotates. The prompt picker can search your prompts and lets you change the text before sending. The prompt list and the prompt edit page are redesigned too, with a warning when a prompt has no {INPUT_CONTENT} placeholder.
+* Fixed **@** dictionary lookups in **AI Chat** failing with thinking models on OpenAI API services, such as DeepSeek in thinking mode and Gemini.
+
+
+---
+### 更新日志
+* 重新设计了“首次启动设置”：分为四个简短步骤，带进度条、返回和跳过按钮：应用语言；主题（以预览图显示）和屏幕方向；查词界面（搜索栏在底部或顶部，结果以列表或滑动方式显示，滑动可选左右或上下，以及直接查词和极简模式）；查找本机上的词典。最后一步汇总你的选择，每项都有“修改”按钮。选择语言后，后续设置会立即以该语言显示。
+* LiteRT-LM 和本地大语言模型 AI 服务现在可以从 Hugging Face 下载模型：点按模型文件下方的“从 Hugging Face 下载”，即可搜索模型，查看每个模型的文件和大小并下载。LiteRT-LM 列出 litert-community 的模型；本地大语言模型列出知名发布者提供、适合本机的 GGUF 模型，并列出各量化版本（推荐 Q4_K_M），文件超出手机内存或此版本无法运行的模型会有提示。下载会在后台继续并显示通知，中断后可从断点继续，模型保存在 UserAssets/Models（可在菜单中更改）。无法连接 huggingface.co 时会自动改用 hf-mirror.com 镜像，也可以在菜单中选择下载来源。Gemma 3 等需授权的模型需要 Hugging Face 访问令牌，可在菜单中添加
+* 重新设计了“在线问AI”：以底部面板打开，包含网页应用按钮、“重新加载”和“隐藏”，显示所选或分享文字的“你的文字”框，带加载进度条的网页，前三个提示词的快捷按钮和“全部提示词”。网页加载失败时可以重试或切换网页应用；网页加载时选择的提示词会在加载完成后发送。屏幕旋转时不会再丢失进行中的对话。提示词选择器可以搜索提示词，并可在发送前修改文字。提示词列表和提示词编辑页也重新设计了，提示词缺少 {INPUT_CONTENT} 占位符时会给出提醒。
+* 修复了“AI 聊天”使用 OpenAI API 服务的思考模型（如思考模式下的 DeepSeek 和 Gemini）时，@ 词典查询失败的问题。
+
+
+---
+
+### 繁體
+
+### 更新日誌
+
+* 重新設計了「首次啟動設定」：分為四個簡短步驟，附進度條、返回和略過按鈕：應用程式語言；主題（以預覽圖顯示）和螢幕方向；查詞介面（搜尋列在底部或頂部，結果以清單或滑動方式顯示，滑動可選左右或上下，以及直接查詞和極簡模式）；尋找本機上的詞典。最後一步彙總你的選擇，每項都有「修改」按鈕。選擇語言後，後續設定會立即以該語言顯示。
+* LiteRT-LM 和本地大語言模型 AI 服務現在可以從 Hugging Face 下載模型：點按模型檔案下方的「從 Hugging Face 下載」，即可搜尋模型，查看每個模型的檔案和大小並下載。LiteRT-LM 列出 litert-community 的模型；本地大語言模型列出知名發布者提供、適合本機的 GGUF 模型，並列出各量化版本（推薦 Q4_K_M），檔案超出手機記憶體或此版本無法執行的模型會有提示。下載會在背景繼續並顯示通知，中斷後可從中斷處繼續，模型儲存在 UserAssets/Models（可在選單中變更）。無法連線 huggingface.co 時會自動改用 hf-mirror.com 鏡像，也可以在選單中選擇下載來源。Gemma 3 等需授權的模型需要 Hugging Face 存取權杖，可在選單中新增。
+* 重新設計了「在線問AI」：以底部面板開啟，包含網頁應用程式按鈕、「重新載入」和「隱藏」，顯示所選或分享文字的「你的文字」框，附載入進度條的網頁，前三個提示詞的快捷按鈕和「全部提示詞」。網頁載入失敗時可以重試或切換網頁應用程式；網頁載入時選擇的提示詞會在載入完成後送出。螢幕旋轉時不會再遺失進行中的對話。提示詞選擇器可以搜尋提示詞，並可在送出前修改文字。提示詞列表和提示詞編輯頁也重新設計了，提示詞缺少 {INPUT_CONTENT} 佔位符時會給出提醒。
+* 修正了「AI 聊天」使用 OpenAI API 服務的思考模型（如思考模式下的 DeepSeek 和 Gemini）時，@ 辭典查詢失敗的問題。
+
+
 # v2.3.9.6  (2026-11-22)
 
 ### English
