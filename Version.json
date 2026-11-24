@@ -1,9 +1,9 @@
 {
-  "versionCode": 2396,
-  "versionName": "2.3.9.6",
+  "versionCode": 2397,
+  "versionName": "2.3.9.7",
   "url": "https://github.com/Jimex/DictTango-Android",
-  "downloadUrl": "https://github.com/Jimex/DictTango-Android/releases/latest/download/DictTango.v2.3.9.6.apk",
-  "enDesc": "- AI Chat in the PC Console for OpenAI API services and on-device models (off until you turn it on)\n- AI Chat can look words up in your dictionaries with an on-device LiteRT-LM model such as Gemma 4, in your current group or any dictionary you name\n- Type @ in AI Chat to pick the dictionary to look in\n- Tool calling and @ also work with OpenAI API services (off until you turn it on)\n- A Tools button in AI Chat turns tool calling and each tool group on or off\n- Redesigned the AI Chat message box, Full Text Search and the Smart Viewer\n- Fixed AI Chat sometimes closing when switching AI services during a reply\n- Fixed opening a picture to extract its text",
-  "zhcnDesc": "- “PC 控制台”新增“AI 聊天”，支持 OpenAI API 服务和本机模型（默认关闭）\n- “AI 聊天”使用本机 LiteRT-LM 模型（如 Gemma 4）时可以在你的词典中查词，可查当前分组或你指定的任何词典\n- 在“AI 聊天”中输入 @ 可选择要查的词典\n- OpenAI API 服务也支持工具调用和 @（默认关闭）\n- “AI 聊天”新增“工具”按钮，可开关工具调用和每个工具组\n- 重新设计了“AI 聊天”输入框、“全文检索”和“智能查看器”\n- 修复了回复时切换 AI 服务，“AI 聊天”有时会闪退的问题\n- 修复了打开图片提取文字时页面直接关闭的问题",
-  "zhtwDesc": "- PC 控制台」新增「AI 聊天」，支援 OpenAI API 服務和本機模型（預設關閉）\n- 「AI 聊天」使用本機 LiteRT-LM 模型（如 Gemma 4）時可以在你的辭典中查詞，可查目前群組或你指定的任何辭典\n- 在「AI 聊天」中輸入 @ 可選擇要查的辭典\n- OpenAI API 服務也支援工具呼叫和 @（預設關閉）\n- 「AI 聊天」新增「工具」按鈕，可開關工具呼叫和每個工具群組\n- 重新設計了「AI 聊天」輸入框、「全文檢索」和「智能查看器」\n- 修正了回覆時切換 AI 服務，「AI 聊天」有時會閃退的問題\n- 修正了打開圖片擷取文字時頁面直接關閉的問題"
+  "downloadUrl": "https://github.com/Jimex/DictTango-Android/releases/latest/download/DictTango.v2.3.9.7.apk",
+  "enDesc": "- Redesigned the first-run setup: four short steps with previews, including sliding sideways or up and down\n- LiteRT-LM and Local LLM services can download models from Hugging Face\n- Redesigned Ask AI Online and its prompt list\n- Fixed @ dictionary lookups in AI Chat with thinking models such as DeepSeek and Gemini",
+  "zhcnDesc": "- 重新设计了首次启动设置：四个简短步骤，带预览，可选左右或上下滑动\n- LiteRT-LM 和本地大语言模型服务可以从 Hugging Face 下载模型\n- 重新设计了“在线问AI”及其提示词列表\n- 修复了“AI 聊天”使用 DeepSeek、Gemini 等思考模型时 @ 词典查询失败的问题",
+  "zhtwDesc": "- 重新設計了首次啟動設定：四個簡短步驟，附預覽，可選左右或上下滑動\n- LiteRT-LM 和本地大語言模型服務可以從 Hugging Face 下載模型\n- 重新設計了「在線問AI」及其提示詞列表\n- 修正了「AI 聊天」使用 DeepSeek、Gemini 等思考模型時 @ 辭典查詢失敗的問題"
 }
