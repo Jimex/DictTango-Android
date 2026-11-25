@@ -1,3 +1,30 @@
+# v2.3.9.8  (2026-11-25)
+
+### English
+
+### Changelog
+
+* Fixed entries in **List View** being cut short with Android System WebView 157 or later: an entry, often the first one, showed only part of its content.
+* Online dictionaries have a new **Fit page width** option in their settings, off by default. Turn it on for a site without a mobile layout to open its pages zoomed out to fit the screen. Online dictionaries now open at the site's normal size until you turn it on, and with it on, their entries can be cut short in List View with WebView 157 or later.
+
+
+---
+### 更新日志
+* 修复了使用 Android System WebView 157 及更新版本时，“列表视图”中的词条显示不全的问题：词条（通常是第一个）只显示了部分内容。
+* 在线词典的设置中新增“缩小页面以适应宽度”选项，默认关闭。网站没有手机版页面时可开启，页面会缩小到适合屏幕宽度。在线词典现在默认以网站的正常大小打开；开启此选项后，在 WebView 157 及更新版本中，列表视图里的词条可能显示不全。
+
+
+---
+
+### 繁體
+
+### 更新日誌
+
+* 修正了使用 Android System WebView 157 及更新版本時，「清單檢視」中的詞條顯示不全的問題：詞條（通常是第一個）只顯示了部分內容。
+* 線上辭典的設定中新增「縮小頁面以符合寬度」選項，預設關閉。網站沒有手機版頁面時可開啟，頁面會縮小到符合螢幕寬度。線上辭典現在預設以網站的正常大小開啟；開啟此選項後，在 WebView 157 及更新版本中，清單檢視裡的詞條可能顯示不全。
+
+---
+
 # v2.3.9.7  (2026-11-24)
 
 ### English
