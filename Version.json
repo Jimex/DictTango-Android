@@ -1,8 +1,8 @@
 {
-  "versionCode": 2398,
-  "versionName": "2.3.9.8",
+  "versionCode": 2402,
+  "versionName": "2.4.0.2",
   "url": "https://github.com/Jimex/DictTango-Android",
-  "downloadUrl": "https://github.com/Jimex/DictTango-Android/releases/latest/download/DictTango.v2.3.9.8.apk",
+  "downloadUrl": "https://github.com/Jimex/DictTango-Android/releases/latest/download/DictTango.v2.4.0.2.apk",
   "enDesc": "- New zoom panel: zoom all dictionaries or just the one on screen, with exact values\n- Redesigned Change dictionary panel: drag it to resize or close, group button and filter at the bottom\n- Redesigned AI Word Lookup window, with a Stop button for AI service answers",
   "zhcnDesc": "- 全新的缩放面板：可缩放所有词典或仅当前词典，并可输入精确数值\n- 重新设计了“切换词典”面板：拖动即可调整高度或关闭，分组按钮和筛选框位于底部\n- 重新设计了“AI查词”窗口，并新增可中止 AI 服务回答的“停止”按钮",
   "zhtwDesc": "- 全新的縮放面板：可縮放所有詞典或僅目前詞典，並可輸入精確數值\n- 重新設計了「切換詞典」面板：拖動即可調整高度或關閉，分組按鈕和篩選框位於底部\n- 重新設計了「AI查詞」視窗，並新增可中止 AI 服務回答的「停止」按鈕"
