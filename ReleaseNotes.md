@@ -1,3 +1,42 @@
+# v2.3.9.9  (2026-11-27)
+
+### English
+
+### Changelog
+
+* Redesigned the **zoom** panel in the result view, the floating window and **Reading Mode**. Choose **All dictionaries** to change the zoom of every dictionary without its own, or **This dictionary** to give the dictionary on screen a zoom of its own. The panel opens on the one that controls the page you're looking at. Tap the percentage to type an exact value from 50 to 200; the slider now moves in 1% steps and − and + go to the next multiple of 10. **Follow global** makes a dictionary use the global zoom again. On Android 12 and later the panel is frosted glass.
+* Fixed the zoom slider doing nothing on a dictionary with its own zoom: it only changed the global zoom, which that dictionary doesn't use. Changing the global zoom now also updates every entry on screen that follows it, not just the current one. **Reading Mode** now uses a dictionary's own zoom too.
+* In a dictionary's settings, **Zoom** is now a choice between **Follow global** and **Its own zoom**, with − and + buttons, instead of a number field where 0 meant follow global.
+* Redesigned the **Change dictionary** panel that opens from the dictionary button. It slides up from the bottom; drag its top edge up or down to change its height, or all the way down to close it. The height is remembered as a share of the screen, so the panel is the same size in the floating window, and **Dictionary picker height** in the user interface settings now means a percentage of the screen. The dictionary on screen is marked **On screen**, and the list is more compact. At the bottom, the group button shows the current group and opens the group list, and a filter field appears for groups with more than 6 dictionaries. Each group shows its first few dictionaries and how many it has. **Dictionaries** and **Manage groups** open the editors. While you type in the filter, the panel stays above the keyboard.
+* Redesigned the **AI Word Lookup** window. The answer fills the window, with a progress line instead of a waiting dialog; the passage sits in a card near your thumb, can be expanded, and highlights the word. The bottom bar has page up and down, **Answer in** and the lookup settings. Changing the language, AI website or AI service asks again right away, and a new website no longer needs the window reopened.
+* Added a **Stop** button to the **AI Word Lookup** window that ends an answer from an AI service (OpenAI, Google AI or the on-device model). The window also no longer closes itself while you choose an AI service.
+
+
+---
+### 更新日志
+* 重新设计了结果页、浮动窗口和“阅读模式”中的“缩放”面板。选择“所有词典”可调整所有未单独设置缩放的词典，选择“当前词典”可为屏幕上的词典单独设置缩放。面板打开时会选中决定当前页面缩放的那一项。点按百分比可输入 50 到 200 之间的精确数值；滑块现在以 1% 为单位移动，“−”和“+”跳到下一个 10 的倍数。“跟随全局”会让词典重新使用全局缩放。在 Android 12 及更新版本中，面板为毛玻璃效果。
+* 修复了在单独设置了缩放的词典上拖动缩放滑块无效的问题：滑块只会修改全局缩放，而该词典并不使用全局缩放。现在修改全局缩放时，屏幕上所有跟随全局缩放的词条都会更新，而不只是当前词条。“阅读模式”现在也会使用词典单独设置的缩放。
+* 词典设置中的“缩放”现在可在“跟随全局”和“单独设置”之间选择，并带有“−”和“+”按钮，取代了原来填 0 表示跟随全局的数字输入框。
+* 重新设计了点按词典按钮打开的“切换词典”面板。面板从底部滑出；上下拖动面板顶部可调整高度，一直向下拖动即可关闭。高度按屏幕的比例保存，因此在浮动窗口中面板大小相同；界面设置中的“词典选择器高度”现在表示占屏幕的百分比。屏幕上正在显示的词典会标有“正在显示”，列表也更紧凑。底部的分组按钮显示当前分组，点按可打开分组列表；词典多于 6 部的分组还会显示筛选框。每个分组会显示其中的前几部词典及词典数量。“组内词典”和“管理分组”可打开相应的编辑页面。在筛选框中输入时，面板会停留在键盘上方。
+* 重新设计了“AI查词”窗口。回答占满整个窗口，并以进度条取代了等待对话框；原文显示在靠近拇指的卡片中，可以展开，并会高亮所查的词。底部栏提供上下翻页、“回答语言”和查词设置。更改语言、AI网站或AI服务后会立即重新提问，更换网站后也无需重新打开窗口。
+* “AI查词”窗口新增“停止”按钮，可中止 AI 服务（OpenAI、Google AI 或本地模型）的回答。另外，选择 AI 服务时窗口不会再自行关闭。
+
+
+---
+
+### 繁體
+
+### 更新日誌
+
+* 重新設計了結果頁、浮動視窗和「閱讀模式」中的「縮放」面板。選擇「所有詞典」可調整所有未單獨設定縮放的詞典，選擇「目前詞典」可為螢幕上的詞典單獨設定縮放。面板開啟時會選取決定目前頁面縮放的那一項。點按百分比可輸入 50 到 200 之間的精確數值；滑桿現在以 1% 為單位移動，「−」和「+」跳到下一個 10 的倍數。「跟隨全域」會讓詞典重新使用全域縮放。在 Android 12 及更新版本中，面板為毛玻璃效果。
+* 修正了在單獨設定了縮放的詞典上拖動縮放滑桿無效的問題：滑桿只會修改全域縮放，而該詞典並不使用全域縮放。現在修改全域縮放時，螢幕上所有跟隨全域縮放的詞條都會更新，而不只是目前詞條。「閱讀模式」現在也會使用詞典單獨設定的縮放。
+* 詞典設定中的「縮放」現在可在「跟隨全域」和「單獨設定」之間選擇，並附有「−」和「+」按鈕，取代了原本填 0 表示跟隨全域的數字輸入框。
+* 重新設計了點按詞典按鈕開啟的「切換詞典」面板。面板從底部滑出；上下拖動面板頂部可調整高度，一直向下拖動即可關閉。高度按螢幕的比例儲存，因此在浮動視窗中面板大小相同；介面設定中的「詞典選擇器高度」現在表示佔螢幕的百分比。螢幕上正在顯示的詞典會標示「正在顯示」，清單也更精簡。底部的分組按鈕顯示目前分組，點按可開啟分組清單；詞典多於 6 部的分組還會顯示篩選框。每個分組會顯示其中的前幾部詞典及詞典數量。「組內詞典」和「管理分組」可開啟對應的編輯頁面。在篩選框中輸入時，面板會停留在鍵盤上方。
+* 重新設計了「AI查詞」視窗。回答佔滿整個視窗，並以進度條取代了等待對話框；原文顯示在靠近拇指的卡片中，可以展開，並會醒目標示所查的詞。底部列提供上下翻頁、「回答語言」和查詞設定。變更語言、AI網站或AI服務後會立即重新提問，更換網站後也無需重新開啟視窗。
+* 「AI查詞」視窗新增「停止」按鈕，可中止 AI 服務（OpenAI、Google AI 或本機模型）的回答。另外，選擇 AI 服務時視窗不會再自行關閉。
+
+---
+
 # v2.3.9.8  (2026-11-25)
 
 ### English
